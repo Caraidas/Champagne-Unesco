@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style-index.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <title>Champagne</title>
+</head>
+<body>
+
+
+    <script src = "js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                autoplay: true, //defilement automatique des images
+                autoplayhoverpause: true,
+                autoplaytimeout:1000,
+                items:4,  //nombre d'image que l'on veut montrer 
+                nav: true, //fleche de navigation
+                loop: true, //permet de revenir au debut du carousel (last item --> first item)
+                animateOut: "fadeOut",
+                //lazyLoad: true, pour que les images puisse s'afficher lors du refresh (ajouter data- devant img scr et owl-lazy dans les classe)
+                responsive:{ //adaptation taille écran 
+
+                    0: {//screen size
+                        items: 1,
+                        dots: false,//pas de pagination = les petit points pour scroll 
+                    },
+
+                    485:{ //screen size
+                        items: 2,
+                        dots: false,//pas de pagination  = les petit points pour scroll 
+                    },
+
+                    728:{ //screen size
+                        items: 3,
+                        dots: true,//pas de pagination  = les petit points pour scroll 
+                    },
+
+                    960:{ //screen size
+                        items: 3,
+                        dots: true,//pas de pagination  = les petit points pour scroll 
+                    },
+
+                    1200:{ //screen size
+                        items: 4,
+                        dots: true,//pas de pagination  = les petit points pour scroll 
+                    },
+                }
+            });
+        })
+    </script>
+
+	<div class='bandegrise'></div>
+
+    <div class="containertitre">
+        <a href="https://www.univ-gustave-eiffel.fr/"><img src="image/logouge.png"></a>
+        <a class="titre" href="index.html"><h1>CHAMPAGNE</h1></a>
+        <div><img src="image/logoMCN.png"></div>
+    </div>
+
+    <div class="containercorp">
+
+        <div class="menu"> 
+            <div><a class='clicable' href="">Bouger</a></div>   
+            <div><a class='clicable' href="">Bouger</a></div>   
+            <div><a class='clicable' href="">Bouger</a></div>   
+            <div><a class='clicable' href="">Bouger</a></div>   
+        </div>
+
+		
+
+        <div class="text droite">
+            <h2>Titre Thème</h2>
+            <h3>Test</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra vel nisl quis pellentesque. Etiam nec arcu sit amet diam varius condimentum. Suspendisse nibh libero, faucibus nec aliquam in, sodales eget lorem. Aliquam erat volutpat. Vivamus tellus tortor, semper sit amet justo eu, auctor porttitor nisi. Sed diam lectus, venenatis in hendrerit et, sollicitudin vel eros. Etiam eleifend sem massa, at elementum sem semper ac. Maecenas lacinia rutrum quam, eu aliquet sem sagittis in. Morbi posuere massa in metus cursus, ut convallis eros laoreet.
+            </p>
+            <a class='savoirplus' href="type.html">En savoir plus</a>
+        </div>
+
+        <div class="text gauche">
+            <h2>Titre Thème</h2>
+            <h3>Description</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra vel nisl quis pellentesque. Etiam nec arcu sit amet diam varius condimentum. Suspendisse nibh libero, faucibus nec aliquam in, sodales eget lorem. Aliquam erat volutpat. Vivamus tellus tortor, semper sit amet justo eu, auctor porttitor nisi. Sed diam lectus, venenatis in hendrerit et, sollicitudin vel eros. Etiam eleifend sem massa, at elementum sem semper ac. Maecenas lacinia rutrum quam, eu aliquet sem sagittis in. Morbi posuere massa in metus cursus, ut convallis eros laoreet.
+            </p>
+            <a class='savoirplus' href="type.html">En savoir plus</a>
+        </div>
+        
+    </div>
+
+
+	<div class='bandeCarroussel'>
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="ms-2 me-2"> <!--Mettre des margin-->
+                <div class="card">
+                    <img src="image/cave.jpg" class= "card-img-top "> <!--owl-lazy permet de laisser un petit moment avant que l'image ne s'affiche PEUT ETRE RETIRE-->
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'image</h5>
+                        <p>Description de la carte </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-2 me-2">
+                <div class="card">
+                    <img src="image/coteau.jpeg"  class= "card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'image</h5>
+                        <p>Description de la carte </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-2 me-2">
+                <div class="card">
+                    <img src="image/cathedrale.jpg"  class= "card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'image</h5>
+                        <p>Description de la carte </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-2 me-2">
+                <div class="card">
+                    <img src="image/maisonchampagne.jpg"  class= "card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'image</h5>
+                        <p>Description de la carte </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-2 me-2">
+                <div class="card">
+                    <img src="image/champagnedegustation.jpg"  class= "card-img-top ">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre de l'image</h5>
+                        <p>Description de la carte </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+<div class="containerfin"></div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+.containertitre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #505050;
+    height: 100px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu{
+    height: 20px;
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.300) 2px 2px;
+    position: fixed;
+    font-size: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    z-index: 1;
+	
+}
+  
+.containerfin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+	margin:0;
+    left:0
+}
+
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top:110px;
+    height: 1000px;
+    width: 100%;
+}
+
+body{
+    background-image: url(../image/vignerandom.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.bandegrise{
+	background-color: #333333;
+	width:100%;
+	height:550px;
+	z-index:-1;
+	position:absolute;
+	margin:0px;
+	box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
+	padding:0;
+	margin:0;
+}
+
+.bandeCarroussel{
+	background-color: #f7af3e;
+	width:100%;
+	height:650px;
+	z-index:-1;
+	position:realtive;
+	padding:25px;
+}
+
+
+.text{
+    background-color:#505050;
+    width: 50%;
+    height: 30%;
+    padding: 25px;
+    margin: 10px;
+    position:relative;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+}
+
+.droite{
+    top: 40px;
+    right: -10%;  
+}
+
+.gauche{
+    left: 40%;
+}
+
+.centre{
+    height: 70%;
+    margin: auto;
+}
+
+.savoirplus{
+    border: black solid 1px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+
+a{
+    color: white;
+    text-decoration: None;
+    z-index: 1;
+}
+
+
+.clicable:hover{
+    text-decoration: underline #b94503 3px;
+}
+
+
+h1{
+    font-size: 40px;
+    color: #f7af3e;
+}
+
+h2{
+    font-size: 25px;
+    color: #b94503;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    text-align: justify ;
+}
+
+img{
+    height: 100px;
+}
+
+.card-img-top{
+    height:50vh;
+    width:80%;
+    object-fit: cover;
+}
+
+.owl-prev{ /*style de la flèche previous */
+    left:-30px;
+}
+
+.owl-next{ /*style de la flèche next */
+    right:-30px;
+}
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top:100px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size:80px;
+    color: black;
+}
+
+.owl-theme, .owl-nav[class*="owl-"]:hover{
+    background: transparent;
+}

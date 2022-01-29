@@ -1,0 +1,127 @@
+body{
+    background-color: #505050;
+    margin: 0;
+}
+
+.containertitre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333333;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top:110px;
+    height: 1000px;
+    width: 100%;
+}
+
+.containerfin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    top: 120px;
+	
+}
+
+.personne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:100%;
+    height:20%;
+}
+
+.personne:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+
+.photo{
+    height: 100%;
+    width:20%;
+    background-color: #f7af3e;
+    margin:5px;
+}
+
+.text{
+    height: 100%;
+    width:75%;
+    margin:5px;
+    color:white;
+    text-align: justify;
+}
+
+h1{
+    font-size: 40px;
+    color: #f7af3e;
+    font-family: Dyno;
+}
+
+.Nom{
+    font-size: 25px;
+    color: black;
+    margin:5px;
+}
+
+.Role{
+    font-size: 20px;
+    color: #333333;
+    margin: 5px;
+}
+
+.droite{
+    text-align: right;
+}
+
+.boutonChampagne{
+    font-size: 20px;
+    color: #f7af3e;
+    text-decoration: none;
+}
+
+
+@font-face{ 
+    font-family: "Dyno";
+    src: url(police/Dyno-Regular.TTF) format("TTF");
+    }
+
+
+@media (max-width:400px){
+
+    .personne{
+        flex-direction: column;
+    }
+
+    .personne:nth-child(2n){
+        flex-direction: column;
+    }
+
+    .text{
+        height: 45%;
+        margin: auto;
+    }
+
+    .photo{
+        height: 50%;
+        margin:auto;
+    }
+
+    .containercorp{
+        height:2000px;
+    }
+
+}
