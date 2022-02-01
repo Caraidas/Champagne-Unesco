@@ -1,7 +1,14 @@
 body{
     background-color: #505050;
     margin: 0;
+    font-family: Cicle;
 }
+
+
+title{
+    font-family: Dyno-bold;
+}
+
 
 .containertitre{
     display: flex;
@@ -75,12 +82,14 @@ h1{
     font-size: 25px;
     color: black;
     margin:5px;
+    font-family: Dyno;
 }
 
 .Role{
     font-size: 20px;
     color: #333333;
     margin: 5px;
+    font-family: Dyno;
 }
 
 .droite{
@@ -96,7 +105,18 @@ h1{
 
 @font-face{ 
     font-family: "Dyno";
-    src: url(police/Dyno-Regular.TTF) format("TTF");
+    src: url(../police/Dyno-Regular.ttf)
+    }
+
+
+@font-face{ 
+    font-family: "Dyno-bold";
+    src: url(../police/Dyno-Bold.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle";
+    src: url(../police/Cicle\ Semi.ttf)
     }
 
 

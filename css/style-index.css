@@ -27,6 +27,7 @@
     flex-direction: row;
     display: flex;
     z-index: 1;
+    font-family: Dyno;
 	
 }
   
@@ -111,6 +112,7 @@ body{
     border-radius: 5px;
     position: relative;
     text-align: center;
+    font-family: Cicle;
 }
 
 
@@ -123,25 +125,34 @@ a{
 
 .clicable:hover{
     text-decoration: underline #b94503 3px;
+    font-family: Dyno;
 }
 
 
 h1{
     font-size: 40px;
     color: #f7af3e;
+    font-family: Dyno-bold;
 }
 
 h2{
     font-size: 25px;
     color: #b94503;
+    font-family: Dyno;
 }
 
 h3{
     font-size: 20px;
+    font-family: Dyno;
+}
+
+h5{
+    font-family: Dyno-bold;
 }
 
 p{
     text-align: justify ;
+    font-family: Cicle;
 }
 
 img{
@@ -175,4 +186,21 @@ img{
 .owl-theme, .owl-nav[class*="owl-"]:hover{
     background: transparent;
 }
+
+
+@font-face{ 
+    font-family: "Dyno";
+    src: url(../police/Dyno-Regular.ttf)
+    }
+
+
+@font-face{ 
+    font-family: "Dyno-bold";
+    src: url(../police/Dyno-Bold.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle";
+    src: url(../police/Cicle\ Semi.ttf)
+    }
 
