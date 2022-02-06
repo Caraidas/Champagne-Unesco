@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .containertitre{
     display: flex;
     flex-direction: row;
@@ -51,6 +54,9 @@ body{
     background-image: url(../image/vignerandom.jpg);
     background-repeat: no-repeat;
     color: white;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: auto auto; 
 }
 
 .bandegrise{
@@ -169,3 +175,7 @@ img{
 .owl-theme, .owl-nav[class*="owl-"]:hover{
     background: transparent;
 }
+
+  
+
+
