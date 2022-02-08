@@ -74,13 +74,13 @@
 }
 
 body{
-    background-image: url(../image/vignerandom.jpg);
+    background-image: url(../image/HautVillers.jpg);
     background-repeat: no-repeat;
     color: white;
 }
 
 .bandegrise{
-	background-color: #333333;
+    background-color: #333333;
 	width:100%;
 	height:550px;
 	z-index:-1;
@@ -90,6 +90,8 @@ body{
 	padding:0;
 	margin:0;
 }
+
+
 
 .bandeCarroussel{
 	background-color: #f7af3e;
@@ -106,6 +108,7 @@ body{
     width: 50%;
     height: 30%;
     padding: 25px;
+    padding: 15px;
     margin: 10px;
     position:relative;
     font-size: 13px;

@@ -1,0 +1,99 @@
+.bandegrise{
+	width:100%;
+	height:550px;
+	z-index:-1;
+	position:absolute;
+	margin:0px;
+	box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
+	padding:0;
+	margin:0;
+}
+
+.containertitre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #505050;
+    height: 100px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
+    position: fixed;
+    z-index: 2;
+}
+
+.containertitre img{
+    height: 100px;
+}
+
+
+body{
+    margin:0;
+}
+
+
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top:110px;
+    height: 1000px;
+    width: 100%;
+}
+
+.background img{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}
+
+.menu{
+    height: 20px;
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.300) 2px 2px;
+    position: fixed;
+    font-size: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    z-index: 1;
+    font-family: Dyno;
+	
+}
+.background{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.text{
+    background-color:#505050;
+    width: 40%;
+    height: 25%;
+    padding: 25px;
+    margin: 10px;
+    position:absolute;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+}
+
+.droite{
+    position: absolute;
+    top: 45%;
+    right: 5%;  
+}
+
+.gauche{
+    position: absolute;
+    left: 5%;
+    bottom:-60%;
+}
+
+.gauche2{
+    position: absolute;
+    right:5%;
+    bottom:-165%;
+}
