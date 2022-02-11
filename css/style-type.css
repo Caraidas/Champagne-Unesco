@@ -183,7 +183,7 @@ img{
     background: transparent;
 }
 
-@media (max-width:450px){
+@media (max-width:650px){
 
     .text{
         width: 100%;
