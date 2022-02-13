@@ -1,36 +1,45 @@
-.bandegrise{
-	width:100%;
-	height:550px;
-	z-index:-1;
-	position:absolute;
-	margin:0px;
-	box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
-	padding:0;
-	margin:0;
+body{
+    margin:0;
 }
 
 .containertitre{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #505050;
-    height: 100px;
+    justify-content: space-evenly;
+    background-color: #505050ce;
+    height: 40px;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    padding: 7px;
+}
+
+.trait_gris{
+    height: 27px;
+    width: 5px;
+    background-color: #9c9c9c;
+}
+
+.grand_titre{
+    line-height: 55px;
+    text-align: center;
+    font-family:Cicle_Gordita;
+    color:white;
+    background-color: #9c9c9c85;
+    font-size: 50px;
+    width: 40vw;
+    padding: 0;
+    margin: 0;
+    position:absolute;
+    right:30vw;
+    top: 38vh;
+    
 }
 
 .containertitre img{
     height: 100px;
 }
-
-
-body{
-    margin:0;
-}
-
 
 .containercorp{
     display: flex;
@@ -42,58 +51,84 @@ body{
     width: 100%;
 }
 
+.background{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-top: 0;
+}
+
 .background img{
     width: 100%;
     height: 101vh;
     object-fit: cover;
 }
 
-.menu{
-    height: 20px;
-    width: 100%;
-    text-shadow: rgba(0, 0, 0, 0.300) 2px 2px;
-    position: relative;
-    font-size: 20px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    display: flex;
-    z-index: 1;
-    font-family: Dyno;
-	
-}
-.background{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-bottom: 25px;
-    padding-top: 10px;
-}
-
 .text{
-    background-color:#505050;
-    width: 40%;
-    height: 25%;
+    background-color:#9c9c9cb9;
+    width: 40vw;
+    height: 20vw;
     padding: 25px;
     margin: 10px;
     position:absolute;
     font-size: 13px;
-    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+    
 }
 
 .droite{
-    position: absolute;
-    top: 45%;
-    right: 5%;  
+    right: 1vw;
+    margin: 20vh;  
 }
 
 .gauche{
-    position: absolute;
-    left: 5%;
-    bottom:-60%;
+    left: 1vw;
+    margin: 20vh;
 }
 
-.gauche2{
-    position: absolute;
-    right:5%;
-    bottom:-165%;
+.clicable{
+    color: white;
+    text-decoration: None;
+    z-index: 1;
+    font-family: Dyno;
 }
+
+
+.clicable:hover{
+    text-decoration: underline #af5a29 3px;
+    
+}
+
+.containerfin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+	margin:0;
+    left:0
+}
+
+@font-face{ 
+    font-family: "Dyno";
+    src: url(../police/Dyno-Regular.ttf)
+    }
+
+
+@font-face{ 
+    font-family: "Dyno-bold";
+    src: url(../police/Dyno-Bold.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle";
+    src: url(../police/Cicle\ Semi.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle_Gordita";
+    src: url(../police/Cicle\ Gordita.ttf)
+    }
