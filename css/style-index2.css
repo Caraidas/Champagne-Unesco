@@ -22,6 +22,14 @@ body{
     background-color: #9c9c9c;
 }
 
+.versionTel{
+    display: None;
+}
+
+.versionPC{
+    display: flex;
+}
+
 .grand_titre{
     line-height: 55px;
     text-align: center;
@@ -112,6 +120,45 @@ body{
 	margin:0;
     left:0
 }
+
+@media (max-width:650px){
+    .versionPC{
+        display: none;
+    }
+
+    .versionTel{
+        display: flex;
+        height: 50px;
+    }
+
+    .clicable{
+        font-size: 30px;
+    }
+
+    .gauche{
+        left:0;
+        margin:0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #808080;
+    }
+
+    .droite{
+        right: 0;
+        margin: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #808080;
+    }
+
+    .grand_titre{
+        width: 50vw;
+        font-size: 30px;
+        right: 25vw;
+    }
+}
+
+
 
 @font-face{ 
     font-family: "Dyno";
