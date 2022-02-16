@@ -1,22 +1,23 @@
 body{
     margin:0;
     background-color: #9c9c9c;
+    scrollbar-width: thin;
+    scrollbar-color:#505050 #9c9c9c;
+
 }
 
 body::-webkit-scrollbar {
     width: 12px;
-  }
+}
   
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #9c9c9c;
-  }
+}
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #505050ce; 
     border-radius: 20px; 
-  }
-  
-
+}
 
 .containertitre{
     display: flex;
