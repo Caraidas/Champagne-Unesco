@@ -33,7 +33,7 @@
 
         <div class="text centre">
             
-            <?= $article[1] ?>
+            <?= $article[0] ?>
             
         </div>
         
