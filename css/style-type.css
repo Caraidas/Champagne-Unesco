@@ -127,6 +127,7 @@ h3{
 p{
     text-align: justify ;
     font-family: Cicle;
+    font-size: 15px;
 }
 
 @media (max-width:650px){
