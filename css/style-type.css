@@ -101,6 +101,10 @@ body{
     margin: auto;
 }
 
+.centre>h2{
+    text-align: center;
+}
+
 a{
     color: white;
     text-decoration: None;
