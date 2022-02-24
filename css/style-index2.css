@@ -196,3 +196,83 @@ body::-webkit-scrollbar-thumb {
     font-family: "Cicle_Gordita";
     src: url(../police/Cicle\ Gordita.ttf)
     }
+
+.iconimg{
+    padding-top: 10px;
+    width: 60px;
+    height: auto;
+    transition: transform .4s;
+    border-radius: 20px;
+    }
+.iconimg:hover{
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3); 
+    transform: scale(1.3);
+    }
+    .finimg{
+        width:50px;
+        height: 50px;
+    }
+#contenu_finimg{
+    width: 14%;
+    position: absolute;
+    left: 43%;
+    margin-top: 40px;
+}
+    
+    #contenu_finimg img {
+        width:20%;
+        height: 20%;
+        max-width: 6em; 
+        margin-top: 20px; 
+        margin-left: 9%;
+        transition: 0.3s ease-in-out;
+      }
+      
+    #contenu_finimg img:hover {
+        transform: scale(1.3, 1.3) rotate(10deg);
+    }
+    .sideicons{
+        width: 80px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: fixed;
+        top:32%;
+        left: 0.5%;
+        z-index: 1000;
+      }
+footer{
+    height: 240px;
+    background-color: #f7af3e;
+}
+.text-footer{
+    text-align: center;
+    font-family: Dyno-bold;
+    font-size: 24px;
+    margin-bottom: -10px;
+    
+    
+
+}
+#contenu_about {
+    width: 25%;
+    margin-bottom: -20px;
+    position: absolute;
+    left: 3%;
+    margin-top: 40px;
+
+    
+}
+#contenu_about a {
+    position: relative;
+    left: 40%;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    
+}
+#contenu_about .text-footer{
+    margin-bottom: 1%;
+}
