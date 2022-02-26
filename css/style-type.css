@@ -1,11 +1,6 @@
-.fond{
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../image/imagefond.jpg);
+html{
+    scroll-behavior: smooth;
 }
-
 .containertitre{
     display: flex;
     flex-direction: row;
@@ -65,8 +60,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    top:50px;
-    height: 1000px;
+    top:30vh;
+    height: auto;
     width: 100%;
     background-color: #33333300;
 }
@@ -78,12 +73,12 @@ body{
 
 .text{
     background-color:#505050;
-    width: 50%;
-    height: 30%;
+    width: 55%;
+    height:auto;
     padding: 25px;
     margin: 10px;
-    position:relative;
-    font-size: 13px;
+    display: grid;
+    font-size: 16px;
     box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
 }
 
@@ -105,6 +100,10 @@ body{
     text-align: center;
 }
 
+img{
+    width:80%;
+    padding-left:10%
+}
 a{
     color: white;
     text-decoration: None;
@@ -118,7 +117,7 @@ a{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 35px;
     color: #b94503;
     font-family: Dyno;
 }
@@ -179,6 +178,29 @@ p{
         font-size: 30px;
     }
     
+    }
+
+
+    .container-gotop {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        }
+        
+    .gotop {
+        position: fixed;
+        bottom: 20px;      
+        margin-right:10px; 
+        z-index: 1000;
+       
+    }
+    
+    .imggotop{
+        padding-right: 10px;
+        width:100%;
+        height: auto;
     }
 @font-face{ 
     font-family: "Dyno";
