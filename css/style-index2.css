@@ -267,7 +267,7 @@ footer{
     margin-bottom: -20px;
     position: absolute;
     left: 3%;
-    margin-top: 40px;
+    margin-top: 44px;
 
     
 }
@@ -280,6 +280,28 @@ footer{
     
 }
 #contenu_about .text-footer{
+    margin-bottom: 1%;
+}
+
+#contenu_logo img {
+    width:60%;
+    height: auto;
+}
+
+#contenu_logo {
+    width: 25%;
+    position: absolute;
+    right:5%;
+    margin-top: 42px;
+}
+
+#contenu_logo .iut {
+    width: 20%;
+    height: auto;
+    
+}
+
+#contenu_logo .text-footer{
     margin-bottom: 1%;
 }
 
