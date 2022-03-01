@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.containertitre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #505050;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 7px;
+}
+
+.versionTel{
+    display: None;
+}
+
+.versionPC{
+    display: flex;
+}
+
+
+
+.trait_gris{
+    height: 27px;
+    width: 5px;
+    background-color: #9c9c9c;
+}
+.menu{
+    height: 20px;
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.300) 2px 2px;
+    position: fixed;
+    font-size: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    z-index: 1;
+	
+}
+  
+.containerfin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+	margin: 10vh;
+
+}
+
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top:30vh;
+    height: auto;
+    width: 100%;
+    background-color: #33333300;
+    margin: 10px;
+}
+
+body{
+    color: white;
+    margin:0;
+}
+
+.text{
+    background-color:#505050;
+    width: 55%;
+    height:auto;
+    padding: 25px;
+    margin: 10px;
+    display: grid;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+}
+
+.droite{
+    top: 40px;
+    right: -10%;  
+}
+
+.gauche{
+    left: 40%;
+}
+
+.centre{
+    height: 70%;
+    margin: 10px;
+}
+
+.centre>h2{
+    text-align: center;
+}
+
+img{
+    width:80%;
+    padding-left:10%
+}
+a{
+    color: white;
+    text-decoration: None;
+    z-index: 1;
+    font-family: Dyno-bold;
+}
+
+
+.clicable:hover{
+    text-decoration: underline #b94503 3px;
+}
+
+h2{
+    font-size: 35px;
+    color: #b94503;
+    font-family: Dyno;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Dyno;
+}
+
+p{
+    text-align: justify ;
+    font-family: Cicle;
+}
+
+@media (max-width:650px){
+
+    .text{
+        width: 100%;
+        text-align: justify;
+        padding:70px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    img{
+        display: None;
+    }
+    
+    a:nth-child(2){
+        width: 100%; 
+        text-align: center;
+        margin:auto;
+    }
+    
+    .containercorp{
+        height: 2200px;
+    }
+
+    .versionPC{
+        display: none;
+    }
+
+    .versionTel{
+        display: flex;
+    }
+
+    .clicable{
+        font-size: 30px;
+    }
+    
+    }
+
+
+    .container-gotop {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        }
+        
+    .gotop {
+        position: fixed;
+        bottom: 20px;      
+        margin-right:10px; 
+        z-index: 1000;
+       
+    }
+    
+    .imggotop{
+        padding-right: 10px;
+        width:100%;
+        height: auto;
+    }
+@font-face{ 
+    font-family: "Dyno";
+    src: url(../police/Dyno-Regular.ttf)
+    }
+    
+    
+@font-face{ 
+    font-family: "Dyno-bold";
+    src: url(../police/Dyno-Bold.ttf)
+    }
+    
+@font-face{ 
+    font-family: "Cicle";
+    src: url(../police/Cicle\ Semi.ttf)
+    }
