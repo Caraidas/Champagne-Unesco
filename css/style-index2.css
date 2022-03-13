@@ -317,7 +317,7 @@ footer .wave#wave1 {
     z-index: 0;
     opacity: 1;
     bottom: 0;
-    animation: animateWave 4s linear infinite;
+    animation: animateWave 7s linear infinite;
 }
 
 @keyframes animateWave{

@@ -1,141 +1,157 @@
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #133466 0%,
+    #370b61 29%,
+    #b413ff 67%,
+    #e4619e 100%
+  );
+  padding-left: 25%;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+
+      font-size: 150px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 body{
-    background-color: #505050;
-    margin: 0;
     font-family: Cicle;
+    background-color: #4e5052;
+    height: 100vh;
+    background-size: cover;
+  }
+
+h3{
+  font-size: 40px;
 }
-
-
-title{
-    font-family: Dyno-bold;
-}
-
-
-.containertitre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #333333;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-}
-
-.containercorp{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+@font-face{ 
+  font-family: "Cicle";
+  src: url(../police/Cicle\ Semi.ttf)
+  }
+  .our-team{
+    padding: 30px 0 40px;
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
     position: relative;
-    top:110px;
-    height: 340vh;
+    margin-top: 220px;
+  }
+  
+  .our-team .pic {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px ;
+    z-index: 1;
+    position: relative;
+    
+    
+    
+  }
+  
+  .our-team .pic:before{
+    content:"";
     width: 100%;
-}
-
-.personne{
-    display: flex;
-    flex-direction: row;
-    width:100vw;
-    height:80vh;
-}
-
-.personne:nth-child(2n){
-    flex-direction: row-reverse;
-}
-
-
-.photo{
+    height: 0;
+    border-radius:50%;
+    background:#f7af3e;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(3);
+    transition: all 0.2s linear 0s;
+    
+  }
+  
+  .our-team:hover .pic:before {
     height: 100%;
-    aspect-ratio: 1;
-    background-color: #f7af3e;
-    margin:5px;
-}
-
-.text{
+    opacity: 1;/*afficher arc de cercle qui avait une opacité*/
+    
+  }
+  
+  .our-team .pic:after{
+    content:"";
+    width: 100%;
     height: 100%;
-    width: 75%;
-    margin:5px;
+    border-radius:50%;
+    background: #f7af3e; /*rond derrière la photo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    transform:scale(1);
+    transition:all 0.3s ease 0s;
+    position: relative;
+  }
+  
+  .our-team:hover .pic img{
+    box-shadow: 0 0 0 14px #eeecf7;/*truc blanc autour*/
+    transform: scale(0.7);/*image se rétrécie*/
+  }
+  
+  .our-team .post{
+    display: block;
+    font-size: 30px;
+    color:#4e5052;
+  }
+  
+  .our-team .social{
+    width: 100%;
+    margin: 0;
+    background: #f7af3e;
+    position: absolute;
+    bottom: -100px;
+    transition:all 0.3s ease 0s;
+    
+    padding-left: 0px;
+
+  }
+  
+  .our-team:hover .social{
+    bottom: 0;
+  }
+  
+ 
+  .our-team .social li{
+    display: inline-block;
+  }
+  
+  .our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size:17px;
     color:white;
-    text-align: justify;
-}
-
-h1{
-    font-size: 40px;
-    color: #f7af3e;
-    font-family: Cicle;
-}
-
-.Nom{
-    font-size: 25px;
-    color: black;
-    margin:5px;
-    font-family: Dyno;
-}
-
-.Role{
-    font-size: 20px;
-    color: #333333;
-    margin: 5px;
-    font-family: Dyno;
-}
-
-.droite{
-    text-align: right;
-}
-
-.containerBouton{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-}
-
-.boutonChampagne{
-    font-size: 20px;
-    color: #f7af3e;
+    transition:all 0.3s ease 0s;
     text-decoration: none;
-}
+  }
 
-
-@font-face{ 
-    font-family: "Dyno";
-    src: url(../police/Dyno-Regular.ttf)
+  .our-team .social li a img{
+      width: 50px;
+  }  
+  @media only screen and (max-width:990px){
+    .our-team{
+      margin-bottom: 30px;
     }
-
-
-@font-face{ 
-    font-family: "Dyno-bold";
-    src: url(../police/Dyno-Bold.ttf)
-    }
-
-@font-face{ 
-    font-family: "Cicle";
-    src: url(../police/Cicle\ Semi.ttf)
-    }
-
-
-@media (max-width:650px){
-
-    .personne{
-        flex-direction: column;
-        flex-wrap:wrap;
-    }
-
-    .personne:nth-child(2n){
-        flex-direction: column;
-    }
-
-    .text{
-        height: 45%;
-        margin: auto;
-    }
-
-    .photo{
-        height: 50%;
-        margin:auto;
-    }
-
-    .containercorp{
-        height:3000px;
-    }
-
-}
+  }
