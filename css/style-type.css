@@ -131,6 +131,25 @@ p{
     text-align: justify ;
     font-family: Cicle;
     font-size: 15px;
+    
+}
+
+article{
+    color: black;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+article img {
+    width: 400px ;
+    height: auto ;
+}
+
+div.containerart{
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width:650px){
