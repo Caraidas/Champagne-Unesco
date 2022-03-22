@@ -158,6 +158,24 @@ div.containerart{
     flex-direction: row;
 }
 
+div.col-6 {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+img.img2 {
+    margin-top:50px;
+}
+
+img.img3 {
+    margin-top:50px;
+}
+
+img.img5 {
+    margin-top:50px;
+}
+
 @media (max-width:650px){
     .versionPC{
         display: none;
