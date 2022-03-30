@@ -2,9 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
+
 body{
     margin:0;
-    background-color: #9c9c9c;
     scrollbar-width: thin;
     scrollbar-color:#505050 #9c9c9c;
 
@@ -34,35 +34,21 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     z-index: 2;
     padding: 7px;
+    right: 0px;
+    
 }
-
 .versionTel{
     display: None;
 }
-
 .versionPC{
     display: flex;
 }
-
-
-
 .trait_gris{
     height: 27px;
     width: 5px;
     background-color: #9c9c9c;
 }
-.menu{
-    height: 20px;
-    width: 100%;
-    text-shadow: rgba(0, 0, 0, 0.300) 2px 2px;
-    position: fixed;
-    font-size: 20px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    display: flex;
-    z-index: 1;
-	
-}
+
   
 .containerfin{
     display: flex;
@@ -76,175 +62,26 @@ body::-webkit-scrollbar-thumb {
 	margin:0;
     left:0
 }
-
-.containercorp{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    top:110px;
-    height: 1000px;
-    width: 100%;
-}
-
-
-
-.text{
-    background-color:#9c9c9cb9;
-    width: 40vw;
-    height: 20vw;
-    padding: 25px;
-    margin: 10px;
-    position:absolute;
-    font-size: 13px;
-    
-}
-
-.container{
-    flex-direction: row;
-    align-items: center;
-}
-
-
-
-img{
-    width:60%;
-    padding-left:10%;
-    padding-bottom: 5%;
-    
-}
-
-a{
-    color: white;
-    text-decoration: None;
-    z-index: 1;
-    font-family: Dyno-bold;
-}
-
-.clicable{
-    color: white;
-    text-decoration: None;
-    z-index: 1;
-    font-family: Dyno;
-}
-
-.clicable:hover{
-    text-decoration: underline #b94503 3px;
-    color: white;
-}
-
-h2{
-    font-size: 35px;
-    color: #b94503;
-    font-family: Dyno;
-}
-
-h3{
-    font-size: 20px;
-    font-family: Dyno;
-}
-
-p{
-    text-align: justify ;
-    font-family: Cicle;
-    font-size: 15px;
-    
-}
-ul li {
-    font-family: Cicle;
-    font-size: 15px;
-}
-
-
-
-div.containerart{
-    display: flex;
-    flex-direction: row;
-}
-
-div.col-6 {
-    display:flex;
-    flex-direction: column;
-    
-}
-
-img.img1 {
-    margin-left: 80px;
-}
-
-img.img2 {
-    margin-top:50px;
-}
-
-img.img20 {
-    margin-top:65px;
-}
-
-img.img3 {
-    margin-top:50px;
-}
-
-img.img4 {
-    margin-left: 80px;
-}
-
-img.img5 {
-    margin-top:50px;
-}
-
-
-@media (max-width:650px){
-    .versionPC{
-        display: none;
-    }
-
-    .versionTel{
-        display: flex;
-        height: 50px;
-    }
-
-    .clicable{
-        font-size: 30px;
-    }
-
-    .gauche{
-        left:0;
-        margin:0;
-        width: 100vw;
-        height: 50vh;
-        background-color: #808080;
-    }
-
-    .droite{
-        right: 0;
-        margin: 0;
-        width: 100vw;
-        height: 50vh;
-        background-color: #808080;
-    }
-
-    .grand_titre{
-        width: 50vw;
-        font-size: 30px;
-        right: 25vw;
-    }
-}
-   
 @font-face{ 
     font-family: "Dyno";
     src: url(../police/Dyno-Regular.ttf)
     }
-    
-    
+
+
 @font-face{ 
     font-family: "Dyno-bold";
     src: url(../police/Dyno-Bold.ttf)
     }
-    
+
 @font-face{ 
     font-family: "Cicle";
     src: url(../police/Cicle\ Semi.ttf)
-}
+    }
+
+@font-face{ 
+    font-family: "Cicle_Gordita";
+    src: url(../police/Cicle\ Gordita.ttf)
+    }
 
 .iconimg{
     padding-top: 10px;
@@ -276,17 +113,23 @@ footer{
     width: 100%;
     background: #505050;
     min-height:100px;
-    padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    top:337px;
+
 }
 
 footer p {
     font-family: Dyno;
     font-size: 20px;
     display: flex;
+    padding-left: 15px;
+}
+
+footer ul.social_icon{
+    padding-left: 25px;
 }
 
 
@@ -320,6 +163,11 @@ footer .partenaires  img{
     display: inline-block;
     width: 12%;
     height: auto;
+    
+}
+
+div.partenaires{
+    padding-right:120px;
 }
 
 footer .partenaires .iut {
@@ -350,7 +198,7 @@ footer .wave {
     Left:0;
     width: 100%;
     height: 100px;
-    background: white url(../image/wave.png);
+    background: url(../image/wave.png);
     background-size: 1000px 100px;
     
 
@@ -387,53 +235,82 @@ footer .wave#wave1 {
 .gotop {
     position: fixed;
     bottom: 20px;      
-    margin-right:10px; 
+    margin-right:20px; 
     z-index: 1000;
+    
    
 }
 
 .imggotop{
     padding-right: 20px;
-    width:120%;
+    width:80%;
     height: auto;
 }
 
-
-/*Import des animation webkit pour la flèche de scrolldown*/
-@-webkit-keyframes fade_move_down {
-    0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -webkit-transform:translate(0,20px); opacity: 0; }
-  }
-  @-moz-keyframes fade_move_down {
-    0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { -moz-transform:translate(0,20px); opacity: 0; }
-  }
-  @keyframes fade_move_down {
-    0%   { transform:translate(0,-20px); opacity: 0;  }
-    50%  { opacity: 1;  }
-    100% { transform:translate(0,20px); opacity: 0; }
-  }
-
-
-.scroll-down-arrow {/*Animation webkit importée*/
-
-    /*Url de la flèche blanche*/
-	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
-	background-repeat: no-repeat;/*Pour que l'image ne se répète pas vers la droite*/
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top:30vh;
+    height: auto;
+    width: 100%;
+    background-color: #33333300;
 }
 
-.scroll-down-link {
-	position: absolute; /*La classe background a été mise en Position relative pour que le absolute se base par rapport à celle-ci*/
-	z-index: 100;
-	cursor:pointer; /*Changer la nature du curseur en main qui pointe*/
-	height: 100px;
-	width: 150px;
-	margin: 0px 0 0 -40px;
-	left: 50%;
-	bottom: 35px;
-	-webkit-animation: fade_move_down 2s ease-in-out infinite;/*Animation webkit importée*/
-	-moz-animation:    fade_move_down 2s ease-in-out infinite;
-	animation:         fade_move_down 2s ease-in-out infinite;
+body{
+    color: white;
+    margin:0;
+}
+.text{
+    background-color:#505050ce;
+    width: 55%;
+    height:auto;
+    padding: 25px;
+    margin: 10px;
+    display: grid;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+}
+.droite{
+    top: 40px;
+    right: -10%;  
+}
+.gauche{
+    left: 40%;
+}
+.centre{
+    height: 70%;
+    margin: auto;
+}
+.centre>h2{
+    text-align: center;
+}
+
+img{
+    width:80%;
+    padding-left:10%
+}
+a{
+    color: white;
+    text-decoration: None;
+    z-index: 1;
+    font-family: Dyno-bold;
+}
+.clicable:hover{
+    text-decoration: underline #b94503 3px;
+}
+h2{
+    font-size: 35px;
+    color: #b94503;
+    font-family: Dyno;
+}
+h3{
+    font-size: 20px;
+    font-family: Dyno;
+}
+p{
+    text-align: justify ;
+    font-family: Cicle;
+    font-size: 15px;
 }
