@@ -150,6 +150,10 @@ p{
     font-size: 15px;
     
 }
+ul li {
+    font-family: Cicle;
+    font-size: 15px;
+}
 
 
 
@@ -164,17 +168,30 @@ div.col-6 {
     
 }
 
+img.img1 {
+    margin-left: 80px;
+}
+
 img.img2 {
     margin-top:50px;
+}
+
+img.img20 {
+    margin-top:65px;
 }
 
 img.img3 {
     margin-top:50px;
 }
 
+img.img4 {
+    margin-left: 80px;
+}
+
 img.img5 {
     margin-top:50px;
 }
+
 
 @media (max-width:650px){
     .versionPC{
