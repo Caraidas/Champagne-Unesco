@@ -1,0 +1,114 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin:0;
+            color:white;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            background-color: #7d8491;
+            height: 20vh;
+            width: 100%;
+            position: absolute;
+            z-index: 2;
+        
+        }
+
+        .titre{
+            height: 13vh;
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+            font-family: Cicle_Gordita;
+            color:#fbd393;
+        }
+
+        .trait{
+            width: 100%;
+            height: 1px;
+            background-color:white ;
+        }
+        
+        .barreDeliens{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 7vh;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .clicable{
+            width: 100%;
+            height: 100%;
+            margin:0;
+            text-align: center;
+        }
+
+        .clicable:hover{
+            background-color: #2D3047;
+        }
+
+        
+        .lien{
+            top:2vh;
+            color: #f7e7ce;
+            text-decoration: None;
+            z-index: 1;
+            font-family: Dyno-bold;
+            position: relative;
+        }
+
+        @font-face{ 
+        font-family: "Dyno";
+        src: url(../police/Dyno-Regular.ttf)
+        }
+
+        @font-face{ 
+        font-family: "Dyno-bold";
+        src: url(../police/Dyno-Bold.ttf)
+        }
+
+        @font-face{ 
+        font-family: "Cicle";
+        src: url(../police/Cicle\ Semi.ttf)
+        }
+
+        @font-face{ 
+        font-family: "Cicle_Gordita";
+        src: url(../police/Cicle\ Gordita.ttf)
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+
+        <div class="titre">Champagne</div>
+        
+        <div class="trait"></div>
+
+        <div class="barreDeliens">
+            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
+            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
+            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
+            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
+        </div>
+        
+    </header>
+</body>
+</html>
