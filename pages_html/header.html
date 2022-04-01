@@ -27,6 +27,18 @@
         
         }
 
+        .header2{
+            top:200px;
+            display: flex;
+            flex-direction: row;
+            background-color: #7d8491;
+            height: 10vh;
+            width: 100%;
+            position: absolute;
+            z-index: 2;
+            padding-left:30px;
+        }
+
         .titre{
             height: 13vh;
             width: 100%;
@@ -36,9 +48,23 @@
             color:#fbd393;
         }
 
+        .titre2{
+            height: 10vh;
+            width: 25%;
+            font-size: 50px;
+            font-family: Cicle_Gordita;
+            color:#fbd393;
+        }
+
         .trait{
             width: 100%;
             height: 1px;
+            background-color:white ;
+        }
+
+        .trait2{
+            width: 3px;
+            height: 100%;
             background-color:white ;
         }
         
@@ -52,17 +78,40 @@
             z-index: 2;
         }
 
+        .barreDeliens2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
         .clicable{
             width: 100%;
             height: 100%;
             margin:0;
             text-align: center;
+            padding:auto;
+        }
+
+        .clicable2{
+            width: 100%;
+            height: 85%;
+            margin:0;
+            text-align: center;
+            padding-top:1.5vh;
+            text-decoration: None;
         }
 
         .clicable:hover{
             background-color: #2D3047;
         }
 
+        .clicable2:hover{
+            background-color: #2D3047;
+        }
         
         .lien{
             top:2vh;
@@ -71,6 +120,12 @@
             z-index: 1;
             font-family: Dyno-bold;
             position: relative;
+            height: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            padding-right: 40px;
         }
 
         @font-face{ 
@@ -110,5 +165,20 @@
         </div>
         
     </header>
+
+    <br>
+
+    <div class="header2">
+        <a href=""><div class="titre2">Champagne</div></a>
+        <div class="trait2"></div>
+        <div class="barreDeliens2">
+            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
+        </div>
+    </div>
+
+
 </body>
 </html>
