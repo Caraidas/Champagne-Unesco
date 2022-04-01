@@ -24,19 +24,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px; 
 }
 
-.containertitre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #505050ce;
-    height: 40px;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    padding: 7px;
-}
-
 .trait_gris{
     height: 27px;
     width: 5px;

@@ -8,6 +8,13 @@ body{
     background-size: cover;
   }
 
+
+h1{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
 h3{
   font-size: 40px;
 }
@@ -21,7 +28,7 @@ h3{
     text-align: center;
     overflow: hidden;
     position: relative;
-    margin-top: 220px;
+    margin-top: 50px;
   }
   
   .our-team .pic {
