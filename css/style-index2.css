@@ -11,6 +11,11 @@ body{
 
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
 body::-webkit-scrollbar {
     width: 12px;
 }
@@ -22,6 +27,25 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #505050ce; 
     border-radius: 20px; 
+}
+
+p{
+    font-size: 20px;
+    color:white;
+    font-family: Cicle;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #333333;
+    font-family: Dyno-bold;
+}
+h2{
+    margin-top:0;
+    font-size: 25px;
+    color: #b94503;
+    font-family: Dyno-bold;
 }
 
 .containertitre{
@@ -103,7 +127,7 @@ body::-webkit-scrollbar-thumb {
     padding: 25px;
     margin: 10px;
     position:absolute;
-    font-size: 13px;
+    font-size: 100px;
     
 }
 
@@ -364,6 +388,7 @@ footer .wave#wave1 {
 
 .imggotop{
     padding-right: 20px;
+    vertical-align: middle;
     width:120%;
     height: auto;
 }
@@ -407,7 +432,91 @@ footer .wave#wave1 {
 	-moz-animation:    fade_move_down 2s ease-in-out infinite;
 	animation:         fade_move_down 2s ease-in-out infinite;
 }
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+
+
+
+
+
+.card-container{
+  max-width: 1200px; /*taille maximal de la boite en plein écran*/
+  margin: 0 auto; /*la hauteure du container s'adaptera aux éléments et à la taille de la fénêtre*/
+}
+
+.cards {
+  display: flex; 
+  flex-wrap: wrap;/*retour à la ligne lorsuqe qu'on arrive à la fin de la longueur max-width*/
+  list-style: none; /*sans point de liste <li>*/
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card { /*la carte en elle-même*/
+  border-radius: 0.7rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column; /*image puis information en colone*/
+  overflow: hidden; /* apparemment évite que les carte soient toutes collées */
+}
+
+/*à l'intérieur du rectangle orange, les informations*/
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #b94503 40%, #c48839 100%); /*dégradé*/
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size:1rem;
+  line-height: 1.5; /*espace entre les saut de lignes*/
+  margin-bottom: 1.25rem;    /*espace entre le en savoir plus et le texte*/
+}
+img {
+    height: 20rem;;
+    width:32rem;
+    vertical-align: middle;
+  }
+
+.btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.12); /*changer l'opacité au hover du bouton*/
+}
+  
 
 
   
