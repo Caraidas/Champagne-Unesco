@@ -33,6 +33,7 @@ p{
     font-size: 20px;
     color:white;
     font-family: Cicle;
+    margin-bottom: 0;
 }
 
 h1{
@@ -119,8 +120,10 @@ a:active{
     position: relative;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-bottom: 25px;
     padding-top: 0;
+    border-bottom:solid;
+    border-bottom-color: #f8b03e;
+    border-bottom-width: 10px;
 }
 
 .background img{
@@ -137,7 +140,7 @@ a:active{
     margin: 10px;
     position:absolute;
     font-size: 100px;
-    
+    justify-content: space-evenly;
 }
 
 .droite{
