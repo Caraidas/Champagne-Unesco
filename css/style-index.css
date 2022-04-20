@@ -135,37 +135,6 @@ a:active{
     
 }
 
-@media (max-width:650px){
-
-    .clicable{
-        font-size: 30px;
-    }
-
-    .gauche{
-        left:0;
-        margin:0;
-        width: 100vw;
-        height: 50vh;
-        background-color: #808080;
-    }
-
-    .droite{
-        right: 0;
-        margin: 0;
-        width: 100vw;
-        height: 50vh;
-        background-color: #808080;
-    }
-
-    .grand_titre{
-        width: 50vw;
-        font-size: 30px;
-        right: 25vw;
-    }
-}
-
-
-
 @font-face{ 
     font-family: "Dyno";
     src: url(../police/Dyno-Regular.ttf)
@@ -238,7 +207,6 @@ a:active{
     bottom: 20px;      
     margin-right:10px; 
     z-index: 1000;
-   
 }
 
 .imggotop{
@@ -295,6 +263,8 @@ a:active{
 
 /* la partie gallerie pas le carroussel si jamais*/
 
+
+
 .card-container{
   max-width: 1200px; /*taille maximal de la boite en plein écran*/
   margin: 0 auto; /*la hauteure du container s'adaptera aux éléments et à la taille de la fénêtre*/
@@ -313,15 +283,15 @@ a:active{
 }
 
 @media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
+    .cards_item {
+      width: 50%;
+    }
 }
 
 @media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
+    .cards_item {
+      width: 33.3333%;
+    }
 }
 
 .card { /*la carte en elle-même*/
@@ -371,7 +341,57 @@ img {
 .btn:hover {
     background-color: rgba(255, 255, 255, 0.12); /*changer l'opacité au hover du bouton*/
 }
-  
 
 
-  
+
+
+@media (max-width:650px){
+
+    .clicable{
+        font-size: 30px;
+    }
+
+    .gauche{
+        left:0;
+        margin:0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #808080;
+    }
+
+    .droite{
+        right: 0;
+        margin: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: #808080;
+    }
+
+    .grand_titre{
+        width: 50vw;
+        font-size: 30px;
+        right: 25vw;
+    }
+
+    .sideicons{
+        display: none;
+    }
+
+    .scroll-down-arrow{
+        display:none;
+    }
+
+    .background{
+        border-bottom-width:0 ;
+    }
+
+    .gotop {
+        display: none;
+    }
+
+    .cards_item{
+        width: 100%;
+    }
+    
+}
+
