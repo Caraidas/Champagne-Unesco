@@ -12,23 +12,10 @@
 
     <style>
         body{
-            margin:0;
-            color:white;
+            margin:0
         }
 
         header{
-            display: flex;
-            flex-direction: column;
-            background-color: #7d8491;
-            height: 20vh;
-            width: 100%;
-            position: absolute;
-            z-index: 2;
-        
-        }
-
-        .header2{
-            top:200px;
             display: flex;
             flex-direction: row;
             background-color: #7d8491;
@@ -40,15 +27,6 @@
         }
 
         .titre{
-            height: 13vh;
-            width: 100%;
-            text-align: center;
-            font-size: 50px;
-            font-family: Cicle_Gordita;
-            color:#fbd393;
-        }
-
-        .titre2{
             height: 10vh;
             width: 25%;
             font-size: 50px;
@@ -57,28 +35,12 @@
         }
 
         .trait{
-            width: 100%;
-            height: 1px;
-            background-color:white ;
-        }
-
-        .trait2{
             width: 3px;
             height: 100%;
             background-color:white ;
         }
-        
-        .barreDeliens{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            height: 7vh;
-            width: 100%;
-            position: relative;
-            z-index: 2;
-        }
 
-        .barreDeliens2{
+        .barreDeliens{
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -90,14 +52,6 @@
 
         .clicable{
             width: 100%;
-            height: 100%;
-            margin:0;
-            text-align: center;
-            padding:auto;
-        }
-
-        .clicable2{
-            width: 100%;
             height: 85%;
             margin:0;
             text-align: center;
@@ -106,10 +60,6 @@
         }
 
         .clicable:hover{
-            background-color: #2D3047;
-        }
-
-        .clicable2:hover{
             background-color: #2D3047;
         }
         
@@ -126,6 +76,21 @@
         a{
             text-decoration: none;
             padding-right: 40px;
+        }
+
+        .btnLangue{
+            width: 30%;
+            height: 85%;
+            margin:0;
+            text-align: center;
+            padding-top:1.5vh;
+            text-decoration: None;
+            background-color: #51555b;
+        }
+
+        .btnLangue:hover{
+            background-color: #2D3047;
+            
         }
 
         @font-face{ 
@@ -153,32 +118,16 @@
 <body>
     <header>
 
-        <div class="titre">Champagne</div>
-        
+        <a href=""><div class="titre">Champagne</div></a>
         <div class="trait"></div>
-
         <div class="barreDeliens">
-            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
-            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
-            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
-            <div class="clicable"><a class='lien' href="">Hébergement</a></div>
+            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
+            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
+            <a class="btnLangue" href="" ><div class="lien">EN</div></a>
         </div>
         
     </header>
-
-    <br>
-
-    <div class="header2">
-        <a href=""><div class="titre2">Champagne</div></a>
-        <div class="trait2"></div>
-        <div class="barreDeliens2">
-            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable2' href=""><div class="lien">Hébergement</div></a>
-        </div>
-    </div>
-
-
 </body>
 </html>
