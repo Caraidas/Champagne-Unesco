@@ -15,7 +15,11 @@
             margin:0
         }
 
-        header{
+        .headerPhone{
+            display:none;
+        }
+
+        .headerPC{
             display: flex;
             flex-direction: row;
             background-color: #7d8491;
@@ -112,11 +116,21 @@
         font-family: "Cicle_Gordita";
         src: url(../police/Cicle\ Gordita.ttf)
         }
+
+        @media (max-width:450px){
+            .headerPC{
+                display: none;
+            }
+
+            .headerPhone{
+                display: flex;
+            }
+        }    
     </style>
 
 </head>
 <body>
-    <header>
+    <header class="headerPC">
 
         <a href=""><div class="titre">Champagne</div></a>
         <div class="trait"></div>
@@ -129,5 +143,10 @@
         </div>
         
     </header>
+
+    <header class="headerPhone">
+
+    </header>
+
 </body>
 </html>
