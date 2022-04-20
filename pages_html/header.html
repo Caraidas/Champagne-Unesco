@@ -12,7 +12,8 @@
 
     <style>
         body{
-            margin:0
+            margin:0;
+            overflow:hidden;
         }
 
         .headerPhone{
@@ -118,13 +119,26 @@
         }
 
         @media (max-width:450px){
-            .headerPC{
-                display: none;
+            header{
+                flex-direction: column;
             }
 
-            .headerPhone{
-                display: flex;
+            .titre{
+                height: 5vh;
+                width: 100%;
+                font-size: 60px;
+                font-family: Cicle_Gordita;
+                color:#fbd393;
+                top:1vh;
+                left:9vw;
+                position: absolute;
             }
+            .trait{
+                width: 3px;
+                height: 100vw;
+                background-color:black ;
+            }
+
         }    
     </style>
 
