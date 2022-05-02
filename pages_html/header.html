@@ -13,13 +13,12 @@
     <style>
         body{
             margin:0;
-            /* overflow:hidden; */
         }
 
         .headerPC{
             display: flex;
             flex-direction: row;
-            background-color: #7d8491;
+            background-color: #333333;
             min-height: 11vh;
             width: 100vw;
             position: absolute;
@@ -29,15 +28,14 @@
             width: 25vw;
             font-size: 50px;
             font-family: Cicle_Gordita;
-            color:#fbd393;
+            color:white;
             margin: auto;
             padding-left: 10px;
         }
 
         .trait{
             width: 3px;
-
-            background-color:white ;
+            background-color:#fbd393 ;
         }
 
         .barreDeliens{
@@ -55,13 +53,14 @@
             text-align:center;
             text-decoration: None;
             font-family: Dyno-bold;
-            color: #f7e7ce;
+            color: white;
             padding-top: 4vh;
             padding-bottom: 0;
+            transition: all linear .3s;
         }
 
         .clicable:hover{
-            background-color: #2D3047;
+            background-color: black;
         }
 
         a{
@@ -74,13 +73,14 @@
             text-decoration: None;
             background-color: #51555b;
             font-family: Dyno-bold;
-            color: #f7e7ce;
+            color: white;
             padding-top: 3.5vh;
             padding-bottom: 0;
+            transition: all linear .3s;
         }
 
         .btnLangue:hover{
-            background-color: #2D3047;
+            background-color: black;
         }
 
         @font-face{ 
@@ -103,13 +103,103 @@
         src: url(../police/Cicle\ Gordita.ttf)
         }
 
-        @media (max-width:450px){
+        .headerTel{
+            display: none;
+            flex-direction: column;
+            background-color: #333333;
+            min-height: 15vh;
+            width: 100vw;
+            position: absolute;
+        }
 
-        }    
+        .partieHaute{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+        }
+
+        .titreTel{
+            width: 75vw;
+            font-size: 50px;
+            font-family: Cicle_Gordita;
+            color:white;
+            margin: auto;
+            text-align: center;
+        }
+
+        .btnLangueTel{
+            width: 10vw;
+            text-align: center;
+            text-decoration: None;
+            background-color: #51555b;
+            font-family: Dyno-bold;
+            color: white;
+            padding-top:2vh;
+            transition: all linear .3s;
+        }
+
+        .btnLangueTel:hover{
+            background-color: black;
+        }
+
+        .traitTel{
+            width: 100vw;
+            height: 3px;
+            background-color: #fbd393;
+        }
+
+        .partieBasse{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 5vh;
+            justify-content: space-evenly;
+        }
+
+        .clicableTel{
+            width: 20vw;
+            text-align:center;
+            text-decoration: None;
+            font-family: Dyno-bold;
+            color: white;
+            padding-top: 1vh;
+            padding-bottom: 0;
+            font-size: 10px;
+            transition: all linear .3s;
+        }
+
+        .clicableTel:hover{
+            background-color: black;
+        }
+
+        @media (max-width:900px){
+            .headerPC{
+                display: none;
+            }
+
+            .headerTel{
+                display: flex;
+            }
+        }
     </style>
 
 </head>
 <body>
+
+    <header class="headerTel">
+        <div class="partieHaute">
+            <a href="" class="titreTel">Champagne</a>
+            <a class="btnLangueTel" href="" >EN</div></a>
+        </div>
+        <div class="traitTel"></div>
+        <div class="partieBasse">
+            <a class='clicableTel' href="">Hébergement</a>
+            <a class='clicableTel' href="">Hébergement</a>
+            <a class='clicableTel' href="">Hébergement</a>
+            <a class='clicableTel' href="">Hébergement</a>
+        </div>
+    </header>
+
     <header class="headerPC">
 
         <a href="" class="titre">Champagne</a>
