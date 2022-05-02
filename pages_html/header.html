@@ -13,31 +13,30 @@
     <style>
         body{
             margin:0;
-            overflow:hidden;
+            /* overflow:hidden; */
         }
 
         .headerPC{
             display: flex;
             flex-direction: row;
             background-color: #7d8491;
-            height: 10vh;
-            width: 100%;
+            min-height: 11vh;
+            width: 100vw;
             position: absolute;
-            z-index: 2;
-            padding-left:30px;
         }
 
         .titre{
-            height: 10vh;
-            width: 25%;
+            width: 25vw;
             font-size: 50px;
             font-family: Cicle_Gordita;
             color:#fbd393;
+            margin: auto;
+            padding-left: 10px;
         }
 
         .trait{
             width: 3px;
-            height: 100%;
+
             background-color:white ;
         }
 
@@ -45,53 +44,43 @@
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            height: 100%;
-            width: 100%;
+            min-height: 11vh;
+            width: 75vw;
             position: relative;
             z-index: 2;
         }
 
         .clicable{
-            width: 100%;
-            height: 85%;
-            margin:0;
-            text-align: center;
-            padding-top:1.5vh;
+            width: 18vw;
+            text-align:center;
             text-decoration: None;
+            font-family: Dyno-bold;
+            color: #f7e7ce;
+            padding-top: 4vh;
+            padding-bottom: 0;
         }
 
         .clicable:hover{
             background-color: #2D3047;
         }
-        
-        .lien{
-            top:2vh;
-            color: #f7e7ce;
-            text-decoration: None;
-            z-index: 1;
-            font-family: Dyno-bold;
-            position: relative;
-            height: 100%;
-        }
 
         a{
             text-decoration: none;
-            padding-right: 40px;
         }
 
         .btnLangue{
-            width: 30%;
-            height: 85%;
-            margin:0;
+            width: 7vw;
             text-align: center;
-            padding-top:1.5vh;
             text-decoration: None;
             background-color: #51555b;
+            font-family: Dyno-bold;
+            color: #f7e7ce;
+            padding-top: 3.5vh;
+            padding-bottom: 0;
         }
 
         .btnLangue:hover{
             background-color: #2D3047;
-            
         }
 
         @font-face{ 
@@ -123,21 +112,16 @@
 <body>
     <header class="headerPC">
 
-        <a href=""><div class="titre">Champagne</div></a>
-        <div class="trait"></div>
+        <a href="" class="titre">Champagne</a>
         <div class="barreDeliens">
-            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
-            <a class='clicable' href=""><div class="lien">Hébergement</div></a>
-            <a class="btnLangue" href="" ><div class="lien">EN</div></a>
+            <div class="trait"></div>
+            <a class='clicable' href="">Hébergement</a>
+            <a class='clicable' href="">Hébergement</a>
+            <a class='clicable' href="">Hébergement</a>
+            <a class='clicable' href="">Hébergement</a>
+            <a class="btnLangue" href="" >EN</div></a>
         </div>
         
     </header>
-
-    <header class="headerPhone">
-
-    </header>
-
 </body>
 </html>
