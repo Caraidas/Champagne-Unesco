@@ -1,6 +1,14 @@
+<?php
+    if(session_id()==""){ //normalement on démarre toujours la session avec l'include de 'langVerif' mais on sait jamais
+        session_start();
+    }
 
-
-
+    if(isset($_SESSION["lang"]) && $_SESSION["lang"]==1){
+        $option="FR";
+    }else{
+        $option="EN";
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -191,7 +199,7 @@
     <header class="headerTel">
         <div class="partieHaute">
             <a href="index.php" class="titreTel">Champagne</a>
-            <a class="btnLangueTel" href="" >EN</div></a>
+            <a href='fonctionnels/langSwitch.php' class="btnLangueTel" ><?=$option?></div></a>
         </div>
         <div class="traitTel"></div>
         <div class="partieBasse">
@@ -211,7 +219,7 @@
             <a class='clicable' href="">Hébergement</a>
             <a class='clicable' href="">Hébergement</a>
             <a class='clicable' href="">Hébergement</a>
-            <a class="btnLangue" href="" >EN</div></a>
+            <a class="btnLangue" href="fonctionnels/langSwitch.php" ><?=$option?></div></a>
         </div>
         
     </header>
