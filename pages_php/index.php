@@ -1,102 +1,144 @@
-<?php
-
-//dans chaque première cases du tableau on va voir un morceau d'html qui représente un article en francais
-//puis dans la seconde case la même chose mais en anglais
-
-$article = array(
-
-"
-<h2>Coteaux de Champagne</h2>
-<p>
-        Depuis 2015, la région Champagne est inscrite au patrimoine mondial de l’UNESCO. Est inscrit à ce patrimoine ses caves, ses maisons et ses coteaux. En effet c’est bien grâce à sa géographie exceptionnelle que la Champagne a mérité sa place auprès d’autres lieux d'exceptions.
-    <br>    Pour tous ceux qui souhaitent voir les merveilles que propose cette région française, cet article est fait pour vous.
-    <br>    Parmi tous les coteaux qui parcourent la vallée de la marne, trois ont été choisis pour représenter la région auprès du monde: les coteaux historiques de Hautvillers, Aÿ et Mareuil-sur-Aÿ. 
-</p>
-<h3>La vallée de la marne</h3>
-<p>
-    Cette vallée qui s’étend de Tours-sur-Marne à Dormans traverse le cœur historique du vignoble champenois et possède en son sein une partie des coteaux les plus connus de la Champagne. On y trouve la culture de la vigne de manière omniprésente même si l’on peut observer que la rive droite est légèrement plus cultivée de part son exposition au soleil sud/sud-est.
-    <br>    Ses sols riches en craie typique de la région convienne à merveille à la vigne et surtout au cépage du pinot noir.
-    <br>    Enfin il est important de noter que c’est dans cette vallée que l’on trouve Le Mémorial commémoratif des deux batailles de la Marne, importants épisodes de la première guerre mondiale.
-</p>
-",
-"
-<h2>OUI OUI L'ANGLAIS</h2>
-<p>
-    Since 2015, the Champagne region has been listed as a UNESCO World Heritage Site. Its cellars, houses and hillsides are part of this heritage. Indeed, it is thanks to its exceptional geography that the Champagne region has earned its place alongside other exceptional places.
-    <br>    For all those who wish to see the wonders wich this French region offers, this article is made for you.
-
-</p>
-<h3>The Marne Valley</h3>
-<p>
-    This valley, which stretches from Tours-sur-Marne to Dormans, runs through the historic heart of the Champagne vineyards and has some of the best-known hillsides of the Champagne region within it. Vines grow everywhere, although the right bank is slightly more cultivated due to its exposure to the south/south-east sun.
-    <br>    Its chalky soil, typical of the region, is perfectly suited to the vine and especially to the Pinot Noir grape variety.
-    <br>        Finally it is important to note that it is in this valley that we find the Memorial of the two battles of the Marne, important episodes of the First World War.
-
-</p>
-");
-
-$langue = 3 ;
-if(isset($_GET["langue"])) {        //je vérifie qu'il y à bien un paramètre langue dans l'URL
-    $langue = htmlspecialchars($_GET["langue"]);//htmlspecialchars transforme les caractères spéciaux en code compréhensible (" = &quot) je crois que ça sécurise
-}
-
-
-switch($langue){ //on passe dans un switch pour être sur que y'a oas de problème (genr un petit con a entré 3)
-    case 1:
-        $langue = 1;
-        break;
-    case 0:
-        $langue = 0;
-        break;
-    default:
-        $langue = 0;
-        break;
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devic-width, initial-scale=1,0">
-    <link rel="stylesheet" href="style-type.css">
-
-    <title>Type</title>
-</head>
-<body>
     
+    <link rel="stylesheet" href="../css/style-index.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <div class="fond">
+    <title>Champagne</title>
+</head>
 
-    <div class="containertitre versionPC">
-        <?= "<a class='clicable' href='index.php?langue=$langue'>Hébergement</a>" ?> <?= //changer de page en maintenant la langue ?>
-        <div class="trait_gris"></div>
-        <a class='clicable' href="index.php?langue=0">Découvrir</a>  <?=  //passer en francais ?>
-        <div class="trait_gris"></div>
-        <a class='clicable' href="index.php?langue=1">Restaurant</a> <?=  //passer en anglais ?>
-        <div class="trait_gris"></div>
-        <a class='clicable' href="">Agenda</a>
-    </div>
+<body>
 
-    <div class="containertitre versionTel">
-        <a class='clicable' href="">Champagne</a>
-    </div>
+    <?php include 'header.php';?>
 
+    <div class="contenaircorp">
 
-    <div class="containercorp">
+        <div class="background">
+            <img src="../image/Photo by redcharlie on Unsplash.jpg">
+            <div class="grand_titre">Coteaux Maisons  <br> Caves de Champagne</div>
 
-        <div class="text centre">
-       
-        <?= $langue // juste une verification de la langue?>
-        <?= $article[$langue] // on affiche l'article dans le bon language ?> 
+            
+            <a href="#theme02" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
             
         </div>
 
-        <div class="containerfin"></div>
+        <div id = "theme02" class="background">
+            <img src="../image/coteauxImg.jpg">
+            <div class="text droite">
+                <h2>Coteaux de Champagne</h2>
+                <p>Découvrez à travers les splendides côteaux champenois la clé de la production de ce vin d'excellence</p>
+                <a href="./Coteaux.php"><button class="btn">En savoir plus</button></a>
+            </div>
+            <a href="#theme03" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+            
+        </div>
+
+        <div id = "theme03" class="background">
+            <img src="../image/robert-linder-ti9_YXaKFcI-unsplash.jpg">
+            <div class="text gauche">
+                <h2>Caves de Champagne</h2>
+                <p>Découvrez l'histoire de ces caves creusées dans la craie. Que se soit la cave de Mumm ou celle de Veuve Clicquot, chaque cave a ses secrets.  </p>
+                <a href="./Caves.php"><button class="btn">En savoir plus</button></a>
+            </div>
+            <a href="#theme04" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+        </div>
+
+        <div id = "theme04" class="background">
+            <img src="../image/vrp.jpg"> <!--https://www.flickr.com/photos/morio60/24220005104/in/photolist-CUeRGU-aqBT5N-Dqxx9s-CUeQa5-2hEDxbA-2jutPvD-2jupFS6-UxipWn-2jupFRu-DFNzA6-2cEJza5-8cqonh-2jYGwCf-TxgvaT-DWt9q8-pe6HB4-pmodAj-vp7Mku-qGUPMr-2jYCPxH-DFkeLS-DPqMW9-aqBUcE-bNSakv-bNSapK-bNSada-bNSavT-aH4D6v-bzXvYW-eKvnbw-psQimi-eKiKgH-pbhJ4v-25RGzM1-bS9DST-pcUway-bLvgKx-bxAzVj-bxAzGG-pcUwaJ-p8qL9C-9fvynT-p8qLf9-gB2pgw-2jupFwb-2jutNwp-pdKidf-pdmrgn-dfxcCM-bS9DNT-->
+            <div class="text droite">
+                <h2>Maisons de Champagne</h2>
+                <p>Découvrez les grandes Maisons de Champagne à l’origine de la notoriété et du prestige des vins de Champagne dans le monde. </p>
+                <a href="./Maisons.php"><button class="btn">En savoir plus</button></a>
+            </div>
+            <a href="#articles" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+        </div>
+
+
+
+        
+        <div class= "sideicons "> 
+            <div class="iconimg"><a href=";"><img src="../image/bed.png"></a></div>
+            <div class="iconimg"><a href=";"><img  src="../image/restaurant.png"></a></div>
+            <div class="iconimg"><a href=";"><img  src="../image/event.png"></a></div>
+        </div>
+
     </div>
 
-    
-</div>
+    <div id = "articles" class="card-container">
+        <h1>Autres articles</h1>
+        <ul class="cards"> <!--sous forme de liste de cartes-->
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/artisanatfleur.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Artisanat</h2>
+                <p class="card_text">La région de champagne regorge de savoir-faire. Découvrez les artisant locaux !</p>
+                <a href="./artisanat.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/dégustation.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Comment déguster un vin?</h2>
+                <p class="card_text">Bien savoir déguster son champagne est essentiel afin d'obtenir la meilleure expérience possible. </p>
+                <a href="./Dégustation.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/dompérignon.jpg"></div> <!--https://www.flickr.com/photos/clubvino/3513713364/   droit d'auteur-->
+              <div class="card_content">
+                <h2 class="card_title">Histoire de la création du champagne</h2>
+                <p class="card_text">De Dom Pérignon à aujourd'hui, apprenez toute l'histoire de la fabrication de ce breuvage exquis.</p>
+                <a href="./HistoireCreationChampagne.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/reimsCathédrale.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Chatédrale de Reims</h2>
+                <p class="card_text">Découvrez l'histoire d'un des monuments historiques de la ville de Reims!</p>
+                <a href="./CathédraleReims.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/gastronomie.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Gastronomie en Champagne-Ardenne</h2>
+                <p class="card_text">La Champagne-Ardennes possède une gastronomie locale riche et incroyable ! </p>
+                <a href="./Gastronomie.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item"><!--élément de la liste-->
+            <div class="card">
+              <div class="card_image"><img src="../image/fortChabrol.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Fort Chabrol</h2>
+                <p class="card_text">Découvrez ce bâtiment remplit d'histoire inscrit dans la liste du patrimoine mondial de l'UNESCO !</p>
+                <a href="./FortChabrol.php"><button class="btn">En savoir plus</button></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+       
+    <div class="container-gotop">
+        <a href="#" class="gotop"><img class = "imggotop" src="../image/to_top.png"></a>
+    </div>
+
+    <?php include 'footer.php';?>
 </body>
+
 </html>

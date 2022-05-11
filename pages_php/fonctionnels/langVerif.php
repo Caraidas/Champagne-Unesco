@@ -9,16 +9,21 @@
 */
 session_start();
 
-$langue = $_SESSION["lang"];
-switch($langue){
-    case 1:
-        $langue = 1;
-        break;
-    case 0:
-        $langue = 0;
-        break;
-    default:
-        $langue = 0;
-        break;
+if(isset($_SESSION["lang"])){
+    $langue = $_SESSION["lang"];
+    switch($langue){
+        case 1:
+            $langue = 1;
+            break;
+        case 0:
+            $langue = 0;
+            break;
+        default:
+            $langue = 0;
+            break;
+    }
+    $_SESSION["lang"] = $langue;
+}else{
+    $langue=0;
+    $_SESSION["lang"]=0;
 }
-$_SESSION["lang"] = $langue;

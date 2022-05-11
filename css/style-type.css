@@ -143,15 +143,7 @@ img{
     width:86%;
     padding-left:6%
 }
-a{
-    color: white;
-    text-decoration: None;
-    z-index: 1;
-    font-family: Dyno-bold;
-}
-.clicable:hover{
-    text-decoration: underline #b94503 3px;
-}
+
 h2{
     font-size: 35px;
     color: #b94503;
