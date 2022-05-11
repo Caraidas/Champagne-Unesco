@@ -5,8 +5,16 @@
 
     if(isset($_SESSION["lang"]) && $_SESSION["lang"]==1){
         $option="FR";
+        $cave = "Cellar";
+        $Coteaux = "Hillsides";
+        $Patrimoine = "Legacy";
+        $maison = "Houses";
     }else{
         $option="EN";
+        $cave = "Caves";
+        $Coteaux = "Coteaux";
+        $Patrimoine = "Patrimoine";
+        $maison = "Maisons";
     }
 ?>
 
@@ -203,10 +211,10 @@
         </div>
         <div class="traitTel"></div>
         <div class="partieBasse">
-            <a class='clicableTel' href="">Hébergement</a>
-            <a class='clicableTel' href="">Hébergement</a>
-            <a class='clicableTel' href="">Hébergement</a>
-            <a class='clicableTel' href="">Hébergement</a>
+            <a class='clicableTel' href="Caves.php"><?= $cave ?></a>
+            <a class='clicableTel' href="Coteaux.php"><?= $Coteaux ?></a>
+            <a class='clicableTel' href="Maisons.php"><?= $maison ?></a>
+            <a class='clicableTel' href=""><?= $Patrimoine ?></a>
         </div>
     </header>
 
@@ -215,10 +223,10 @@
         <a href="index.php" class="titre">Champagne</a>
         <div class="barreDeliens">
             <div class="trait"></div>
-            <a class='clicable' href="">Hébergement</a>
-            <a class='clicable' href="">Hébergement</a>
-            <a class='clicable' href="">Hébergement</a>
-            <a class='clicable' href="">Hébergement</a>
+            <a class='clicable' href="Caves.php"><?= $cave ?></a>
+            <a class='clicable' href="Coteaux.php"><?= $Coteaux ?></a>
+            <a class='clicable' href="Maisons.php"><?= $maison ?></a>
+            <a class='clicable' href=""><?= $Patrimoine ?></a>
             <a class="btnLangue" href="fonctionnels/langSwitch.php" ><?=$option?></div></a>
         </div>
         
