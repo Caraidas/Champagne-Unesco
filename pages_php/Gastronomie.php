@@ -1,3 +1,6 @@
+<?php include 'fonctionnels/langVerif.php';?>
+<?php include 'contenus/contenuGastronomie.php';?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,34 +33,14 @@
         <div class="containercorp">
             <div class="text centre">
                
-                <h2>Gastronomie Champenoise</h2>
-                <p>Vous connaissez, bien-entendu, tous le Champagne. Ce vin effervescent provient de la région éponyme. Mais est ce que vous connaissez toutes les autres spécialités de cette région française? Non?
-                    Et bien cet article est fait pour vous. 
-                </p>
-
-                <p>
-                    Cette région s’inscrit, au-delà de ses vignes, dans la tradition maraîchère française. On y trouve de nombreux producteurs de pommes-de-terre, poireaux, choux, navets… Et même de la truffe, avec sa propre variété la  <i>Tuber Uncinatum</i>, plus communément appelée truffe grise de champagne, qui est réputée dans le monde entier.
-                </p>
+                <?= $texte1[$langue]?>
                 <img src = "../image/Photo by amirali mirhashemian on Unsplash(1).jpg">
-                <p>
-                    Cependant la Champagne ne produit pas que des légumes mais aussi de la viande. Toute la région est spécialisée dans la volaille avec, entre autres, les oies de champagne et le dindon rouge des Ardenne.
-                </p>
 
-                <p>
-                    De toute cette production, le champagne tire de nombreux plats. Le plus connu étant La potée champenoise à base de choux et de morceaux de porc comme du lard, un plat traditionnellement cuisiné pour les grandes occasions. Un autre plat, bien plus insolite celui-là, est l'œuf poché au champagne qui, comme son nom l’indique, est un œuf cuit dans du champagne bouillant.
-                </p>
-
-                <p>
-                    De nombreuses charcuteries viennent aussi de champagne tel que le Boudin blanc de Rethel (qui profite du label Rouge), le jambon de reims ou l’andouillette de Troie aussi appelée andouillette véritable. 
-                    Au niveau des fromages la Champagne n’est pas en reste c’est en effet la région mère de nombreux fromages de vache tel que le Brie ou le Chaource.
-                </p>
+                <?= $texte2[$langue]?>
                 <img src = "../image/Photo by Margaret Jaszowska on Unsplash(1).jpg">
-                <p>
-                    Enfin, la Champagne possèdes aussi ses spécialitées sucrées avec le biscuit rose de reims ou la Croquignole
-                </p>
-                <img src = "../image/Croquignoles(1).jpg">
-                    
                 
+                <?= $texte3[$langue]?>
+                <img src = "../image/Croquignoles(1).jpg">
                 </div>
             </div>
 
