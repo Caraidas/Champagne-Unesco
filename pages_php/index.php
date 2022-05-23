@@ -61,7 +61,7 @@
 
         
         <div class= "sideicons "> 
-            <div class="iconimg"><a href=";"><img src="../image/bed.png"></a></div>
+            <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
             <div class="iconimg"><a href=";"><img  src="../image/restaurant.png"></a></div>
             <div class="iconimg"><a href=";"><img  src="../image/event.png"></a></div>
         </div>
