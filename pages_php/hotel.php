@@ -15,7 +15,7 @@
             background-position:center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url(../image/lune.png);
+            background-image: url(../image/artisanatfleur.jpg);
             position: fixed;
             width: 100vw;
             height: 100vh;
@@ -32,11 +32,12 @@
 
             <?php 
                 $result = $conn->query("SELECT * FROM hotel");
-                while( $ligne = $membres->fetch(PDO::FETCH_OBJ) ){
-                    echo '<img src="'.$ligne->image.'"> <p>'.$ligne->nom.' Prix : '.$ligne->prix.'</p> ';
+                while( $ligne = $result->fetch(PDO::FETCH_OBJ) ){
+                    echo 'hbrlgibriouglbroiugb<img src="'.$ligne->image.'"> <p>'.$ligne->nom.' Prix : '.$ligne->prix.'</p> ';
                 }
+                echo 'POTATO';
             ?>
-
+            <P>POTATO</P>
             </div>
        
             </div>
