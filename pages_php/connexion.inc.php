@@ -10,7 +10,7 @@ $pass =  'toto';
 
 try {
     $conn = new PDO('pgsql:host=sqletud.u-pem.fr;dbname=paul.lucas_db', $user, $pass); 
-    $conn->exec("set SEARCH_PATH TO unesco");
+    $conn->exec("SET search_path TO unesco");
     
 }
 catch (PDOException $e) {
