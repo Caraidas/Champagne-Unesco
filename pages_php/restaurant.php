@@ -1,4 +1,6 @@
 <?php include 'connexion.inc.php' ?>
+<?php include 'fonctionnels/langVerif.php';?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,7 +12,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
     
-    <title>restaurant</title>
+    <title>Restaurant</title>
     <style>
         #fond{
             background-attachment: fixed;
@@ -36,9 +38,13 @@ include 'header.php';
             <div class="text centre">
 
             <?php 
-                $result = $conn->query("SELECT * FROM hotel;");
+                $result = $conn->query("SELECT * FROM restaurants;");
                 while($ligne = $result->fetch(PDO::FETCH_OBJ) ){
-                    echo  "<p> $ligne->nom prix: $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>"; //<img src="'.$ligne->image.'"> .' Prix : '.$ligne->prix.'</p> '
+                    if ($langue == 0){
+                        echo  "<p> $ligne->nom type: $ligne->type</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
+                    } else{
+                        echo  "<p> $ligne->nom type: $ligne->typeEngl</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
+                    }
                 }
             ?>
             </div>
@@ -46,7 +52,7 @@ include 'header.php';
             </div>
             <div class= "sideicons "> 
                 <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
-                <div class="iconimg"><a href="#"><img  src="../image/restaurant.png"></a></div>
+                <div class="iconimg"><a href="restaurants.php"><img  src="../image/restaurant.png"></a></div>
                 <div class="iconimg"><a href="evenement.php"><img  src="../image/event.png"></a></div>
             </div>
 

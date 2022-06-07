@@ -1,4 +1,6 @@
 <?php include 'connexion.inc.php' ?>
+<?php include 'fonctionnels/langVerif.php';?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,7 +12,12 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
     
-    <title>Hotel</title>
+    <?php if ($langue == 0){
+        echo '<title>Hotel</title>'
+    }else{
+        echo '<title>Hotel</title>'
+    }
+    ?>
     <style>
         #fond{
             background-attachment: fixed;
@@ -38,7 +45,7 @@ include 'header.php';
             <?php 
                 $result = $conn->query("SELECT * FROM hotel;");
                 while($ligne = $result->fetch(PDO::FETCH_OBJ) ){
-                    echo  "<p> $ligne->nom prix: $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>"; //<img src="'.$ligne->image.'"> .' Prix : '.$ligne->prix.'</p> '
+                    echo  "<p> $ligne->nom $para[$langue]: $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
                 }
             ?>
             </div>
