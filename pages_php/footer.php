@@ -153,7 +153,7 @@ footer .wave#wave1 {
     <ul class="menu">
         <li><a href='#'>Home</a></li>
         <li><a href='#'>About</a></li>
-        <li><a href='../pages_html/equipe.html'>Team</a></li>
+        <li><a href='equipe.php'>Team</a></li>
         <li><a href='#'>Contact</a></li>
     </ul>
     <p>Partenaires</p>

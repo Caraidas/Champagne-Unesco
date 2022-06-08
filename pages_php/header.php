@@ -32,6 +32,7 @@
         }
 
         .headerPC{
+            top: 0;
             display: flex;
             flex-direction: row;
             background-color: #333333ce;
@@ -121,6 +122,7 @@
         }
 
         .headerTel{
+            top: 0;
             display: none;
             flex-direction: column;
             background-color: #333333;
