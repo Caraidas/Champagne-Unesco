@@ -13,9 +13,9 @@
     
     
     <?php if ($langue == 0){
-        echo '<title>Hotel</title>'
+        echo '<title>Hotel</title>';
     }else{
-        echo '<title>Hotel</title>'
+        echo '<title>Hostel</title>';
     }
     ?>
     <style>
@@ -45,7 +45,12 @@ include 'header.php';
             <?php 
                 $result = $conn->query("SELECT * FROM hotel;");
                 while($ligne = $result->fetch(PDO::FETCH_OBJ) ){
-                    echo  "<p> $ligne->nom $para[$langue]: $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
+                    if ($langue == 0){
+                        echo  "<p> $ligne->nom $para[$langue] prix : $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
+                    }else {
+                        echo  "<p> $ligne->nom $para[$langue] price : $ligne->prix</p><a href='$ligne->lien'><img src='$ligne->image'></a>";
+                    }
+
                 }
             ?>
             </div>

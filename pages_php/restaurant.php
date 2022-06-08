@@ -52,7 +52,7 @@ include 'header.php';
             </div>
             <div class= "sideicons "> 
                 <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
-                <div class="iconimg"><a href="restaurants.php"><img  src="../image/restaurant.png"></a></div>
+                <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
                 <div class="iconimg"><a href="evenement.php"><img  src="../image/event.png"></a></div>
             </div>
 
