@@ -122,10 +122,24 @@ img {
     background-color: rgba(255, 255, 255, 0.12); /*changer l'opacité au hover du bouton*/
 }
 
+.sideicons{
+    
+    width: 80px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: fixed;
+    top:32%;
+    left: 0.5%;
+    z-index: 1000;
+}
+
 @media (max-width:650px){
     .cards_item{
         width: 100%;
     } 
+
     .sideicons{
         display: none;
     }
@@ -174,19 +188,6 @@ src: url(../police/Dyno-Regular.ttf)
     -webkit-transform: scale(1.3); 
     transform: scale(1.3);
     }
-
-.sideicons{
-    
-    width: 80px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    position: fixed;
-    top:32%;
-    left: 0.5%;
-    z-index: 1000;
-}
 
 .container-gotop {
     
