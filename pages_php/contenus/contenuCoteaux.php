@@ -2,7 +2,7 @@
 
 $titre = array(
     "<h2>Les coteaux de Champagne</h2>",
-    "<h2>the hillsides of champagne</h2>"
+    "<h2>The hillsides of champagne</h2>"
 );
 
 $text1 = array(
