@@ -328,16 +328,18 @@ img {
         left:0;
         margin:0;
         width: 100vw;
-        height: 50vh;
+        height: 35vh;
         background-color: #333333;
+        margin-bottom: 15vh;
     }
 
     .droite{
         right: 0;
         margin: 0;
         width: 100vw;
-        height: 50vh;
+        height: 35vh;
         background-color: #333333;
+        margin-bottom: 15vh;
     }
 
     .grand_titre{
@@ -355,13 +357,22 @@ img {
     }
 
     .background{
-        border-bottom-width:0 ;
+        border-bottom-width:5px ;
     }
 
     .background img{
-        object-fit:fill;
-        height: 50vh;
-        width: 100%;
+        object-fit:cover;
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .noFirst{
+        margin-top: 35vh;
+    }
+    
+    .first{
+        margin-top: 10vh;
+        min-height: 70vh;
     }
 
     .gotop {
