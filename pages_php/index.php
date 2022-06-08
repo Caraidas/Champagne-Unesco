@@ -18,7 +18,7 @@
     <div class="contenaircorp">
 
         <div class="background">
-            <img src="../image/Photo by redcharlie on Unsplash.jpg">
+            <img src="../image/Photo by redcharlie on Unsplash.jpg" class="first">
             <div class="grand_titre">Coteaux Maisons  <br> Caves de Champagne</div>
 
             
@@ -27,7 +27,7 @@
         </div>
 
         <div id = "theme02" class="background">
-            <img src="../image/coteauxImg.jpg">
+            <img src="../image/coteauxImg.jpg" class="noFirst">
             <div class="text droite">
                 <h2>Coteaux de Champagne</h2>
                 <p>Découvrez à travers les splendides côteaux champenois la clé de la production de ce vin d'excellence</p>
@@ -38,7 +38,7 @@
         </div>
 
         <div id = "theme03" class="background">
-            <img src="../image/robert-linder-ti9_YXaKFcI-unsplash.jpg">
+            <img src="../image/robert-linder-ti9_YXaKFcI-unsplash.jpg" class="noFirst">
             <div class="text gauche">
                 <h2>Caves de Champagne</h2>
                 <p>Découvrez l'histoire de ces caves creusées dans la craie. Que se soit la cave de Mumm ou celle de Veuve Clicquot, chaque cave a ses secrets.  </p>
@@ -48,7 +48,7 @@
         </div>
 
         <div id = "theme04" class="background">
-            <img src="../image/vrp.jpg"> <!--https://www.flickr.com/photos/morio60/24220005104/in/photolist-CUeRGU-aqBT5N-Dqxx9s-CUeQa5-2hEDxbA-2jutPvD-2jupFS6-UxipWn-2jupFRu-DFNzA6-2cEJza5-8cqonh-2jYGwCf-TxgvaT-DWt9q8-pe6HB4-pmodAj-vp7Mku-qGUPMr-2jYCPxH-DFkeLS-DPqMW9-aqBUcE-bNSakv-bNSapK-bNSada-bNSavT-aH4D6v-bzXvYW-eKvnbw-psQimi-eKiKgH-pbhJ4v-25RGzM1-bS9DST-pcUway-bLvgKx-bxAzVj-bxAzGG-pcUwaJ-p8qL9C-9fvynT-p8qLf9-gB2pgw-2jupFwb-2jutNwp-pdKidf-pdmrgn-dfxcCM-bS9DNT-->
+            <img src="../image/vrp.jpg" class="noFirst"> <!--https://www.flickr.com/photos/morio60/24220005104/in/photolist-CUeRGU-aqBT5N-Dqxx9s-CUeQa5-2hEDxbA-2jutPvD-2jupFS6-UxipWn-2jupFRu-DFNzA6-2cEJza5-8cqonh-2jYGwCf-TxgvaT-DWt9q8-pe6HB4-pmodAj-vp7Mku-qGUPMr-2jYCPxH-DFkeLS-DPqMW9-aqBUcE-bNSakv-bNSapK-bNSada-bNSavT-aH4D6v-bzXvYW-eKvnbw-psQimi-eKiKgH-pbhJ4v-25RGzM1-bS9DST-pcUway-bLvgKx-bxAzVj-bxAzGG-pcUwaJ-p8qL9C-9fvynT-p8qLf9-gB2pgw-2jupFwb-2jutNwp-pdKidf-pdmrgn-dfxcCM-bS9DNT-->
             <div class="text droite">
                 <h2>Maisons de Champagne</h2>
                 <p>Découvrez les grandes Maisons de Champagne à l’origine de la notoriété et du prestige des vins de Champagne dans le monde. </p>
