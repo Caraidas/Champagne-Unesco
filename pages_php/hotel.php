@@ -17,26 +17,10 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title><?=$title?></title>
-    <style>
-        #fond{
-            background-attachment: fixed;
-            background-position:center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../image/artisanatfleur.jpg);
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            filter:blur(2px);
-        }
-    </style>
+
 </head>
 <body >
-<?php 
-include 'header.php';
-
-?>
-    <div id="fond"></div>
+<?php include 'header.php';?>
         <h1><?= $title ?></h1>
         <div id = "articles" class="card-container">
             <ul class="cards"> <!--sous forme de liste de cartes-->
@@ -50,7 +34,7 @@ include 'header.php';
                             <div class='card_image'><img src='$ligne->image'></div>
                                 <div class='card_content'>
                                     <h2 class='card_title'>$ligne->nom $para[$langue]</h2>
-                                    <a href='$ligne->lien'><button class='btn'>$ligne->prix €</button></a>
+                                    <a href='$ligne->lien'><button class='btn'>$ligne->prix </button></a>
                                 </div>
                             </div>
                      </li>";
@@ -60,7 +44,7 @@ include 'header.php';
         </div>
        
             </div>
-            <div class= "sideicons "> 
+            <div class= "sideicons"> 
                 <div class="iconimg"><a href="#"><img src="../image/bed.png"></a></div>
                 <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
                 <div class="iconimg"><a href="evenement.php"><img  src="../image/event.png"></a></div>

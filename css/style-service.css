@@ -10,6 +10,21 @@ body{
 
 }
 
+h1{
+    margin-top: 15vh;
+    font-size: 50px;
+    text-align: center;
+    color: #333333;
+    font-family: Dyno-bold;
+}
+
+h2{
+    margin-top:0;
+    font-size: 25px;
+    color: #b94503;
+    font-family: Dyno-bold;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -101,6 +116,8 @@ img {
     background: transparent;
 }
 
+
+
 .btn:hover {
     background-color: rgba(255, 255, 255, 0.12); /*changer l'opacité au hover du bouton*/
 }
@@ -109,6 +126,9 @@ img {
     .cards_item{
         width: 100%;
     } 
+    .sideicons{
+        display: none;
+    }
 }
 
 @font-face{ 
