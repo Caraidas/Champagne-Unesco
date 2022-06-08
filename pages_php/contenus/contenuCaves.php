@@ -47,15 +47,16 @@ $para3 = array(
     <h3>Moët & Chandon Champagne cellars</h3>"
 );
 
-$para4 = array(
+$para4= array(
     "<p>
     &nbsp &nbsp &nbsp Moët et Chandon,
     grande maison de champagne fondée en 1743 possède les plus grandes caves de Champagne creusée dans la craie champenoise.
     Avec 28 km de galeries s'étendant sur plusieurs niveaux sous la grande avenue de Champagne à Epernay ,
     les bouteilles de vin mousseux sont gardées dans la fraîcheur et l’humidité afin d’obtenir une maturation lente et unique.
     </p>",
-    " &nbsp &nbsp &nbsp Moët et Chandon, a great champagne house founded in 1743, has the largest cellars in Champagne dug into the chalk of the Champagne region. With 28 km of galleries stretching over several levels under the great avenue of Champagne in Epernay, the bottles of sparkling wine are kept cool and moist to obtain a slow and unique maturation.
-    "
+
+    "<p>&nbsp &nbsp &nbsp Moët et Chandon, a great champagne house founded in 1743, has the largest cellars in Champagne dug into the chalk of the Champagne region. With 28 km of galleries stretching over several levels under the great avenue of Champagne in Epernay, the bottles of sparkling wine are kept cool and moist to obtain a slow and unique maturation.
+    </p>"
 );
 
 

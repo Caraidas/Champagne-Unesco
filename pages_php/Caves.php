@@ -1,5 +1,5 @@
 <?php include 'fonctionnels/langVerif.php';?>
-<?php include 'contenus/contenuArtisana.php';?>
+<?php include 'contenus/contenuCaves.php';?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -35,27 +35,25 @@
                 <?= $titre[$langue] ?>
 
                 <?= $para1[$langue] ?>
-                <img src = "../../image/cave.jpg">
+                <img src = "../image/cave.jpg">
                 
                 <?= $para2[$langue] ?>
                 <img src="../image/cavejoseph.png">
                 <?= $para3[$langue] ?>
 
                 <img src = "../image/moetchandon2.jpg"> 
-                <? $para4[$langue] ?>
+                <?= $para4[$langue] ?>
                 <img src = "../image/moetchandon1.jpg">
-                <? $para5[$langue] ?>
+                <?= $para5[$langue] ?>
 
-                <? $para6[$langue] ?>
+                <?= $para6[$langue] ?>
                 <img src = "../image/mumm.jpg">
-                <? $para7[$langue] ?>
+                <?= $para7[$langue] ?>
                 <img src = "../image/veuveclicquot.jpg">
                 <br> 
                 <img src = "../image/veuveclicquot2.jpg">
-
-                <p>Dans ce labyrinthe situé à vingt mètres sous terre après cet escalier lumineux, la température des crayères, leur hygrométrie constante, ainsi que le calme qui y règne, en font le lieu idéal pour y accueillir la production de champagne.
-                    Ainsi retrouve-t-on la cuvée emblématique “Le brut Carte Jaune” reflet du vignoble de la Maison et du terroir champenois mais aussi la cuvée en l’honneur de Madame Cliquot “La Grande dame”.
-                </p>
+                <?= $para8[$langue] ?>
+                
                 </div>
             </div>
 
