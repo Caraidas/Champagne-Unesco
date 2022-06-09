@@ -216,7 +216,7 @@
             <a class='clicableTel' href="Caves.php"><?= $cave ?></a>
             <a class='clicableTel' href="Coteaux.php"><?= $Coteaux ?></a>
             <a class='clicableTel' href="Maisons.php"><?= $maison ?></a>
-            <a class='clicableTel' href=""><?= $Patrimoine ?></a>
+            <a class='clicableTel' href="Patrimoine.php"><?= $Patrimoine ?></a>
         </div>
     </header>
 
@@ -228,7 +228,7 @@
             <a class='clicable' href="Caves.php"><?= $cave ?></a>
             <a class='clicable' href="Coteaux.php"><?= $Coteaux ?></a>
             <a class='clicable' href="Maisons.php"><?= $maison ?></a>
-            <a class='clicable' href=""><?= $Patrimoine ?></a>
+            <a class='clicable' href="Patrimoine.php"><?= $Patrimoine ?></a>
             <a class="btnLangue" href="fonctionnels/langSwitch.php" ><?=$option?></div></a>
         </div>
         
