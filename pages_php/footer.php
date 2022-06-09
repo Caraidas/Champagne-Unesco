@@ -1,3 +1,5 @@
+<?php include 'fonctionnels/langVerif.php';?>
+
 <style>
 
 body{
@@ -228,10 +230,20 @@ footer .wave#wave1 {
         </ul>
     </ul>
     <ul class="menu">
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>About</a></li>
-        <li><a href='equipe.php'>Team</a></li>
-        <li><a href='#'>Contact</a></li>
+        <?php if ($langue == 0){
+            echo '
+            <li><a href=\'index.php\'>Accueil</a></li>
+            <li><a href=\'mentionLegale.php\'>Mention Légale</a></li>
+            <li><a href=\'equipe.php\'>Equipe</a></li>
+            ';        
+        }else{
+            echo '
+            <li><a href=\'index.php\'>Home</a></li>
+            <li><a href=\'mentionLegale.php\'>Legacy</a></li>
+            <li><a href=\'equipe.php\'>Team</a></li>
+            ';
+        }
+        ?>
     </ul>
     <p>Partenaires</p>
     <div class="partenaires">
