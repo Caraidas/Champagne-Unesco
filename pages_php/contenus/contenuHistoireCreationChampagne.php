@@ -45,7 +45,7 @@ $para3 = array(
 );
 
 $para4 = array(
-    "p>Les vins peuvent présenter des textures différentes entre eux : 
+    "<p>Les vins peuvent présenter des textures différentes entre eux : 
         <ul> <li>On retrouve les vins tranquilles qui est tout simplement un vin qui n’est pas effervescent, </li>
        <li>Les vins effervescents sont les vins ayant des bulles, </li>
         <li> Les vins doux naturels qui sont vinifiés de la même façon que les vins tranquilles à la différence que le moment où les sucres se transforment en alcool, le processus de vinification est arrêté, </li>
