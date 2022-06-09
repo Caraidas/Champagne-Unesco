@@ -28,7 +28,7 @@ $para2 = array(
     Joseph Perrier au fondateur du même nom, les caves sont des éléments phare du paysage chalonnais.
     Ces caves de plain-pied ont été creusées dans la colline surplombant la Maison et sont protégées par un paysage arboré qui joue le rôle de régulateur climatique naturel permettant de conserver une hygrométrie et des températures optimales pour le vieillissement des vins.
     </p>",
-    "<p>&nbsp &nbsp &nbsp Here we are in the heart of a 3km long cellar dating from the 4th century, dug in ancient Gallo-Roman chalk pits. Since 1825, the year of the creation of the Joseph Perrier House by the founder of the same name, the cellars have been a key element of the Chalonnais landscape. These single-storey cellars were dug into the hillside overlooking the House and are protected by a wooded landscape that plays the role of a natural climate regulator allowing to keep an optimal hygrometry and temperatures for the aging of the wines.
+    "<p>&nbsp &nbsp &nbsp Here we are in the heart of a 3km long cellar dating from the 4th century, dug in ancient Gallo-Roman chalk pits. Since 1825, the year of the creation of the Joseph Perrier House by the founder of the same name, the cellars have been a key element of the Champagne landscape. These single-storey cellars were dug into the hillside overlooking the House and are protected by a wooded landscape that plays the role of a natural climate regulator allowing to keep an optimal hygrometry and temperatures for the aging of the wines.
     </p>"
 );
 
@@ -42,7 +42,7 @@ $para3 = array(
     "<p>&nbsp &nbsp &nbsp The galleries are pierced by holes that let in shafts of light called essors. These essors were primarily used to direct light for the work of the workers but also serve as ventilation.
     In 2018, the house decided to renovate its cellars in order to facilitate and make the visit of its cellars more pleasant and commissioned the lighting designer Emeric Thiénot (http://www.lumesens.com/) on the lighting of its cellars.
     In order to avoid the \"Taste of Light\" a defect created by a chemical reaction of light on the wine, Emeric Thiénot adapts to a constraint of a very low level of illumination of 595nm and an orange color coming in direct contact with the wine putting it forward in the best way. 
-    Thus, these cellars house millions of bottles of champagne aging from 3 to 5 years.
+    Thus, these cellars contains millions of bottles of champagne aging from 3 to 5 years.
     </p>
     <h3>Moët & Chandon Champagne cellars</h3>"
 );
@@ -67,7 +67,7 @@ $para5 = array(
     <h3>Caves de Champagne Mumm</h3>",
     " <p>
     These endless galleries intersect, creating a real underground labyrinth. 
-    Walking through the darkness of these galleries, one can observe the traces of the tools that cut this chalk with a faint glow of light barely illuminating the bottles so that they keep their authentic taste.    
+    Walking through the darkness of these galleries, we can observe the traces of the tools that cut this chalk with a faint glow of light barely illuminating the bottles so that they keep their authentic taste.    
     </p>
     <h3>Caves de Champagne Mumm</h3>
     "
@@ -80,7 +80,7 @@ $para6 = array(
     </p>",
     "<p>
     &nbsp &nbsp &nbsp In the heart of 25 km of cellars under the city of Reims, nearly 25 million bottles are stored, lit by a beautiful play of light. Thus Mumm houses more than two centuries of know-how and passion.
-    Since the creation of the \"Cordon Rouge\" vintage, Mumm is recognized worldwide as a house of excellence. For history, it is in November 1876 that Georges Hermann Mumm (G.H.) registers the name \"Cordon Rouge\" for a part of his bottles. On the bottle, this red ribbon related to the French Legion of Honor has become the distinctive sign of excellence embodying the spirit of the Champagne House. 
+    Since the creation of the \"Cordon Rouge\" vintage, Mumm is recognized worldwide as a house of excellence. For history, it is in November 1876 that Georges Hermann Mumm (G.H.) registers the name \"Cordon Rouge\" for some of his bottles. On the bottle, this red ribbon related to the French Legion of Honor has become the distinctive sign of excellence embodying the spirit of the Champagne House. 
     </p>
     "
 );
@@ -97,9 +97,9 @@ $para7 = array(
     &nbsp &nbsp &nbsp  En 1909, la Maison Veuve Clicquot Ponsardin acquiert des crayères à la périphérie du centre-ville de Reims. Ces carrières souterraines témoignent des différentes activités humaines qui les ont façonnées au fil des siècles. Les carriers, puis les cavistes, avaient pour tradition de laisser des marques de leur passage en y gravant des graffitis aux motifs divers. Les réfugiés civils et militaires de la Grande Guerre, eux aussi, ont confié leurs états d’âme aux parois de craie.
     </p>",
 
-    "<p>Made from a marriage of several vintages from the great terroirs of Champagne, the Cordon Rouge Mumm is composed largely of Pinot Noir (45%) which brings structure and power, while Chardonnay (30%) brings finesse and elegance, finally, Pinot Meunier its fruitiness and roundness.
+    "<p>Made from a marriage of several vintages from the great terroirs of Champagne, the Cordon Rouge Mumm is composed largely of Black Pinot (45%) which brings structure and power, while Chardonnay (30%) brings finesse and elegance, finally, Pinot Meunier its fruitiness and roundness.
     Thus the cuvée cordon rouge is a champagne that combines fruitiness and freshness, perfect for an aperitif. 
-    As for the Mumm Grand Cordon cuvée, it honors the Pinot Noir grapes from the best vintages. They match the finesse and elegance of chardonnays and the fruity roundness of pinots meuniers.
+    As for the Mumm Grand Cordon cuvée, it honors the Black Pinot grapes from the best vintages. They match the finesse and elegance of chardonnays and the fruity roundness of pinots meuniers.
     </p>
     <h3>Veuve Clicquot Champagne cellars</h3>
     <p> &nbsp &nbsp &nbsp In 1909, Veuve Clicquot Ponsardin acquired some chalk pits on the outskirts of downtown Reims. These underground quarries bear witness to the various human activities that have shaped them over the centuries. The quarrymen, and later the cellarmen, had a tradition of leaving marks of their passage by engraving graffiti with various motifs. The civilian and military refugees of the Great War also left their feelings on the chalk walls. </p>
