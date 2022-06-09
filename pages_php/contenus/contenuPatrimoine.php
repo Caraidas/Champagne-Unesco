@@ -28,16 +28,28 @@ $para2 =  array(
             Le critère (iv), qui témoigne d’une pratique viticole et vinicole perfectionnée au cours des siècles et reposant sur un bassin d’approvisionnement (le vignoble), des lieux d’élaboration (les vendangeoirs, les caves…), de commercialisation et de distribution (les Maisons), ces divers éléments étant fonctionnellement imbriqués et intrinsèquement liés au substrat (la craie) support de la vigne, facile à creuser et que l’on retrouve dans l’architecture.
         </li>
         <li>
-            Le critère (vi), reflet d’image symbolique unique au monde, référence universelle en termes de notoriété et de prestige, portée par les arts. </p>
+            Le critère (vi), reflet d’image symbolique unique au monde, référence universelle en termes de notoriété et de prestige, portée par les arts.
         </li>
-    </ul>"
+    </ul>",
+    "<p>To be included on the World Heritage List, at least 1 of the 10 selection criteria defined by UNESCO must be met. 
+    For the Coteaux, Maisons et Caves de Champagne, 3 of these criteria have been recognized:
+<ul>
+    <li>
+    (iii), as the result of know-how perfected over generations, exemplary interprofessional organization and protection of the appellation, as well as the age-old development of intercultural relations and social innovations.
+    </li>
+    <li>
+    (iv), which testifies to a viticultural and vinicultural practice perfected over the centuries and based on a supply basin (the vineyard), places of elaboration (the grape harvesters, the cellars...), marketing and distribution (the Houses), these various elements being functionally intertwined and intrinsically linked to the substratum (the chalk), support of the vine, easy to dig and found in the architecture.
+    </li>
+    <li>
+    (vi), a reflection of a unique symbolic image in the world, a universal reference in terms of notoriety and prestige, carried by the arts.
+    </li>
+</ul>
+</p>"
 );
 
 
 $para3 = array(
-    "\"Coteaux, Maisons et Caves de Champagne\" are composed of three core sites in the Marne department: the Colline Saint-Nicaise in Reims, the historic Coteaux de Cumières in Mareuil-sur-Aÿ, the Avenue de Champagne in Epernay. ",
-    ""
-
-
+    "Les Coteaux, Maisons et Caves de Champagne sont composés de trois sites cœur dans le département de la Marne : la Colline Saint-Nicaise à Reims, les Coteaux historiques de Cumières à Mareuil-sur-Aÿ, l’Avenue de Champagne à Epernay. ",
+    "\"Coteaux, Maisons et Caves de Champagne\" are composed of three core sites in the Marne department: the Colline Saint-Nicaise in Reims, the historic Coteaux de Cumières in Mareuil-sur-Aÿ, the Avenue de Champagne in Epernay. "
 );
 ?>
