@@ -176,9 +176,7 @@ footer .wave#wave1 {
         <a href="#" class="gotop"><img class = "imggotop" src="../image/to_top.png"></a>
 </div>
 
-<footer id = "footer">
-        
-        
+<footer id = "footer">   
     <div class="wave" id="wave1"></div>
 
     <ul class="social_icon">

@@ -184,7 +184,7 @@
             color: white;
             padding-top: 1vh;
             padding-bottom: 0;
-            font-size: 10px;
+            font-size: 12px;
             transition: all linear .3s;
         }
 
