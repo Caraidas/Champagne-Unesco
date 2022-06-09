@@ -42,15 +42,5 @@
         ?>
         </ul>
     </div>
-       
-    <div class= "sideicons "> 
-        <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
-        <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
-        <div class="iconimg"><a href="evenement.php"><img  src="../image/event.png"></a></div>
-    </div>
-
-    <div class="container-gotop">
-        <a href="#" class="gotop"><img class = "imggotop" src="../image/to_top.png"></a>
-    </div>
     <?php include 'footer.php';?>
 </body>

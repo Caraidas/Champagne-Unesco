@@ -5,6 +5,29 @@ body{
     padding:0;
 }
 
+.iconimg{
+    background: rgba(94, 88, 82, 0.72);
+    width: 55px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    height: 55px;
+    transition: transform .4s;
+}
+
+
+.iconimg img {
+    opacity:1;
+    width: 45px;
+    height: 45px;
+}
+.iconimg:hover{
+    background: rgba(126, 121, 117, 1);
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3); 
+    transform: scale(1.3);
+    }
+
 @font-face{ 
     font-family: "Dyno";
     src: url(../police/Dyno-Regular.ttf)
@@ -133,13 +156,67 @@ footer .wave#wave1 {
         background-position-x:0px;
     }
 }
+
+.sideicons{
+    
+    width: 80px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: fixed;
+    top:32%;
+    left: 0.5%;
+    z-index: 1000;
+}
+
+    
+
+
+.container-gotop {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    }
+    
+.gotop {
+    position: fixed;
+    bottom: 20px;      
+    margin-right:10px; 
+    z-index: 1000;
+}
+
+.imggotop{
+    padding-right: 20px;
+    vertical-align: middle;
+    width:120%;
+    height: auto;
+}
+
+@media (max-width:650px){
+    .gotop {
+        display: none;
+    }
+}
+
 </style>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+<div class= "sideicons ">
+    <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
+    <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
+</div>
+
+<div class="container-gotop">
+        <a href="#" class="gotop"><img class = "imggotop" src="../image/to_top.png"></a>
+</div>
 
 <footer id = "footer">
+        
         
     <div class="wave" id="wave1"></div>
 

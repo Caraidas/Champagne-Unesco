@@ -14,7 +14,6 @@ include 'header.php';
 
 ?>
 </head>
-    <br><br>
   
     <div class="container">
         <div class="row">
@@ -24,6 +23,7 @@ include 'header.php';
                 <img src="../image/paul.png" alt="">
               </div>
               <div class="team-content">
+                <p>lfbvoirdfbvoidfbvldfbvldfbhkvbdfhvbdfohivbdofvbfdjvhbljdfbldkbdfkjbkdfjbvdjbvldkfbvlkdbldgldfbhgvdlfvlkdbvlkdfbvldbfvldjfbvldkfb</p>
                 <h3 class="title">Paul Lucas</h3>
                 <span class="post">Project Manager</span>
               </div>
@@ -47,6 +47,7 @@ include 'header.php';
                 <img src="../image/joshua.jpg" alt="">
               </div>
               <div class="team-content">
+                <p>vjndeujvned</p>
                 <h3 class="title">Joshua Lemoine</h3>
                 <span class="post">Web Developper</span>
               </div>
@@ -70,6 +71,7 @@ include 'header.php';
                 <img src="../image/laura.jpg" alt="">
               </div>
               <div class="team-content">
+                <p>vjndeujvned</p>
                 <h3 class="title">Laura Leroy</h3>
                 <span class="post">Web Developper</span>
               </div>
@@ -93,6 +95,7 @@ include 'header.php';
                 <img src="https://phlearn.com/wp-content/uploads/2015/01/1.15.15-Harrison-Photoshop-square-Phlearn.jpg" alt="">
               </div>
               <div class="team-content">
+                <p>vjndeujvned</p>
                 <h3 class="title">Elody Octavie</h3>
                 <span class="post">Web Developper</span>
               </div>
