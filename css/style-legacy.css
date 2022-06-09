@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    background-color: #ffcc7a;
+    scrollbar-width: thin;
+    scrollbar-color:#505050 #9c9c9c;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #9c9c9c;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #505050ce; 
+    border-radius: 20px; 
+}
+
+article h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "titre";
+    background-color: #b94503;
+    margin-bottom: 10vh;
+    margin-top: 15vh;
+  }
+li{
+    margin-left: 15vh;
+}
