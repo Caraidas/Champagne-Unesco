@@ -271,7 +271,7 @@ img {
         left:0;
         margin:0;
         width: 100vw;
-        height: 35vh;
+        height: 37vh;
         background-color: #333333;
         margin-bottom: 15vh;
     }
@@ -280,7 +280,7 @@ img {
         right: 0;
         margin: 0;
         width: 100vw;
-        height: 35vh;
+        height: 37vh;
         background-color: #333333;
         margin-bottom: 15vh;
     }
@@ -308,7 +308,7 @@ img {
     }
 
     .noFirst{
-        margin-top: 35vh;
+        margin-top: 37vh;
     }
     
     .first{
