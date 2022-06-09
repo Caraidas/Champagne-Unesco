@@ -126,7 +126,7 @@
             display: none;
             flex-direction: column;
             background-color: #333333;
-            min-height: 10vh;
+            height:14vh;
             width: 100vw;
             position: absolute;
             z-index: 2;
@@ -192,6 +192,47 @@
             background-color: black;
         }
 
+        
+        .MenuServices{
+            display:none; 
+        }
+
+        .sideicons{
+            width: 80px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            position: fixed;
+            top:32%;
+            left: 0.5%;
+            z-index: 1000;
+        }
+
+        .iconimg{
+            background: rgba(94, 88, 82, 0.72);
+            width: 55px;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-bottom: 5px;
+            height: 55px;
+            transition: transform .4s;
+        }
+
+
+        .iconimg img {
+            opacity:1;
+            width: 45px;
+            height: 45px;
+        }
+
+        .iconimg:hover{
+            background: rgba(126, 121, 117, 1);
+            -ms-transform: scale(1.3); 
+            -webkit-transform: scale(1.3); 
+            transform: scale(1.3);
+        }
+
         @media (max-width:900px){
             .headerPC{
                 display: none;
@@ -199,6 +240,19 @@
 
             .headerTel{
                 display: flex;
+            }
+
+            .sideicons{
+                display:none;
+            }
+
+            .MenuServices{
+                display:flex;
+                width:100%;
+                flex-direction:row;
+                background-color:#333333;
+                height:4vh;
+                justify-content:space-evenly;
             }
         }
     </style>
@@ -218,6 +272,10 @@
             <a class='clicableTel' href="Maisons.php"><?= $maison ?></a>
             <a class='clicableTel' href="Patrimoine.php"><?= $Patrimoine ?></a>
         </div>
+        <div class="MenuServices">
+            <a class='clicableTel' href="hotel.php">Hotels</a>
+            <a class='clicableTel' href="restaurant.php">Restaurants</a>
+        </div>
     </header>
 
     <header class="headerPC">
@@ -231,7 +289,16 @@
             <a class='clicable' href="Patrimoine.php"><?= $Patrimoine ?></a>
             <a class="btnLangue" href="fonctionnels/langSwitch.php" ><?=$option?></div></a>
         </div>
-        
     </header>
+
+    
+
+    <div class= "sideicons">
+        <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
+        <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
+    </div>
+
+
+
 </body>
 </html>
