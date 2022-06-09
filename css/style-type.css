@@ -213,11 +213,7 @@ ul{
         font-weight: bold;
     }
     
-    a:nth-child(2){
-        width: 100%; 
-        text-align: center;
-        margin:auto;
-    }
+    
     
     .containercorp{
         height: 150%;
