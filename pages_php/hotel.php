@@ -1,9 +1,9 @@
 <?php include 'connexion.inc.php' ?>
 <?php include 'fonctionnels/langVerif.php';?>
 <?php if ($langue == 0){
-        $title='Hotel'; 
+        $title='Hotels'; 
     }else{
-        $title='Hostel';
+        $title='Hostels';
     }
 ?>
 
@@ -55,7 +55,3 @@
         </div>
         <?php include 'footer.php';?>
 </body>
-
-</html>
-    </body>
-    </html>
