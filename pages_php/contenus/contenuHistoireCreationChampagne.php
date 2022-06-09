@@ -9,7 +9,7 @@ $para1 = array(
     "<p>Le champagne, ou vin de champagne, est une boisson alcoolisée à base de raisins qui fut créé vers 80 avant J-C par des Romains. Vers 1660, il fut décidé que pour une meilleure conservation des arômes, il fallait mettre le Champagne en bouteille, mais c'est vers 1670 qu'un moine cellérier de l'abbaye bénédictine d'Hautvillers du nom de Dom Pérignon, révolutionna la boisson en faisant disparaître certains défauts en plus d'améliorer la qualité du vin. Le Champagne que nous connaissons actuellement ne serait rien sans les changements de Dom Pérignon.
     </p>",
 
-    "Champagne, or champagne wine, is an alcoholic beverage made from grapes that was created around 80 BC by the Romans. Around 1660, it was decided that for a better conservation of the aromas, it was necessary to bottle the Champagne, but it is around 1670 that a monk cellarer of the Benedictine abbey of Hautvillers of the name of Dom Pérignon, revolutionized the drink by making disappear certain defects in addition to improving the quality of the wine. The Champagne that we know today would be nothing without the changes of Dom Pérignon."
+    "<p>Champagne, or champagne wine, is an alcoholic beverage made from grapes that was created around 80 BC by the Romans. Around 1660, it was decided that for a better conservation of the aromas, it was necessary to bottle the Champagne, but it is around 1670 that a monk cellarer of the Benedictine abbey of Hautvillers of the name of Dom Pérignon, revolutionized the drink by making disappear certain defects in addition to improving the quality of the wine. The Champagne that we know today would be nothing without the changes of Dom Pérignon.</p>"
 );
 
 $para2 = array(
@@ -26,10 +26,10 @@ $para3 = array(
     </p>
     <p>
         Il existe plusieurs types de vins que l’on peut trouver :  
-        <ul>
-            <li>Il y a tout d'abord les vins rouges qui sont faits à partir de cépages de raisins à la peau noire. </li>
-            <li>Les vins rosés qui sont fait à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. </li>
-        </ul>
+        
+            &nbsp &nbsp-&nbsp &nbspIl y a tout d'abord les vins rouges qui sont faits à partir de cépages de raisins à la peau noire. <br>
+            &nbsp &nbsp-&nbsp &nbspLes vins rosés qui sont fait à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. <br>
+        
     </p>",
 
     "<p>
@@ -37,42 +37,42 @@ $para3 = array(
     </p>
     <p>
         There are several types of wines that can be found:  
-        <ul>
-            <li>First of all, there are the red wines which are made from grapes with black skin. </li>
-            <li>Rosé wines are made from the same grapes as red wines with the difference that the grapes are not left in contact with the skin and white wines are made from white grapes. </li>
-        </ul>
+        <br>
+            &nbsp &nbsp-&nbsp &nbspFirst of all, there are the red wines which are made from grapes with black skin. <br>
+            &nbsp &nbsp-&nbsp &nbspRosé wines are made from the same grapes as red wines with the difference that the grapes are not left in contact with the skin and white wines are made from white grapes. <br>
+        
     </p>"
 );
 
 $para4 = array(
     "<p>Les vins peuvent présenter des textures différentes entre eux : 
-        <ul> <li>On retrouve les vins tranquilles qui est tout simplement un vin qui n’est pas effervescent, </li>
-       <li>Les vins effervescents sont les vins ayant des bulles, </li>
-        <li> Les vins doux naturels qui sont vinifiés de la même façon que les vins tranquilles à la différence que le moment où les sucres se transforment en alcool, le processus de vinification est arrêté, </li>
-        <li>Les vins sucrés ont plusieurs paliers de sucrosité </li>
-        <ul>
-        <li> Demi-sec, goût de sucre léger et représentent seulement les vins blancs tranquille ou effervescents</li>
-         <li>Moelleux, goût de sucre plus présent accompagné d’une robe jaune ou dorée </li>
-         <li>Liquoreux, vin qui ont le taux de sucres le plus élevé accompagné d’une couleur ambrée</li>
+        <br> &nbsp &nbsp-&nbsp &nbspOn retrouve les vins tranquilles qui est tout simplement un vin qui n’est pas effervescent, <br>
+       &nbsp &nbsp-&nbsp &nbspLes vins effervescents sont les vins ayant des bulles, <br>
+        &nbsp &nbsp-&nbsp &nbsp Les vins doux naturels qui sont vinifiés de la même façon que les vins tranquilles à la différence que le moment où les sucres se transforment en alcool, le processus de vinification est arrêté, <br>
+        &nbsp &nbsp-&nbsp &nbspLes vins sucrés ont plusieurs paliers de sucrosité <br>
+        <br>
+        &nbsp &nbsp-&nbsp &nbsp Demi-sec, goût de sucre léger et représentent seulement les vins blancs tranquille ou effervescents<br>
+         &nbsp &nbsp-&nbsp &nbspMoelleux, goût de sucre plus présent accompagné d’une robe jaune ou dorée <br>
+         &nbsp &nbsp-&nbsp &nbspLiquoreux, vin qui ont le taux de sucres le plus élevé accompagné d’une couleur ambrée<br>
          
-        </ul>
-        <li>Les vins cuits sont différents des vins doux car lors de la conception, intervient une cuisson afin que l’eau puisse s'évaporer sans ébullition.</li>
-        </ul>
+        
+        &nbsp &nbsp-&nbsp &nbspLes vins cuits sont différents des vins doux car lors de la conception, intervient une cuisson afin que l’eau puisse s'évaporer sans ébullition.<br>
+        
      </p>",
 
-    "p>Wines can present different textures between them: 
-        <ul> <We find the still wines which is simply a wine that is not sparkling, </li>
-       <li>Sparkling wines are wines with bubbles, </li>
-        <li> The natural sweet wines which are vinified in the same way as still wines with the difference that the moment the sugars turn into alcohol, the vinification process is stopped, </li>
-        <li>Sweet wines have several levels of sweetness </li>
-        <ul>
-        <li> Medium dry, light sugar taste and represent only still or sparkling white wines</li>
-         <li>Soft, more present sugar taste with a yellow or golden color </li>
-         <li>Liquorous, wine with the highest sugar content accompanied by an amber color</li>
+    "<p>Wines can present different textures between them: 
+        <br> <We find the still wines which is simply a wine that is not sparkling, <br>
+       &nbsp &nbsp-&nbsp &nbspSparkling wines are wines with bubbles, <br>
+        &nbsp &nbsp-&nbsp &nbsp The natural sweet wines which are vinified in the same way as still wines with the difference that the moment the sugars turn into alcohol, the vinification process is stopped, <br>
+        &nbsp &nbsp-&nbsp &nbspSweet wines have several levels of sweetness <br>
+        <br>
+        &nbsp &nbsp-&nbsp &nbsp Medium dry, light sugar taste and represent only still or sparkling white wines<br>
+         &nbsp &nbsp-&nbsp &nbspSoft, more present sugar taste with a yellow or golden color <br>
+         &nbsp &nbsp-&nbsp &nbspLiquorous, wine with the highest sugar content accompanied by an amber color<br>
          
-        </ul>
-        <li>Cooked wines are different from sweet wines because during the conception, a cooking takes place so that the water can evaporate without boiling.</li>
-        </ul>
+        
+        &nbsp &nbsp-&nbsp &nbspCooked wines are different from sweet wines because during the conception, a cooking takes place so that the water can evaporate without boiling.<br>
+        
      </p>"
 );
 

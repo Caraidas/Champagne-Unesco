@@ -41,19 +41,11 @@ footer{
     font-family: Dyno;
 }
 
-footer p {
-    font-family: Dyno;
-    font-size: 20px;
-    display: flex;
-    padding-left: 15px;
-    color:white;
-}
-
 footer ul.social_icon{
     font-family:Dyno;
-    padding-left: 25px;
+    margin:auto;
+    padding:0;
 }
-
 
 
 footer .social_icon, footer .menu, footer .partenaires{
@@ -77,15 +69,24 @@ footer .social_icon li a {
     transition: 0.5s;
 }
 
+.mcn{
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    width: 12%;
+    height: auto; 
+    padding-left:0;
+}
 
-footer .partenaires  img{
+.iut{
     font-size: 2em;
     color: white;
     margin: 0 10px;
     display: inline-block;
     width: 12%;
     height: auto;
-    
+    padding-left:0;
 }
 
 div.partenaires{
@@ -139,7 +140,7 @@ footer .wave#wave1 {
 
 .container-gotop {
     
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row-reverse;
     
@@ -153,12 +154,18 @@ footer .wave#wave1 {
 }
 
 .imggotop{
-    padding-right: 20px;
-    vertical-align: middle;
-    width:120%;
-    height: auto;
+    margin-right: 30px;
+    max-width:50px;
+    height:50px;
 }
 
+.p{
+    font-family: Dyno;
+    font-size: 20px;
+    display: flex;
+    color:white;
+    margin:auto;
+}
 
 @media (max-width:650px){
     .gotop {
@@ -202,7 +209,7 @@ footer .wave#wave1 {
         }
         ?>
     </ul>
-    <p>Partenaires</p>
+    <p class="p">Partenaires</p>
     <div class="partenaires">
         <img class="mcn" src="../image/logoMCN.png">
         <img class="iut" src="../image/logouge.png">
