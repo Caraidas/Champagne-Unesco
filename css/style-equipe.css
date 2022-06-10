@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: Cicle;
     background-color: #fffae7;
