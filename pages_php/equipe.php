@@ -23,10 +23,10 @@ include 'header.php';
                 <img src="../image/paul.png" alt="">
               </div>
               <div class="team-content">
-                <p>Je m’appelle Paul LUCAS, j'ai actuellement 19 ans je suis actuellement étudiant à l'IUT de Marne la Vallée.</p>
-                <p>Les raisons pour lesquelles je suis dans ce cursus est tout d'abord parce que j'aime l'informatique depuis que j'ai commencé a en faire au lycée et je souhaite faire plus tard un métier en rapport à l'informatique.</p>
-                <p>A ce stade de l'année, j'ai pu réaliser beaucoup de projets tel que recréer le jeux-vidéo Loop-Hero en java ou alors recréer le jeu de plateau Azul en python.</p>
-                <p>Je suis quelqu'un de curieux et qui aime beaucoup travailler en équipe.</p>
+                <p>Je m’appelle Paul LUCAS, j'ai actuellement 19 ans je suis actuellement étudiant à l'IUT de Marne la Vallée.
+                Les raisons pour lesquelles je suis dans ce cursus est tout d'abord parce que j'aime l'informatique depuis que j'ai commencé a en faire au lycée et je souhaite faire plus tard un métier en rapport à l'informatique.
+                A ce stade de l'année, j'ai pu réaliser beaucoup de projets tel que recréer le jeux-vidéo Loop-Hero en java ou alors recréer le jeu de plateau Azul en python.
+                Je suis quelqu'un de curieux et qui aime beaucoup travailler en équipe.</p>
 
                 <h3 class="title">Paul Lucas</h3>
                 <span class="post">Project Manager</span>
@@ -51,7 +51,7 @@ include 'header.php';
                 <img src="../image/joshua.jpg" alt="">
               </div>
               <div class="team-content">
-                <p>vjndeujvned</p>
+                <p>Etudiant en première année de BUT informatique je me suis occupé principalement de l'aspect visuel (HTML,CSS) du site web ainsi qu'une bonne moitié du PHP. Je suis très content d'avoir pu travailler dessus et de permettre au plus grand nombre, je l'espère, la région de la Champagne. Enfin cas avoir pu faire un site en partenariat avec l'UNSECO est un grand plaisir.</p>
                 <h3 class="title">Joshua Lemoine</h3>
                 <span class="post">Web Developper</span>
               </div>
