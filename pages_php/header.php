@@ -35,11 +35,12 @@
             top: 0;
             display: flex;
             flex-direction: row;
-            background-color: #333333ce;
+            background-color: #333333;
             min-height: 11vh;
             width: 100%;
             position: absolute;
             z-index: 2;
+            opacity:0.8;
         }
 
         .titre{

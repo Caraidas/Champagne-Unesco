@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: white;
+    background-color: #fffae7;
     scrollbar-width: thin;
     scrollbar-color:#505050 #9c9c9c;
 
@@ -28,8 +28,8 @@ article h1 {
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: Cicle;
-    background-color: #b94503;
+    font-family: Dyno;
+    background-color: #505050;
     margin-bottom: 10vh;
     margin-top: 15vh;
   }

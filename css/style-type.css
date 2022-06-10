@@ -8,6 +8,7 @@ body{
     scrollbar-color:#505050 #9c9c9c;
     color: white;
     margin:0;
+    background-color: #fffae7;
 }
 
 body::-webkit-scrollbar {
