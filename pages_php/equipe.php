@@ -57,9 +57,6 @@ include 'header.php';
               </div>
               <ul class="social">
                 <li>
-                  <a href="https://www.instagram.com/kilouhardi/?hl=fr"><img src="../image/instagram.png"></a>
-                </li>
-                <li>
                   <a href="https://www.linkedin.com/in/joshua-lemoine/"><img src="../image/linkedin.png"></a>
                 </li>
                 <li>
