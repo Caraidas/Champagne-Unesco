@@ -1,3 +1,7 @@
+.head{
+    opacity:1;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -7,7 +11,7 @@ body{
     background-color: white;
     scrollbar-width: thin;
     scrollbar-color:#505050 #9c9c9c;
-
+    background-color: #fffae7;
 }
 
 h1{
