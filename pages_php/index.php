@@ -31,7 +31,7 @@
             <div class="text droite">
                 <h2>Coteaux de Champagne</h2>
                 <p>Découvrez à travers les splendides côteaux champenois la clé de la production de ce vin d'excellence</p>
-                <a href="./Coteaux.php"><button class="btn">En savoir plus</button></a>
+                <a href="./Coteaux.php"><button class="btn enSavoirPlus">En savoir plus</button></a>
             </div>
             <a href="#theme03" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
             
@@ -42,7 +42,7 @@
             <div class="text gauche">
                 <h2>Caves de Champagne</h2>
                 <p>Découvrez l'histoire de ces caves creusées dans la craie. Que se soit la cave de Mumm ou celle de Veuve Clicquot, chaque cave a ses secrets.  </p>
-                <a href="./Caves.php"><button class="btn">En savoir plus</button></a>
+                <a href="./Caves.php"><button class="btn enSavoirPlus">En savoir plus</button></a>
             </div>
             <a href="#theme04" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
         </div>
@@ -52,7 +52,7 @@
             <div class="text droite">
                 <h2>Maisons de Champagne</h2>
                 <p>Découvrez les grandes Maisons de Champagne à l’origine de la notoriété et du prestige des vins de Champagne dans le monde. </p>
-                <a href="./Maisons.php"><button class="btn">En savoir plus</button></a>
+                <a href="./Maisons.php"><button class="btn enSavoirPlus">En savoir plus</button></a>
             </div>
             <a href="#articles" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
         </div>

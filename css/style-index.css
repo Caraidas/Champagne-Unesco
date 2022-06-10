@@ -95,12 +95,14 @@ h2{
 .text{
     background-color:#505050;
     width: 40vw;
-    height: 20vw;
+    max-height: 500px;
     padding: 25px;
     margin: 10px;
     position:absolute;
     font-size: 100px;
     justify-content: space-evenly;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 10px 1px rgba(0,0,0,.48);
 }
 
 .droite{
@@ -274,6 +276,7 @@ img {
         height: 37vh;
         background-color: #333333;
         margin-bottom: 15vh;
+        border-radius: 0;
     }
 
     .droite{
@@ -283,6 +286,7 @@ img {
         height: 37vh;
         background-color: #333333;
         margin-bottom: 15vh;
+        border-radius: 0;
     }
 
     .grand_titre{
@@ -316,7 +320,12 @@ img {
         min-height: 70vh;
     }
 
-    
+    .enSavoirPlus{
+        width:98%;
+        position: absolute;
+        bottom: 10px;
+        left:1%;
+    }
 
     .cards_item{
         width: 100%;
