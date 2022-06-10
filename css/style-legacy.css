@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: #ffcc7a;
+    background-color: white;
     scrollbar-width: thin;
     scrollbar-color:#505050 #9c9c9c;
 
@@ -28,11 +28,12 @@ article h1 {
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: "titre";
+    font-family: Cicle;
     background-color: #b94503;
     margin-bottom: 10vh;
     margin-top: 15vh;
   }
-li{
-    margin-left: 15vh;
+p{
+    text-indent: 10%;
+    font-family: Cicle;
 }
