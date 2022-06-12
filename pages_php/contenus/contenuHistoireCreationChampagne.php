@@ -6,7 +6,7 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>Le champagne, ou vin de champagne, est une boisson alcoolisée à base de raisins qui fut créé vers 80 avant J-C par des Romains. Vers 1660, il fut décidé que pour une meilleure conservation des arômes, il fallait mettre le Champagne en bouteille, mais c'est vers 1670 qu'un moine cellérier de l'abbaye bénédictine d'Hautvillers du nom de Dom Pérignon, révolutionna la boisson en faisant disparaître certains défauts en plus d'améliorer la qualité du vin. Le Champagne que nous connaissons actuellement ne serait rien sans les changements de Dom Pérignon.
+    "<p>Le champagne, ou vin de champagne, est une boisson alcoolisée à base de raisins qui fut créée vers 80 avant J-C par des Romains. Vers 1660, il fut décidé que pour une meilleure conservation des arômes, il fallait mettre le Champagne en bouteille, mais c'est vers 1670 qu'un moine cellérier de l'abbaye bénédictine d'Hautvillers du nom de Dom Pérignon, révolutionna la boisson en faisant disparaître certains défauts en plus d'améliorer la qualité du vin. Le Champagne que nous connaissons actuellement ne serait rien sans les changements de Dom Pérignon.
     </p>",
 
     "<p>Champagne, or champagne wine, is an alcoholic beverage made from grapes that was created around 80 BC by the Romans. Around 1660, it was decided that for a better conservation of the aromas, it was necessary to bottle the Champagne, but it is around 1670 that a monk cellarer of the Benedictine abbey of Hautvillers of the name of Dom Pérignon, revolutionized the drink by making disappear certain defects in addition to improving the quality of the wine. The Champagne that we know today would be nothing without the changes of Dom Pérignon.</p>"
@@ -25,7 +25,7 @@ $para3 = array(
     Le résultat devra être additionné de sucre et de levures pour une seconde fermentation qui permettra de transformer le vin en vin \"effervescent\". La seconde fermentation peut varier, de 15 mois pour les champagnes bruts jusqu'à 36 mois pour obtenir un millésime. Une fois en bouteille, un remuage, manuel ou mécanique, est effectué pour faciliter l'accumulation des dépôts organiques, cela consiste à faire tourner la bouteille de gauche à droite puis à mettre la tête en bas. Les bouteilles seront gelées puis évacuées naturellement lors du dégorgement effectué par le col de la bouteille dans un liquide à une température de -25°C. Pour finir la bouteille est alors prête à recevoir un bouchon en liège pour finaliser la bouteille.
     </p>
     <p>
-        Il existe plusieurs types de vins que l’on peut trouver :  
+        Il existe plusieurs types de vins que l’on peut trouver :  <br>
         
             &nbsp &nbsp-&nbsp &nbspIl y a tout d'abord les vins rouges qui sont faits à partir de cépages de raisins à la peau noire. <br>
             &nbsp &nbsp-&nbsp &nbspLes vins rosés qui sont fait à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. <br>
