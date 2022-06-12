@@ -6,7 +6,7 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>Le champagne, ou vin de champagne, est une boisson alcoolisée à base de raisins qui fut créé vers 80 avant J-C par des Romains. Vers 1660, il fut décidé que pour une meilleure conservation des arômes, il fallait mettre le Champagne en bouteille, mais c'est vers 1670 qu'un moine cellérier de l'abbaye bénédictine d'Hautvillers du nom de Dom Pérignon, révolutionna la boisson en faisant disparaître certains défauts en plus d'améliorer la qualité du vin. Le Champagne que nous connaissons actuellement ne serait rien sans les changements de Dom Pérignon.
+    "<p>Le champagne, ou vin de champagne, est une boisson alcoolisée à base de raisins qui fut créée vers 80 avant J-C par des Romains. Vers 1660, il fut décidé que pour une meilleure conservation des arômes, il fallait mettre le Champagne en bouteille, mais c'est vers 1670 qu'un moine cellérier de l'abbaye bénédictine d'Hautvillers du nom de Dom Pérignon, révolutionna la boisson en faisant disparaître certains défauts en plus d'améliorer la qualité du vin. Le Champagne que nous connaissons actuellement ne serait rien sans les changements de Dom Pérignon.
     </p>",
 
     "<p>Champagne, or champagne wine, is an alcoholic beverage made from grapes that was created around 80 BC by the Romans. Around 1660, it was decided that for a better conservation of the aromas, it was necessary to bottle the Champagne, but it is around 1670 that a monk cellarer of the Benedictine abbey of Hautvillers of the name of Dom Pérignon, revolutionized the drink by making disappear certain defects in addition to improving the quality of the wine. The Champagne that we know today would be nothing without the changes of Dom Pérignon.</p>"
