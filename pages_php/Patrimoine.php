@@ -35,11 +35,14 @@
                 <?= $titre[$langue] ?>
 
                 <?= $para1[$langue] ?>
+                <img src = "../image/unescoflags.png">
+
+                <?= $para2[$langue] ?>
                 <img src = "../image/logo_unesco.jpg">
                 
-                <?= $para2[$langue] ?>
-                <img src="../image/perimetrecarte.jpg">
                 <?= $para3[$langue] ?>
+                <img src="../image/perimetrecarte.jpg">
+                <?= $para4[$langue] ?>
                 
                 </div>
             </div>

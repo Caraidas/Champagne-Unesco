@@ -6,13 +6,13 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>&nbsp &nbsp &nbspLa Les caves, côteaux et maisons de champagne ne sont pas les seuls éléments inscrits sur la liste du patrimoine mondial de l’UNESCO. En effet, voici un autre , un bâtiment érigé à la fin du XIXème siècle dans la ville d’Epernay: le Fort Chabrol.</p>"
+    "<p>&nbsp &nbsp &nbspLa Les caves, côteaux et maisons de champagne ne sont pas les seuls éléments inscrits sur la liste du patrimoine mondial de l’UNESCO. En effet, voici un autre , un bâtiment érigé à la fin du XIXème siècle dans la ville d’Epernay: le Fort Chabrol.</p>",
     "<p>&nbsp &nbsp &nbspThe cellars, vineyards and champagne houses are not the only elements inscribed on the UNESCO World Heritage list. Indeed, here's another, a building erected at the end of the 19th century in the town of Epernay: Fort Chabrol.</p>"
 );
 
 $para2 = array(
-    "<br><p>Achevé en 1900, le bâtiment accueillit l'école pratique de viticulture de la grande maison Moët & Chandon où furent formées des générations de jeunes Champenois. Les "brevets de Viticulture champenoise" y étaient encore décernés au début des années 1980.</p><br><p>Avec son laboratoire de recherches en viticulture et œnologie, la Maison et son "fort" joueront un rôle déterminant dans la lutte contre le phylloxéra. Le <b>phylloxéra de la vigne</b> est une sorte de pucerons ravageurs de la vigne. Le terme de phylloxéra désigne ainsi par métonymie, la maladie de la vigne causée par cet insecte.Les premières traces en sont repérées en Champagne le 6 août 1890 à Tréloup-Chassaing (Aisne), puis dans la Marne, à Mardeuil et au Mesnil-sur-Oger, en 1892.</p>"
-    "<br><p>Completed in 1900, the building housed the practical school of viticulture of the great house Moët & Chandon where generations of young Champenois were trained. The "Viticulture champenoise patents" were still awarded there in the early 1980s.</p><br><p>With its research laboratory in viticulture and oenology, the House and its "fort" will play a determining role in the fight against phylloxera. <b>Phylloxera</b> is a type of vine aphid pest. The term phylloxera is used metonymically to designate the vine disease caused by this insect. The first traces of it were spotted in Champagne on August 6, 1890 in Tréloup-Chassaing (Aisne), then in the Marne, in Mardeuil and Mesnil-sur-Oger, in 1892.</p>"
+    "<br><p>Achevé en 1900, le bâtiment accueillit l'école pratique de viticulture de la grande maison Moët & Chandon où furent formées des générations de jeunes Champenois. Les \"brevets de Viticulture champenoise\" y étaient encore décernés au début des années 1980.</p><br><p>Avec son laboratoire de recherches en viticulture et œnologie, la Maison et son \"fort\" joueront un rôle déterminant dans la lutte contre le phylloxéra. Le <b>phylloxéra de la vigne</b> est une sorte de pucerons ravageurs de la vigne. Le terme de phylloxéra désigne ainsi par métonymie, la maladie de la vigne causée par cet insecte.Les premières traces en sont repérées en Champagne le 6 août 1890 à Tréloup-Chassaing (Aisne), puis dans la Marne, à Mardeuil et au Mesnil-sur-Oger, en 1892.</p>",
+    "<br><p>Completed in 1900, the building housed the practical school of viticulture of the great house Moët & Chandon where generations of young Champenois were trained. The \"Viticulture champenoise patents\" were still awarded there in the early 1980s.</p><br><p>With its research laboratory in viticulture and oenology, the House and its \"fort\" will play a determining role in the fight against phylloxera. <b>Phylloxera</b> is a type of vine aphid pest. The term phylloxera is used metonymically to designate the vine disease caused by this insect. The first traces of it were spotted in Champagne on August 6, 1890 in Tréloup-Chassaing (Aisne), then in the Marne, in Mardeuil and Mesnil-sur-Oger, in 1892.</p>"
 );
 
 $para3 = array(
@@ -21,6 +21,6 @@ $para3 = array(
 );
 
 $para4 = array(
-    "<br><p>A ce titre, le Fort Chabrol fut le témoignage de l’œuvre collective de lutte contre le phylloxera, où se matérialise une solidarité des viticulteurs champenois dans la lutte contre l’insecte.</p>"
+    "<br><p>A ce titre, le Fort Chabrol fut le témoignage de l’œuvre collective de lutte contre le phylloxera, où se matérialise une solidarité des viticulteurs champenois dans la lutte contre l’insecte.</p>",
     "<br><p>In this respect, Fort Chabrol was a testimony to the collective work of the fight against phylloxera, where the solidarity of the Champagne winegrowers in the fight against the insect materialized</p>."
 )

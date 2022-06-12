@@ -1,3 +1,6 @@
+<?php include 'fonctionnels/langVerif.php';?>
+<?php include 'contenus/contenuFort.php';?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
