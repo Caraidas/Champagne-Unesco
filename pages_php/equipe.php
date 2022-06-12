@@ -51,7 +51,7 @@ include 'header.php';
                 <img src="../image/joshua.jpg" alt="">
               </div>
               <div class="team-content">
-                <p>Etudiant en première année de BUT informatique je me suis occupé principalement de l'aspect visuel (HTML,CSS) du site web ainsi qu'une bonne moitié du PHP. Je suis très content d'avoir pu travailler dessus et de permettre au plus grand nombre, je l'espère, la région de la Champagne. Enfin cas avoir pu faire un site en partenariat avec l'UNSECO est un grand plaisir.</p>
+                <p>Etudiant en première année de BUT informatique je me suis occupé principalement de l'aspect visuel (HTML,CSS) du site web ainsi qu'une bonne moitié du PHP. Je suis très content d'avoir pu travailler sur ce projet et de permettre au plus grand nombre, je l'espère,de decouvrir la région de la Champagne. Enfin avoir pu faire un site en partenariat avec l'UNSECO fut un grand plaisir.</p>
                 <h3 class="title">Joshua Lemoine</h3>
                 <span class="post">Développeur</span>
               </div>
