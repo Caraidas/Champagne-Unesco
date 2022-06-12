@@ -1,7 +1,7 @@
 <?php
 $titre = array(
     "<h2>Patrimoine Mondial de l'UNESCO</h2>",
-    "<h2>UNESCO World Heritage"
+    "<h2>UNESCO World Heritage</h2>"
 );
 
 $para1 = array(
