@@ -20,12 +20,12 @@ $para2 = array(
     "<h3>Le bien inscrit à l'UNESCO</h3>
     <p>&nbsp &nbsp &nbsp Depuis le 4 juillet 2015, Les Côteaux, Maisons et Caves de Champagne sont inscrits sur la liste du patrimoine mondial, regroupant les sites les plus prestigieux du monde.</p>
     <p>&nbsp &nbsp &nbsp La catégorie visée par ce patrimoine désigne un ouvrage combiné de l’Homme et de la Nature, à savoir comment une activité humaine est la source de nouveaux paysages et d’une culture particulière.
-    Ainsi « Les Coteaux, Maisons et Caves de Champagne » sont présentés comme le paysage culturel qui a donné naissance au vin de Champagne aujourd'hui tourné vers l’excellence au niveau mondial.",
+    Ainsi « Les Coteaux, Maisons et Caves de Champagne » sont présentés comme le paysage culturel qui a donné naissance au vin de Champagne aujourd'hui tourné vers l’excellence au niveau mondial.</p>",
 
     "<h3>The property registered at UNESCO</h3>
     <p>&nbsp &nbsp &nbsp Since July 4, 2015, \"Côteaux, Maisons et Caves de Champagne\" have been included on the World Heritage List, grouping the most prestigious sites in the world.</p>
     <p>&nbsp &nbsp &nbsp The category covered by this heritage refers to a combined work of Man and Nature, in fact how a human activity is the source of new landscapes and a particular culture.
-    Thus \"Coteaux, Maisons et Caves de Champagne\" are presented as the cultural landscape that gave birth to the wine of Champagne today turned to excellence at the global level.
+    Thus \"Coteaux, Maisons et Caves de Champagne\" are presented as the cultural landscape that gave birth to the wine of Champagne today turned to excellence at the global level.</p>
     "
 );
 
