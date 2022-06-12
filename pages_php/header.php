@@ -40,7 +40,7 @@
             width: 100%;
             position: absolute;
             z-index: 2;
-            opacity:0.8;
+            opacity:0.9;
         }
 
         .titre{
