@@ -18,7 +18,7 @@ $para1 = array(
 
 $para2 = array(
     "<h3>Le bien inscrit à l'UNESCO</h3>
-    <p>Depuis le 4 juillet 2015, Les Côteaux, Maisons et Caves de Champagne sont inscrit sur la liste du patrimoine mondial, regroupant les sites les plus prestigieux du monde.</p>
+    <p>Depuis le 4 juillet 2015, Les Côteaux, Maisons et Caves de Champagne sont inscrits sur la liste du patrimoine mondial, regroupant les sites les plus prestigieux du monde.</p>
     <p>La catégorie visée par ce patrimoine désigne un ouvrage combiné de l’Homme et de la Nature, à savoir comment une activité humaine est la source de nouveaux paysages et d’une culture particulière.
     Ainsi « Les Coteaux, Maisons et Caves de Champagne » sont présentés comme le paysage culturel qui a donné naissance au vin de Champagne aujourd'hui tourné vers l’excellence au niveau mondial.",
 
