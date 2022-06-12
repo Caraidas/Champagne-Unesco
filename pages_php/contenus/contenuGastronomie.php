@@ -29,11 +29,11 @@ $texte2 = array(
     </p>
 
     <p>
-        &nbsp &nbsp &nbsp De toute cette production, le champagne tire de nombreux plats. Le plus connu étant La potée champenoise à base de choux et de morceaux de porc comme du lard, un plat traditionnellement cuisiné pour les grandes occasions. Un autre plat, bien plus insolite celui-là, est l'œuf poché au champagne qui, comme son nom l’indique, est un œuf cuit dans du champagne bouillant.
+        &nbsp &nbsp &nbsp De toute cette production, le champagne tire de nombreux plats. Le plus connu étant la potée champenoise à base de choux et de morceaux de porc comme du lard, un plat traditionnellement cuisiné pour les grandes occasions. Un autre plat, bien plus insolite celui-là, est l'œuf poché au champagne qui, comme son nom l’indique, est un œuf cuit dans du champagne bouillant.
     </p>
 
     <p>
-        &nbsp &nbsp &nbsp De nombreuses charcuteries viennent aussi de champagne tel que le Boudin blanc de Rethel (qui profite du label Rouge), le jambon de reims ou l’andouillette de Troie aussi appelée andouillette véritable. Au niveau des fromages la Champagne n’est pas en reste c’est en effet la région mère de nombreux fromages de vache tel que le Brie ou le Chaource.
+        &nbsp &nbsp &nbsp De nombreuses charcuteries viennent aussi de champagne tel que le Boudin blanc de Rethel (qui profite du label Rouge), le jambon de Reims ou l’andouillette de Troie aussi appelée andouillette véritable. Au niveau des fromages la Champagne n’est pas en reste c’est en effet la région mère de nombreux fromages de vache tel que le Brie ou le Chaource.
     </p>
     ",
     "
@@ -46,16 +46,16 @@ $texte2 = array(
     </p>
 
     <p>
-        &nbsp &nbsp &nbsp Many delicatessen products also come from Champagne, such as the Boudin blanc de Rethel (which has the Red Label), the jambon de reims or the andouillette de Troie, also known as andouillette véritable. As far as cheeses are concerned, Champagne is not to be outdone, as it is the mother region of many cow's milk cheeses such as Brie or Chaource.
+        &nbsp &nbsp &nbsp Many delicatessen products also come from Champagne, such as the Boudin blanc de Rethel (which has the Red Label), the jambon de Reims or the andouillette de Troie, also known as andouillette véritable. As far as cheeses are concerned, Champagne is not to be outdone, as it is the mother region of many cow's milk cheeses such as Brie or Chaource.
     </p>
     "
 );
 
 $texte3 = array(
     "<p>
-        &nbsp &nbsp &nbsp Enfin, la Champagne possèdes aussi ses spécialitées sucrées avec le biscuit rose de reims ou la Croquignole.
+        &nbsp &nbsp &nbsp Enfin, la Champagne possèdes aussi ses spécialitées sucrées avec le biscuit rose de Reims ou la Croquignole.
     </p>",
     "<p>
-        &nbsp &nbsp &nbsp Finally, the Champagne region also has its sweet specialities with the pink biscuit from reims or the Croquignole.
+        &nbsp &nbsp &nbsp Finally, the Champagne region also has its sweet specialities with the pink biscuit from Reims or the Croquignole.
     </p>"
 );

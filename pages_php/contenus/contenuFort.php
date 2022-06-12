@@ -6,7 +6,7 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>&nbsp &nbsp &nbspLa Les caves, côteaux et maisons de champagne ne sont pas les seuls éléments inscrits sur la liste du patrimoine mondial de l’UNESCO. En effet, voici un autre , un bâtiment érigé à la fin du XIXème siècle dans la ville d’Epernay: le Fort Chabrol.</p>",
+    "<p>&nbsp &nbsp &nbspLes caves, côteaux et maisons de champagne ne sont pas les seuls éléments inscrits sur la liste du patrimoine mondial de l’UNESCO. En effet, voici un autre , un bâtiment érigé à la fin du XIXème siècle dans la ville d’Epernay: le Fort Chabrol.</p>",
     "<p>&nbsp &nbsp &nbspThe cellars, vineyards and champagne houses are not the only elements inscribed on the UNESCO World Heritage list. Indeed, here's another, a building erected at the end of the 19th century in the town of Epernay: Fort Chabrol.</p>"
 );
 
