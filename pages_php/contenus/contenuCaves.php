@@ -50,7 +50,7 @@ $para3 = array(
 $para4= array(
     "<p>
     &nbsp &nbsp &nbsp Moët et Chandon,
-    grande maison de champagne fondée en 1743 possède les plus grandes caves de Champagne creusée dans la craie champenoise.
+    grande maison de champagne fondée en 1743 possède les plus grandes caves de Champagne creusées dans la craie champenoise.
     Avec 28 km de galeries s'étendant sur plusieurs niveaux sous la grande avenue de Champagne à Epernay ,
     les bouteilles de vin mousseux sont gardées dans la fraîcheur et l’humidité afin d’obtenir une maturation lente et unique.
     </p>",
