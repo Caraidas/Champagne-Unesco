@@ -23,4 +23,4 @@ $para3 = array(
 $para4 = array(
     "<br><p>A ce titre, le Fort Chabrol fut le témoignage de l’œuvre collective de lutte contre le phylloxera, où se matérialise une solidarité des viticulteurs champenois dans la lutte contre l’insecte.</p>",
     "<br><p>In this respect, Fort Chabrol was a testimony to the collective work of the fight against phylloxera, where the solidarity of the Champagne winegrowers in the fight against the insect materialized</p>."
-)
+);
