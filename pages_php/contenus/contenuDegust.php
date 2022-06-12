@@ -1,7 +1,7 @@
 <?php
 
 $titre = array(
-    "<h2>Comment déguster un vin ?/h2>",
+    "<h2>Comment déguster un vin ?</h2>",
     "<h2>How to taste a wine?</h2>"
 );
 
