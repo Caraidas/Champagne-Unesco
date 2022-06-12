@@ -7,7 +7,7 @@
         $option="FR";
         $cave = "Cellar";
         $Coteaux = "Hillsides";
-        $Patrimoine = "Legacy";
+        $Patrimoine = "Heritage";
         $maison = "Houses";
     }else{
         $option="EN";

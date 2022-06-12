@@ -9,7 +9,7 @@ $para1 = array(
     <p>La catégorie visée par ce patrimoine désigne un ouvrage combiné de l’Homme et de la Nature, à savoir comment une activité humaine est la source de nouveaux paysages et d’une culture particulière.
     Ainsi « Les Coteaux, Maisons et Caves de Champagne » sont présentés comme le paysage culturel qui a donné naissance au vin de Champagne aujourd'hui tourné vers l’excellence au niveau mondial.",
 
-    "<p>Since July 4, 2015, \"Côteaux, Maisons et Caves de Champagne\" have been included on the World Heritage List, grouping the most prestigious sites in the world.</p>.
+    "<p>Since July 4, 2015, \"Côteaux, Maisons et Caves de Champagne\" have been included on the World Heritage List, grouping the most prestigious sites in the world.</p>
     <p>The category covered by this heritage refers to a combined work of Man and Nature, in fact how a human activity is the source of new landscapes and a particular culture.
     Thus \"Coteaux, Maisons et Caves de Champagne\" are presented as the cultural landscape that gave birth to the wine of Champagne today turned to excellence at the global level.
     "
@@ -36,10 +36,10 @@ $para2 =  array(
 
 
 $para3 = array(
-    "Les Coteaux, Maisons et Caves de Champagne sont composés de trois sites cœur dans le département de la Marne : la Colline Saint-Nicaise à Reims, les Coteaux de Cumières à Mareuil-sur-Aÿ, l’Avenue de Champagne à Epernay. Chacunes des trois catégories représente une étape essentielle du processus d’élaboration du champagne : la culture du raisin sur les coteaux, la fabrication du champagne et son vieillissement dans les caves ainsi que sa distribution dans le monde entier par l’intermédiaire des célèbres maisons de champagne.
-    C’est l’assemblage de ces trois composantes, rurale, urbaine, souterraine, transformées par la culture du Champagne, qui donne son originalité et sa crédibilité à la candidature. A travers ces 3 sites témoins, c’est bien la totalité de la zone AOC Champagne qui est concernée par l’inscription.",
-    "\"Coteaux, Maisons et Caves de Champagne\" are composed of three core sites in the Marne department: the Colline Saint-Nicaise in Reims, the Coteaux de Cumières in Mareuil-sur-Aÿ, the Avenue de Champagne in Epernay.Each of the three categories represents an essential step in the champagne making process: the cultivation of the grapes on the hillsides, the making of the champagne and its ageing in the cellars, as well as its distribution around the world through the famous champagne houses. 
-    It is the assembly of these three components, rural, urban, underground, transformed by the culture of Champagne, which gives its originality and its credibility to the candidature. Through these 3 witness sites, it is indeed the whole AOC Champagne area which is concerned by the inscription."
+    "<p>Les Coteaux, Maisons et Caves de Champagne sont composés de trois sites cœur dans le département de la Marne : la Colline Saint-Nicaise à Reims, les Coteaux de Cumières à Mareuil-sur-Aÿ, l’Avenue de Champagne à Epernay. Chacunes des trois catégories représente une étape essentielle du processus d’élaboration du champagne : la culture du raisin sur les coteaux, la fabrication du champagne et son vieillissement dans les caves ainsi que sa distribution dans le monde entier par l’intermédiaire des célèbres maisons de champagne.
+    C’est l’assemblage de ces trois composantes, rurale, urbaine, souterraine, transformées par la culture du Champagne, qui donne son originalité et sa crédibilité à la candidature. A travers ces 3 sites témoins, c’est bien la totalité de la zone AOC Champagne qui est concernée par l’inscription.</p>",
+    "<p>\"Coteaux, Maisons et Caves de Champagne\" are composed of three core sites in the Marne department: the Colline Saint-Nicaise in Reims, the Coteaux de Cumières in Mareuil-sur-Aÿ, the Avenue de Champagne in Epernay.Each of the three categories represents an essential step in the champagne making process: the cultivation of the grapes on the hillsides, the making of the champagne and its ageing in the cellars, as well as its distribution around the world through the famous champagne houses. 
+    It is the assembly of these three components, rural, urban, underground, transformed by the culture of Champagne, which gives its originality and its credibility to the candidature. Through these 3 witness sites, it is indeed the whole AOC Champagne area which is concerned by the inscription.</p>"
 );
 
 
