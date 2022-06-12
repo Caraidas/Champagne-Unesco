@@ -6,7 +6,7 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>Des premières crayères de Reims creusée entre le Xe et le XVIIIe siècle aux Galeries du XXe siècle, les caves de champagne constituent un élément phare du Patrimoine mondial de l’UNESCO. 
+    "<p>Des premières crayères de Reims creusées entre le Xe et le XVIIIe siècle aux Galeries du XXe siècle, les caves de champagne constituent un élément phare du Patrimoine mondial de l’UNESCO. 
     Le sol calcaire de champagne est idéal d'une part pour la culture de la vigne, mais l’est tout autant pour la conservation du Champagne assurant une température idéale pour la fermentation et la prise de mousse de ce merveilleux breuvage.
     <br>
     Ici, retrouvez une sélection des plus belles caves de Champagne afin de vous immerger dans la fabrication du vin mousseux.
