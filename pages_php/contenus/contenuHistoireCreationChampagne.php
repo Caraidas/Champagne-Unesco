@@ -28,7 +28,7 @@ $para3 = array(
         Il existe plusieurs types de vins que l’on peut trouver :  <br>
         
             &nbsp &nbsp-&nbsp &nbspIl y a tout d'abord les vins rouges qui sont faits à partir de cépages de raisins à la peau noire. <br>
-            &nbsp &nbsp-&nbsp &nbspLes vins rosés qui sont fait à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. <br>
+            &nbsp &nbsp-&nbsp &nbspLes vins rosés qui sont faits à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. <br>
         
     </p>",
 
