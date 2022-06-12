@@ -10,7 +10,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
-    <title>Caves</title>
+    <title>Patrimoine</title>
     <style>
         #fond{
             background-attachment: fixed;
@@ -35,24 +35,11 @@
                 <?= $titre[$langue] ?>
 
                 <?= $para1[$langue] ?>
-                <img src = "../image/cave.jpg">
+                <img src = "../image/logo_unesco.jpg">
                 
                 <?= $para2[$langue] ?>
-                <img src="../image/cavejoseph.png">
+                <img src="../image/perimetrecarte.jpg">
                 <?= $para3[$langue] ?>
-
-                <img src = "../image/moetchandon2.jpg"> 
-                <?= $para4[$langue] ?>
-                <img src = "../image/moetchandon1.jpg">
-                <?= $para5[$langue] ?>
-
-                <?= $para6[$langue] ?>
-                <img src = "../image/mumm.jpg">
-                <?= $para7[$langue] ?>
-                <img src = "../image/veuveclicquot.jpg">
-                <br> 
-                <img src = "../image/veuveclicquot2.jpg">
-                <?= $para8[$langue] ?>
                 
                 </div>
             </div>
