@@ -54,7 +54,7 @@ $text3 = array(
     </p> 
     <p> 
         &nbsp &nbsp &nbsp Dominant la Marne à l’endroit où cette dernière rentre dans la 'grande-vallé' ils offrent un magnifique panorama sur toute la région. De ces coteaux ont peut observer la ville d’Epernay ainsi que la vallée de la Marne qui portent en son sein les coteaux d’Hautvillers et d’Aÿ.<br> 
-        Même si ils sont moins profonds que ceux d’Aÿ les coteaux de Mareuil-sur-Aÿ profitent d’une myriade d’exposition au soleil différente qui permet une diversité forte quant aux aspects de la vigne.
+        Même si ils sont moins profonds que ceux d’Aÿ, les coteaux de Mareuil-sur-Aÿ profitent d’une myriade d’exposition au soleil différente qui permet une diversité forte quant aux aspects de la vigne.
     </p>",
     "<h3>The hillsides of Aÿ</h3>
     <p>
