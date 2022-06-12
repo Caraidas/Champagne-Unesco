@@ -35,16 +35,16 @@ $para3 =  array(
    "<p>&nbsp &nbsp &nbsp Pour figurer sur la Liste du patrimoine mondial, il faut satisfaire à au moins 1 des 10 critères de sélection définis par UNESCO. 
         Pour les Coteaux, Maisons et Caves de Champagne, 3 de ces critères ont été reconnus :
     <br>
-    -Le critère (iii), comme étant le résultat de savoir-faire perfectionnés au cours des générations, d’une organisation interprofessionnelle exemplaire et d’une protection de l’appellation, ainsi que du développement séculaire de relations interculturelles et d’innovations sociales.<br>
-    -Le critère (iv), qui témoigne d’une pratique viticole et vinicole perfectionnée au cours des siècles et reposant sur un bassin d’approvisionnement (le vignoble), des lieux d’élaboration (les vendangeoirs, les caves…), de commercialisation et de distribution (les Maisons), ces divers éléments étant fonctionnellement imbriqués et intrinsèquement liés au substrat (la craie) support de la vigne, facile à creuser et que l’on retrouve dans l’architecture.<br>
-    -Le critère (vi), reflet d’image symbolique unique au monde, référence universelle en termes de notoriété et de prestige, portée par les arts.</p>",
+    -Le critère (III), comme étant le résultat de savoir-faire perfectionnés au cours des générations, d’une organisation interprofessionnelle exemplaire et d’une protection de l’appellation, ainsi que du développement séculaire de relations interculturelles et d’innovations sociales.<br>
+    -Le critère (IV), qui témoigne d’une pratique viticole et vinicole perfectionnée au cours des siècles et reposant sur un bassin d’approvisionnement (le vignoble), des lieux d’élaboration (les vendangeoirs, les caves…), de commercialisation et de distribution (les Maisons), ces divers éléments étant fonctionnellement imbriqués et intrinsèquement liés au substrat (la craie) support de la vigne, facile à creuser et que l’on retrouve dans l’architecture.<br>
+    -Le critère (VI), reflet d’image symbolique unique au monde, référence universelle en termes de notoriété et de prestige, portée par les arts.</p>",
     
     "<p>&nbsp &nbsp &nbsp To be included on the World Heritage List, at least 1 of the 10 selection criteria defined by UNESCO must be met. 
     For the Coteaux, Maisons et Caves de Champagne, 3 of these criteria have been recognized:
     <br>  
-    -(iii), as the result of know-how perfected over generations, exemplary interprofessional organization and protection of the appellation, as well as the age-old development of intercultural relations and social innovations.<br>
-    -(iv), which testifies to a viticultural and vinicultural practice perfected over the centuries and based on a supply basin (the vineyard), places of elaboration (the grape harvesters, the cellars...), marketing and distribution (the Houses), these various elements being functionally intertwined and intrinsically linked to the substratum (the chalk), support of the vine, easy to dig and found in the architecture.<br>
-    -(vi), a reflection of a unique symbolic image in the world, a universal reference in terms of notoriety and prestige, carried by the arts.
+    -(III), as the result of know-how perfected over generations, exemplary interprofessional organization and protection of the appellation, as well as the age-old development of intercultural relations and social innovations.<br>
+    -(IV), which testifies to a viticultural and vinicultural practice perfected over the centuries and based on a supply basin (the vineyard), places of elaboration (the grape harvesters, the cellars...), marketing and distribution (the Houses), these various elements being functionally intertwined and intrinsically linked to the substratum (the chalk), support of the vine, easy to dig and found in the architecture.<br>
+    -(VI), a reflection of a unique symbolic image in the world, a universal reference in terms of notoriety and prestige, carried by the arts.
 </p>"
 );
 
