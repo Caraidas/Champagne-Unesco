@@ -25,7 +25,7 @@ $para3 = array(
     Le résultat devra être additionné de sucre et de levures pour une seconde fermentation qui permettra de transformer le vin en vin \"effervescent\". La seconde fermentation peut varier, de 15 mois pour les champagnes bruts jusqu'à 36 mois pour obtenir un millésime. Une fois en bouteille, un remuage, manuel ou mécanique, est effectué pour faciliter l'accumulation des dépôts organiques, cela consiste à faire tourner la bouteille de gauche à droite puis à mettre la tête en bas. Les bouteilles seront gelées puis évacuées naturellement lors du dégorgement effectué par le col de la bouteille dans un liquide à une température de -25°C. Pour finir la bouteille est alors prête à recevoir un bouchon en liège pour finaliser la bouteille.
     </p>
     <p>
-        Il existe plusieurs types de vins que l’on peut trouver :  
+        Il existe plusieurs types de vins que l’on peut trouver :  <br>
         
             &nbsp &nbsp-&nbsp &nbspIl y a tout d'abord les vins rouges qui sont faits à partir de cépages de raisins à la peau noire. <br>
             &nbsp &nbsp-&nbsp &nbspLes vins rosés qui sont fait à partir des mêmes raisins que les vins rouges à la différence que le raisin n’est pas laissé en contact avec la peau et les vins blancs qui sont quant à eux fabriqué à partir de raisins blancs. <br>
