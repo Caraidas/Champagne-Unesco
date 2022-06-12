@@ -45,7 +45,7 @@ $text2 = array(
 $text3 = array(
     "<h3>Les coteaux d'Aÿ</h3> 
     <p>
-        &nbsp &nbsp &nbsp Les coteaux d’Aÿ sont des coteaux qui font face à la vallée de la Marne, c’est un vignoble très profond. Qui s’étend sur des zones boisées aussi bien que sur des plaines inondables, composé de pente raide et d'ondulations douces le long desquelles on trouve une quasi monoculture de vigne depuis des années, témoin du savoir faire de l’endroit.
+        &nbsp &nbsp &nbsp Les coteaux d’Aÿ sont des coteaux qui font face à la vallée de la Marne, c’est un vignoble très profond qui s’étend sur des zones boisées aussi bien que sur des plaines inondables, composé de pente raide et d'ondulations douces le long desquelles on trouve une quasi monoculture de vigne depuis des années, témoin du savoir faire de l’endroit.
     </p>                
     <h3>Les coteaux de Mareuil-sur-Aÿ</h3> 
     <p>
