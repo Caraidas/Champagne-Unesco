@@ -8,11 +8,11 @@ $titre = array(
 $para1 = array(
     "<h3>Qu'est-que UNESCO?</h3>
     <p>UNESCO, Organisation des Nations unies pour l'éducation, la science et la culture, est une institution spécialisée internationale de l'Organisation des Nations unies (ONU), créée le 16 novembre 1945 à la suite des dégâts et des massacres de la Seconde Guerre mondiale. Elle a pour objectif de contribuer au maintien de la paix et de la sécurité en resserrant, par l’éducation, la science et la culture, la collaboration entre nations afin d’assurer le respect universel de la justice, de la loi, des droits de l'Homme et des libertés fondamentales pour tous.
-    UNESCO regroupe des sites exceptionnels éparpillés dans le monde entier. </p>",
+    UNESCO regroupe des sites exceptionnels éparpillés dans le monde entier.</p>",
 
     "<h3>What is UNESCO?</h3>
     <p>UNESCO, United Nations Educational, Scientific and Cultural Organization, is a specialized international agency of the United Nations (UN), created on November 16, 1945 following the devastation and massacres of World War II. Its purpose is to contribute to peace and security by promoting collaboration among nations through education, science and culture in order to further universal respect for justice, for the rule of law and for human rights and fundamental freedoms.
-    UNESCO brings together exceptional sites around the world. </p>"
+    UNESCO brings together exceptional sites around the world.</p>"
 );
 
 
