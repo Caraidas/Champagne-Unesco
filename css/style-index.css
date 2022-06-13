@@ -314,6 +314,27 @@ img {
         border-radius: 0;
     }
 
+    .special{
+        right: 0;
+        margin: 0;
+        width: 100vw;
+        height: 37vh;
+        background-color: #333333;
+        border-radius: 0;
+    }
+
+    .map{
+        right: 0;
+        margin: 0;
+        width: 100vw;
+        height: 37vh;
+        border-radius: 0;
+    }
+
+    .textAndMap{
+        height: 89vh;
+    }
+
     .grand_titre{
         width: 50vw;
         font-size: 30px;
@@ -328,6 +349,7 @@ img {
 
     .background{
         border-bottom-width:5px ;
+        height: 100%;
     }
 
     .background img{
