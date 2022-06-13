@@ -1,5 +1,5 @@
 
-
+body{background-color: #f1d6aae5;}
 
 @font-face{ 
     font-family: "Dyno";
@@ -95,4 +95,20 @@ img{
 
 #results {
     font: 44px Georgia, Serif;
+}
+
+.submitbtn{
+    color: #ffffff;
+    padding:0.8rem;
+    margin: 50px 33% 0 33%;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 33%;
+    cursor: pointer;
+    border: 1px solid #b9460391;
+    background: #b9460391;
+}
+
+.submitbtn:hover {
+    background-color: rgba(202, 150, 91, 0.856); /*changer l'opacité au hover du bouton*/
 }
