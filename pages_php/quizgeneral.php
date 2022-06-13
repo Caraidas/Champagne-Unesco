@@ -222,6 +222,31 @@
                 </div>
             
             </li>
+
+
+            <li>
+                    <h3>Quels événements ont lieu en Champagne:</h3>
+                    
+                    <div>
+                        <input type='checkbox' name='question-10-answers[]' id="question-10-answers-A" value='A' /> 
+                        <label for="question-10-answers-A">A) Marché de Noel</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="question-10-answers[]" id="question-10-answers-B" value="B" />
+                        <label for="question-10-answers-B">B) Corrida</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="question-10-answers[]" id="question-10-answers-C" value="C" />
+                        <label for="question-10-answers-C">C) Fêtes Johanniques</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="question-10-answers[]" id="question-10-answers-D" value="D" />
+                        <label for="question-10-answers-D">D) Festival de l'Ivresse</label>
+                    </div>
+                </li>
             </ol>
             
             <input type="submit" value="Submit" class="submitbtn" />
