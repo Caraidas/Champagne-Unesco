@@ -16,7 +16,7 @@
             background-position:center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url(../../image/maisonch1.jpg);
+            background-image: url(../image/maisonch1.jpg);
             position: fixed;
             width: 100vw;
             height: 100vh;
