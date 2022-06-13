@@ -297,6 +297,7 @@
     <div class= "sideicons">
         <div class="iconimg"><a href="hotel.php"><img src="../image/bed.png"></a></div>
         <div class="iconimg"><a href="restaurant.php"><img  src="../image/restaurant.png"></a></div>
+        <div class="iconimg"><a href="quizgeneral.php"><img  src="../image/quiz.png"></a></div>
     </div>
 
 
