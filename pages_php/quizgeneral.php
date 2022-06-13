@@ -144,6 +144,84 @@
                 
                 </li>
             
+                <li>
+                
+                <h3>La Champagne est reconnu patrimoine mondiale de l’Unesco:</h3>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                    <label for="question-6-answers-A">A) VRAI</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                    <label for="question-6-answers-B">B) FAUX</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>Combien de bouteilles de Champagne ont été produites en 2020?</h3>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+                    <label for="question-7-answers-A">A) 200 000</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+                    <label for="question-7-answers-B">B) 2640</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+                    <label for="question-7-answers-C">C) 231 millions</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>La surface de vigne représente approximativement:</h3>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+                    <label for="question-8-answers-A">A) 1 millions hectare</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+                    <label for="question-8-answers-B">B) 34 000 hectares</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+                    <label for="question-8-answers-C">C) 100 hectares</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+                    <label for="question-8-answers-D">D) 58 hectares</label>
+                </div>
+            
+            </li>
+
+            <li>
+            
+                <h3>Le pape Urbain II (qui lança les premières croisades) est née en Champagne:</h3>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                    <label for="question-9-answers-A">A) VRAI</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                    <label for="question-9-answers-B">B) FAUX</label>
+                </div>
+            
+            </li>
             </ol>
             
             <input type="submit" value="Submit" class="submitbtn" />
