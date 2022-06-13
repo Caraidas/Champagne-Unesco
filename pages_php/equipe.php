@@ -94,10 +94,14 @@ include 'header.php';
           <div class="col-md-3 col-sm-6">
             <div class="our-team">
               <div class="pic">
-                <img src="https://phlearn.com/wp-content/uploads/2015/01/1.15.15-Harrison-Photoshop-square-Phlearn.jpg" alt="">
+                <img src="../image/elody.jpg" alt="elody">
               </div>
               <div class="team-content">
-                <p>vjndeujvned</p>
+                <p>Étudiante de 19 ans en première année de BUT informatique, j'ai participé à la conception et au développement du site. Je me suis particulièrement occupée de la mise en page des articles, et d'une partie de la page index.
+                  J'ai notamment participé à la traduction de certains articles. Je suis une personne patiente, travailleuse et curieuse. 
+                  En espérant de tout cœur que notre site plaira à un grand nombre de personnes et leur permettront de découvrir les belles qualités que possède la région de Champagne.
+
+                </p>
                 <h3 class="title">Elody Octavie</h3>
                 <span class="post">Développeur</span>
               </div>
@@ -106,10 +110,10 @@ include 'header.php';
                   <a href=""><img src="../image/instagram.png"></a>
                 </li>
                 <li>
-                  <a href=""><img src="../image/linkedin.png"></a>
+                  <a href="https://www.linkedin.com/in/elody-octavie-9290861bb/"><img src="../image/linkedin.png"></a>
                 </li>
                 <li>
-                  <a href="" ><img src="../image/github.png"></a>
+                  <a href="https://github.com/azahar03" ><img src="../image/github.png"></a>
                 </li>
               </ul>
               
