@@ -38,25 +38,24 @@ body{background-color: #f1d6aae5;}
 
 
 .text{
-    background-color:#505050;
     width: 70%;
     height:auto;
     padding: 25px;
     margin: 10px;
     display: grid;
     font-size: 18px;
-    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
     height: 70%;
     margin: auto;
 }
 
 h1  { margin: 25px 0; 
     font-size: 35px;
-    color: #b94503;
+    color: #333333;
     font-family: Dyno; 
     text-transform: uppercase; 
     letter-spacing: 3px; 
     text-align: center;
+    border:solid 2px #333333;
 }
 
 img{
@@ -80,6 +79,15 @@ img{
 
 #quiz ol li {
    margin: 0 0 20px 0;
+   font-size: 25px;
+   font-family: Dyno-bold;
+   margin: 0 0 1px 0; 
+   color: #b94503;
+   background-color: #505050;
+   border-radius: 0.2rem;
+   box-shadow: 0 3px 10px 1px rgba(0,0,0,.48);
+   margin-bottom: 50px;
+   padding:10px
 }
 
 #quiz ol li div {
@@ -90,7 +98,7 @@ img{
     font-size: 25px;
     font-family: Dyno-bold;
     margin: 0 0 1px 0; 
-    color: #fbd393;
+    color: #b94503;
 }
 
 #results {
