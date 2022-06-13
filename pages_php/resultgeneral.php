@@ -26,6 +26,7 @@
             $answer7 = $_POST['question-7-answers'];
             $answer8 = $_POST['question-8-answers'];
             $answer9 = $_POST['question-9-answers'];
+            $answer10 = $_POST['question-10-answers'];
 
             $totalCorrect = 0;
             
@@ -38,6 +39,7 @@
             if ($answer7 == "C") { $totalCorrect++; }
             if ($answer8 == "B") { $totalCorrect++; }
             if ($answer9 == "A") { $totalCorrect++; }
+            if ($answer10[0] == "A" && $answer10[1] == "C"){$totalCorrect++;}
             
             echo "<div id='results'>$totalCorrect / 5 correct</div>";
             
