@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
     margin: 10px;
     display: grid;
     font-size: 18px;
-    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
 }
 .droite{
     top: 40px;
