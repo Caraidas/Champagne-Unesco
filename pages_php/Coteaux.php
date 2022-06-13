@@ -41,6 +41,11 @@
                 <img src = "../image/HautVillers.jpg">
 
                 <?= $text3[$langue] ?>
+                <img src = "../image/coteauAy.jpg">
+
+                <?= $text4[$langue] ?>
+                <img src = "../image/coteauMaureuil.jpg">
+
                 </div>
             </div>
         
