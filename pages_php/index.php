@@ -27,27 +27,38 @@
         </div>
 
         <div id = "theme02" class="background">
+          <div class="textAndMap">
+            <div class="text gauche">
+              <h2>Carte de Champagne</h2>
+              <p>Voici une petite carte pour vous aider à vous reperer dans cette magnifique région!</p>
+            </div>
+            <div class="carre"></div>
+          </div>
+          <a href="#theme03" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+        </div> 
+
+        <div id = "theme03" class="background">
             <img src="../image/coteauxImg.jpg" class="noFirst">
             <div class="text droite">
                 <h2>Coteaux de Champagne</h2>
                 <p>Découvrez à travers les splendides côteaux champenois la clé de la production de ce vin d'excellence</p>
                 <a href="./Coteaux.php"><button class="btn enSavoirPlus">En savoir plus</button></a>
             </div>
-            <a href="#theme03" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+            <a href="#theme04" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
             
         </div>
 
-        <div id = "theme03" class="background">
+        <div id = "theme04" class="background">
             <img src="../image/robert-linder-ti9_YXaKFcI-unsplash.jpg" class="noFirst">
             <div class="text gauche">
                 <h2>Caves de Champagne</h2>
                 <p>Découvrez l'histoire de ces caves creusées dans la craie. Que se soit la cave de Mumm ou celle de Veuve Clicquot, chaque cave a ses secrets.  </p>
                 <a href="./Caves.php"><button class="btn enSavoirPlus">En savoir plus</button></a>
             </div>
-            <a href="#theme04" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+            <a href="#theme05" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
         </div>
 
-        <div id = "theme04" class="background">
+        <div id = "theme05" class="background">
             <img src="../image/vrp.jpg" class="noFirst"> <!--https://www.flickr.com/photos/morio60/24220005104/in/photolist-CUeRGU-aqBT5N-Dqxx9s-CUeQa5-2hEDxbA-2jutPvD-2jupFS6-UxipWn-2jupFRu-DFNzA6-2cEJza5-8cqonh-2jYGwCf-TxgvaT-DWt9q8-pe6HB4-pmodAj-vp7Mku-qGUPMr-2jYCPxH-DFkeLS-DPqMW9-aqBUcE-bNSakv-bNSapK-bNSada-bNSavT-aH4D6v-bzXvYW-eKvnbw-psQimi-eKiKgH-pbhJ4v-25RGzM1-bS9DST-pcUway-bLvgKx-bxAzVj-bxAzGG-pcUwaJ-p8qL9C-9fvynT-p8qLf9-gB2pgw-2jupFwb-2jutNwp-pdKidf-pdmrgn-dfxcCM-bS9DNT-->
             <div class="text droite">
                 <h2>Maisons de Champagne</h2>
