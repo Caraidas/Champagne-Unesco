@@ -100,14 +100,14 @@ h2{
     flex-direction: row;
 }
 
-.carre{
-    width:400px;
-    height: 400px;
-    background-color: #333333;
+.map{
     position: absolute;
-    bottom: 20vh;
-    right: 5vw;
-    margin:20px;
+    right: 10vw;
+    bottom:10vw;
+    width: 45vw;
+    height: 65vh;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 10px 1px rgba(0,0,0,.48);
 }
 
 .text{
@@ -131,6 +131,13 @@ h2{
 .gauche{
     left: 1vw;
     margin: 20vh;
+}
+
+.special{
+    left:0;
+    margin-top: 15vh;
+    margin-left: 11vh;
+    width: 35vw;
 }
 
 @font-face{ 

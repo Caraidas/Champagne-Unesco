@@ -28,11 +28,17 @@
 
         <div id = "theme02" class="background">
           <div class="textAndMap">
-            <div class="text gauche">
+            <div class="text special">
               <h2>Carte de Champagne</h2>
-              <p>Voici une petite carte pour vous aider à vous reperer dans cette magnifique région!</p>
+              <p>
+                Voici une petite carte pour vous aider à vous reperer dans cette magnifique région! <br>
+                Vous y trouverez plein d'information comme: <br>
+                &nbsp &nbsp &nbsp -les villes, <br> 
+                &nbsp &nbsp &nbsp -les caves,<br> 
+                &nbsp &nbsp &nbsp -et tout les autres points d'interets !
+              </p>
             </div>
-            <div class="carre"><iframe src="https://www.google.com/maps/d/embed?mid=1QM-A-cjzMFIajLKO4sJcDIdxzQ31kSY&ehbc=2E312F" width="640" height="480"></iframe></div>
+            <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1QM-A-cjzMFIajLKO4sJcDIdxzQ31kSY&ehbc=2E312F"></iframe>
           </div>
           <a href="#theme03" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
         </div> 
