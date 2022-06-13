@@ -23,6 +23,12 @@
             width: 100vw;
             height: 100vh;
             filter:blur(2px);
+            
+        }
+        @media (max-width:650px){
+            #fond{
+                display:none
+            }
         }
     </style>
 </head>
