@@ -1,0 +1,98 @@
+
+
+
+@font-face{ 
+    font-family: "Dyno";
+    src: url(../police/Dyno-Regular.ttf)
+    }
+
+
+@font-face{ 
+    font-family: "Dyno-bold";
+    src: url(../police/Dyno-Bold.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle";
+    src: url(../police/Cicle\ Semi.ttf)
+    }
+
+@font-face{ 
+    font-family: "Cicle_Gordita";
+    src: url(../police/Cicle\ Gordita.ttf)
+    }
+
+
+
+
+.containercorp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top:30vh;
+    height: auto;
+    width: 100%;
+    background-color: #33333300;
+}
+
+
+.text{
+    background-color:#505050;
+    width: 70%;
+    height:auto;
+    padding: 25px;
+    margin: 10px;
+    display: grid;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.300) 5px 5px;
+    height: 70%;
+    margin: auto;
+}
+
+h1  { margin: 25px 0; 
+    font-size: 35px;
+    color: #b94503;
+    font-family: Dyno; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height:100px;
+}
+
+#quiz input {
+    vertical-align: middle;
+}
+
+
+#quiz label{
+    font: 18px Cicle;
+    color: white;
+}
+
+#quiz ol {
+   margin: 10% 20% 10px 20%;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+
+#quiz h3 {
+    font-size: 25px;
+    font-family: Dyno-bold;
+    margin: 0 0 1px 0; 
+    color: #fbd393;
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}
