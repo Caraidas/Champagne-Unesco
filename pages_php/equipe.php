@@ -99,7 +99,7 @@ include 'header.php';
               <div class="team-content">
                 <p>Étudiante de 19 ans en première année de BUT informatique, j'ai participé à la conception et au développement du site. Je me suis particulièrement occupée de la mise en page des articles, et d'une partie de la page index.
                   J'ai notamment participé à la traduction de certains articles. Je suis une personne patiente, travailleuse et curieuse. 
-                  En espérant de tout cœur que notre site plaira à un grand nombre de personnes et leur permettront de découvrir les belles qualités que possèdent la région de Champagne.
+                  En espérant de tout cœur que notre site plaira à un grand nombre de personnes et leur permettront de découvrir les belles qualités que possède la région de Champagne.
 
                 </p>
                 <h3 class="title">Elody Octavie</h3>
