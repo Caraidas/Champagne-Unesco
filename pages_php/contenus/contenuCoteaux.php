@@ -57,8 +57,8 @@ $text4 = array(
     "<h3>Les coteaux de Mareuil-sur-Aÿ</h3> 
     <p>
         &nbsp &nbsp &nbsp Au cœur de 25 km de caves sous la ville de Reims, près de 25 Millions de bouteilles sont entreposées, éclairées par un joli jeu de lumière. Ainsi Mumm abrite plus de deux siècles de savoir faire et de passion.
-        Depuis la création de la cuvée “Cordon rouge” , Mumm est reconnue dans le monde entier comme une maison d'excellence. Pour l’histoire,  c’est en novembre 1876 que Georges Hermann Mumm (G.H.)  fait enregistrer la dénomination « Cordon Rouge » pour une partie de ses bouteilles. Sur la bouteille, ce ruban rouge apparenté à la Légion d’honneur française est devenu le signe distinctif d’excellence incarnant l’esprit de la Maison de champagne. 
-        &nbsp &nbsp &nbsp Dominant la Marne à l’endroit où cette dernière rentre dans la 'grande-vallé' ils offrent un magnifique panorama sur toute la région. De ces coteaux ont peut observer la ville d’Epernay ainsi que la vallée de la Marne qui portent en son sein les coteaux d’Hautvillers et d’Aÿ.<br> 
+        Depuis la création de la cuvée “Cordon rouge” , Mumm est reconnue dans le monde entier comme une maison d'excellence. Pour l’histoire,  c’est en novembre 1876 que Georges Hermann Mumm (G.H.)  fait enregistrer la dénomination « Cordon Rouge » pour une partie de ses bouteilles. Sur la bouteille, ce ruban rouge apparenté à la Légion d’honneur française est devenu le signe distinctif d’excellence incarnant l’esprit de la Maison de champagne.</p>
+        <p>&nbsp &nbsp &nbsp Dominant la Marne à l’endroit où cette dernière rentre dans la 'grande-vallé' ils offrent un magnifique panorama sur toute la région. De ces coteaux ont peut observer la ville d’Epernay ainsi que la vallée de la Marne qui portent en son sein les coteaux d’Hautvillers et d’Aÿ.
         Même si ils sont moins profonds que ceux d’Aÿ, les coteaux de Mareuil-sur-Aÿ profitent d’une myriade d’exposition au soleil différente qui permet une diversité forte quant aux aspects de la vigne.
     </p>",
     "<h3>The hillsides of Mareuil-sur-Aÿ</h3>
