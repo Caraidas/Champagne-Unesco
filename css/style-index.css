@@ -321,7 +321,7 @@ img {
         height: 37vh;
         background-color: #333333;
         border-radius: 0;
-    }
+        }
 
     .map{
         right: 0;
@@ -333,6 +333,8 @@ img {
 
     .textAndMap{
         height: 89vh;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .grand_titre{
