@@ -120,3 +120,22 @@ img{
 .submitbtn:hover {
     background-color: rgba(202, 150, 91, 0.856); /*changer l'opacité au hover du bouton*/
 }
+
+
+@media (max-width:650px){
+    .text{
+        width: 100vw;
+        font-size: 25px;
+        font-size: 15px;
+        height: 100%;
+    }
+
+    #quiz ol li {
+        width:80vw;
+     }
+    
+    #quiz ol{
+        margin:0;
+        padding:0;
+    }
+}
