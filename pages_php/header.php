@@ -276,6 +276,7 @@
         <div class="MenuServices">
             <a class='clicableTel' href="hotel.php">Hotels</a>
             <a class='clicableTel' href="restaurant.php">Restaurants</a>
+            <a class='clicableTel' href="quizgeneral.php">Quizz</a>
         </div>
     </header>
 
