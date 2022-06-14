@@ -1,3 +1,5 @@
+<?php include 'fonctionnels/langVerif.php';?>
+
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8" />
@@ -23,25 +25,84 @@
             && isset($_POST['question-9-answers']) 
             && isset($_POST['question-10-answers'])){
                 $answer1 = $_POST['question-1-answers'];
-                $para1 = "";
+                $para1 = array("<p>réponse: Chalon-En-Champagne</p>
+                <p>C’est à Chalon-en-Champagne que l’on trouve la préfecture, c’est donc le chef-lieu de la Champagne.</p>
+                ",
+                "<p>answer: Chalon-En-Champagne</p>
+                <p>Chalon-en-Champagne is home to the prefecture, so it’s  the main townl of the Champagne region.</p>
+                ");
+
                 $answer2 = $_POST['question-2-answers'];
-                $para2 = "";
+                $para2 = array("<p>réponse: une AOC</p>
+                <p>A la différence de l’AOP qui est une appellation européenne, l'AOC est francais. Cette appellation permet de protéger la tradition française et évite que n’importe qui puisse appeler son vin pétillant du Champagne. </p>
+                ",
+                "<p>answer: an AOC</p>
+                <p>Unlike the AOP which is a European appellation, the AOC is French. This appellation protects the French tradition and prevents anyone from calling their sparkling wine Champagne.</p>
+                ");
+
                 $answer3 = $_POST['question-3-answers'];
-                $para3 = "";
+                $para3 = array("<p>réponse: Non (+1 million d’habitants)</p>
+                <p>Et non, le champagne n’est pas une région très peuplée. Pas très étonnant lorsque l’on connaît la place que prennent les vignes champenoises. </p>
+                ",
+                "<p>answer: No (+1 million inhabitants)</p>
+                <p>And no, Champagne is not a very populated region. Not very surprising when you know how much space the Champagne vineyards take up.</p>
+                ");
+
                 $answer4 = $_POST['question-4-answers'];
-                $para4 = "";
+                $para4 = array("<p>réponse: Vrai</p>
+                <p>Et oui La région est mondialement reconnue, elle fut intégrée en 2015. Pour plus de détail un article patrimoine existe sur notre site-web.</p>
+                ",
+                "<p>answer: True</p>
+                <p>Yes, the region is world-renowned and was included in 2015. For more details a heritage article exists on our website.</p>
+                ");
+
                 $answer5 = $_POST['question-5-answers'];
-                $para5 = "";
+                $para5 = array("<p>réponse: Nord-Est</p>
+                <p>Cette belle région se trouve à 120 km de Paris. Elle s’étend de Maux jusqu'à Epernay et empiète sur la Marne, l’Aube  et l’Aisne</p>
+                ",
+                "<p>answer: North East</p>
+                <p>This beautiful region is 120 km from Paris. It stretches from Maux to Epernay and encroaches on the Marne, Aube and Aisne</p>
+                ");
+
                 $answer6 = $_POST['question-6-answers'];
-                $para6 = "";
+                $para6 = array("<p>réponses : Marché de Noël / Fêtes Johanniques.</p>
+                <p>Comme partout, il y a de grands marchés de Noël en Champagne. MAis le plus intéressant sont les fêtes johanniques qui rendent hommage à Jeanne d’Arc et qui fêtent le sacre de Charle VII à Reims, une des plus grandes villes de la Champagne.</p>
+                ",
+                "<p>answers: Christmas Market / Johannine Festivals.</p>
+                <p>Like everywhere, there are great Christmas markets in Champagne. But the most interesting are the Johannine festivals which pay tribute to Joan of Arc and celebrate the coronation of Charles VII in Reims, one of the largest cities in Champagne.</p>
+                ");
+
                 $answer7 = $_POST['question-7-answers'];
-                $para7 = "";
+                $para7 = array("<p>réponse: Bleu Or Blanc</p>
+                <p>Ces couleurs représentent bien la Champagne n’est-ce pas? Les deux bandes dorées qu’on appellent des potences symbolisent toutes les châtellenies qui ont constitué le comté de Champagne.</p>
+                ",
+                "<p>answer: Blue Gold White</p>
+                <p>These colours represent Champagne, don't they? The two golden stripes, which are called “potence”, symbolise all the castellanies that made up the county of Champagne.</p>
+                ");
+
                 $answer8 = $_POST['question-8-answers'];
-                $para8 = "";
+                $para8 = array("<p>réponse: 231 millions</p>
+                <p>Ce nombre impressionnant montre bien la dévotion des artisans champenois à leur beau métier.</p>
+                ",
+                "<p>answer: 231 million</p>
+                <p>This impressive number shows the devotion of the Champagne craftsmen to their beautiful profession.</p>
+                ");
+
                 $answer9 = $_POST['question-9-answers'];
-                $para9 = "";
+                $para9 = array("<p>réponse:34 000 hectares</p>
+                <p>Soit 84 000 terrains de foot. C’est beaucoup.</p>
+                ",
+                "<p>answer:34,000 hectares</p>
+                <p>That's 84,000 football fields. That's a lot of land.</p>
+                ");
+
                 $answer10 = $_POST['question-10-answers'];
-                $para10 = "";
+                $para10 = array("<p>réponse: Vrai</p>
+                <p>Et oui la pape Urbain II est née en 1042 à Lagery, commune Champenoise.</p>
+                ",
+                "<p>answer: True</p>
+                <p>Yes, Pope Urban II was born in 1042 in Lagery, a commune in the Champagne region.</p>
+                ");
             }
             $totalCorrect = 0;
 ?>
@@ -84,6 +145,7 @@
                 
                 
                 </li>
+                <?= $para1[$langue] ?>
 
                 <?php 
                     if (isset($answer2)){
@@ -116,7 +178,8 @@
                     </div>
                 
                 </li>
-                
+                <?= $para2[$langue] ?>
+
                 <?php 
                     if (isset($answer3)){
                         if ($answer3 == "C") { $totalCorrect++; $color = "green"; }
@@ -143,6 +206,7 @@
                     </div>
                 
                 </li>
+                <?= $para3[$langue] ?>
                 
                 <?php 
                     if (isset($answer4)){
@@ -175,6 +239,7 @@
                     </div>
                 
                 </li>
+                <?= $para4[$langue] ?>
                 
                 <?php 
                     if (isset($answer5)){
@@ -207,6 +272,7 @@
                     </div>
                 
                 </li>
+                <?= $para5[$langue] ?>
             
                 <?php 
                     if (isset($answer6)){
@@ -229,6 +295,7 @@
                 </div>
             
             </li>
+            <?= $para6[$langue] ?>
 
             <?php 
                 if (isset($answer7)){
@@ -256,6 +323,7 @@
                 </div>
             
             </li>
+            <?= $para7[$langue] ?>
 
             <?php 
                 if (isset($answer8)){
@@ -288,6 +356,7 @@
                 </div>
             
             </li>
+            <?= $para8[$langue] ?>
 
             <?php 
                 if (isset($answer9)){
@@ -310,6 +379,7 @@
                 </div>
             
             </li>
+            <?= $para9[$langue] ?>
 
             <?php 
                 if (isset($answer10)){
@@ -339,7 +409,8 @@
                         <input type="checkbox" name="question-10-answers[]" id="question-10-answers-D" value="D" />
                         <label for="question-10-answers-D">D) Festival de l'Ivresse</label>
                     </div>
-                </li>
+            </li>
+            <?= $para1[$langue] ?>
             </ol>
             
             <input type="submit" value="Submit" class="submitbtn" />
