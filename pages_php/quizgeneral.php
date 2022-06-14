@@ -206,17 +206,20 @@
                     ?>
             </li>
             
+            <li>
+                <?php 
+                if(isset($score)){
+                    $score = array( "<p>Vous avez un score de" .$totalCorrect."/10 !</p>",  "<p>You have a score of" .$totalCorrect."/10 !</p>");
+                    echo $score[$langue];
+                }
+                else{
+                    echo  "<input type='submit' value='Submit' class='submitbtn' />";
+                }
+                ?>
+            </li>
             </ol>
             
-            <?php 
-            if(isset($score)){
-                $score = array( "<p>Vous avez un score de" .$totalCorrect."/10 !</p>",  "<p>You have a score of" .$totalCorrect."/10 !</p>");
-                echo $score[$langue];
-            }
-            else{
-                echo  "<input type='submit' value='Submit' class='submitbtn' />";
-            }
-            ?>
+           
 
 		</form>
         </div>
