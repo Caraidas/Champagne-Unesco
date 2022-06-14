@@ -23,7 +23,7 @@
             if ($langue == 0){
               echo '<div class="grand_titre">Coteaux Maisons  <br> Caves de Champagne</div>';
             } else {
-              echo '<div class="grand_titre">Slopes Houses  <br> Cellars of Champagne</div>';
+              echo '<div class="grand_titre">Hillsides Houses  <br> Cellars of Champagne</div>';
             }
             ?>
             
