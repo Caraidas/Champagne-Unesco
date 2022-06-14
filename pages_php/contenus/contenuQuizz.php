@@ -418,7 +418,7 @@ $question9=array(
         </div>
 
     "
-),
+);
 
 $question10=array(
     "
