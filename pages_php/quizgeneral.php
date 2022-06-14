@@ -206,7 +206,7 @@
                     ?>
             </li>
             
-            <div class="score">
+            <div class="score grey">
                 <?php 
                 if(isset($score)){
                     $score = array( "<p>Vous avez un score de " .$totalCorrect."/10 !</p>",  "<p>You have a score of " .$totalCorrect."/10 !</p>");
