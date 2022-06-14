@@ -36,6 +36,7 @@
                 $answer9 = $_POST['question-9-answers'];
                 $answer10 = $_POST['question-10-answers'];
                 
+                $score = "";
             }
             $totalCorrect = 0;
 ?>
@@ -207,8 +208,16 @@
             
             </ol>
             
-            <input type="submit" value="Submit" class="submitbtn" />
-		
+            <?php 
+            if(isset($score)){
+                $phrase = array( "<p>Vous avez un score de" .$totalCorrect."/10 !</p>",  "<p>You have a score of" .$totalCorrect."/10 !</p>");
+                <?=$phrase[$langue]?>
+            }
+            else{
+                echo  "<input type='submit' value='Submit' class='submitbtn' />";
+            }
+            ?>
+            
 		</form>
         </div>
 	</div>
