@@ -49,7 +49,7 @@ $text3 = array(
     </p>",
     "<h3>The hillsides of Aÿ</h3>
     <p>
-        &nbsp &nbsp &nbsp The slopes of Aÿ are hillsides that face the Marne valley, it is a very deep vineyard. It extends over wooded areas as well as flood plains, composed of steep slopes and gentle undulations along which there has been an almost monoculture of vines for many years, a testimony to the know-how of the place.
+        &nbsp &nbsp &nbsp The hillsides of Aÿ are hillsides that face the Marne valley, it is a very deep vineyard. It extends over wooded areas as well as flood plains, composed of steep hillsides and gentle undulations along which there has been an almost monoculture of vines for many years, a testimony to the know-how of the place.
     </p>"
 );
 
@@ -65,7 +65,7 @@ $text4 = array(
     
     <p>
         &nbsp &nbsp &nbsp Overlooking the Marne at the point where it enters the 'Grande Vallée', they offer a magnificent panorama of the whole region. From these hillsides you can see the town of Epernay as well as the Marne valley, which contains the hillsides of Hautvillers and Aÿ.
-        Even if they are less deep than those of Aÿ, the slopes of Mareuil-sur-Aÿ benefit from a myriad of different sun exposures which allow a strong diversity in the aspects of the vine.        
+        Even if they are less deep than those of Aÿ, the hillsides of Mareuil-sur-Aÿ benefit from a myriad of different sun exposures which allow a strong diversity in the aspects of the vine.        
     </p>
     "
 
