@@ -83,7 +83,6 @@ img{
    font-family: Dyno-bold;
    margin: 0 0 1px 0; 
    color: #b94503;
-   background-color: #505050;
    border-radius: 0.2rem;
    box-shadow: 0 3px 10px 1px rgba(0,0,0,.48);
    margin-bottom: 50px;
@@ -96,6 +95,10 @@ img{
 
 .green{
     background-color: rgb(144, 242, 144);
+}
+
+.grey{
+    background-color: #505050;
 }
 
 #quiz ol li div {

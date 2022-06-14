@@ -11,7 +11,7 @@
 <?php include 'header.php';?>
 <?php
 
-            $color="";
+            $color="grey";
             if (isset($_POST['question-1-answers']) 
             && isset($_POST['question-2-answers']) 
             && isset($_POST['question-3-answers']) 
