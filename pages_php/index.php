@@ -78,7 +78,7 @@
                 <a href="./Coteaux.php"><button class="btn enSavoirPlus">En savoir plus</button></a>';
               }else{
                 echo'
-                <h2>Slopes of Champagne</h2>
+                <h2>Hillsides of Champagne</h2>
                 <p>Discover through the splendid Champagne hillsides the key to the production of this wine of excellence</p>
                 <a href="./Coteaux.php"><button class="btn enSavoirPlus">Read more</button></a>';
               }
