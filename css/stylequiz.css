@@ -90,6 +90,14 @@ img{
    padding:10px
 }
 
+.red{
+    background-color: rgb(252, 138, 138);
+}
+
+.green{
+    background-color: rgb(144, 242, 144);
+}
+
 #quiz ol li div {
    padding: 4px 0;
 }

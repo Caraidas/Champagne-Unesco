@@ -8,18 +8,61 @@
 </head>
 
 <body>
-
 <?php include 'header.php';?>
+<?php
+
+            $color="";
+            if (isset($_POST['question-1-answers']) 
+            && isset($_POST['question-2-answers']) 
+            && isset($_POST['question-3-answers']) 
+            && isset($_POST['question-4-answers']) 
+            && isset($_POST['question-5-answers']) 
+            && isset($_POST['question-6-answers']) 
+            && isset($_POST['question-7-answers']) 
+            && isset($_POST['question-8-answers']) 
+            && isset($_POST['question-9-answers']) 
+            && isset($_POST['question-10-answers'])){
+                $answer1 = $_POST['question-1-answers'];
+                $para1 = "";
+                $answer2 = $_POST['question-2-answers'];
+                $para2 = "";
+                $answer3 = $_POST['question-3-answers'];
+                $para3 = "";
+                $answer4 = $_POST['question-4-answers'];
+                $para4 = "";
+                $answer5 = $_POST['question-5-answers'];
+                $para5 = "";
+                $answer6 = $_POST['question-6-answers'];
+                $para6 = "";
+                $answer7 = $_POST['question-7-answers'];
+                $para7 = "";
+                $answer8 = $_POST['question-8-answers'];
+                $para8 = "";
+                $answer9 = $_POST['question-9-answers'];
+                $para9 = "";
+                $answer10 = $_POST['question-10-answers'];
+                $para10 = "";
+            }
+            $totalCorrect = 0;
+?>
+
 	<div class = "containercorp">
         <div class = "text">
 		<h1>Quiz général sur la région de Champagne</h1>
 		
-		<form action="resultgeneral.php" method="post" id="quiz">
+		<form action="quizgeneral.php" method="post" id="quiz">
 		
             <ol>
-            
-                <li>
-                
+                <?php 
+                    if (isset($answer1)){ echo"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+                        if ($answer1 == "A") { $totalCorrect++; $color = "green"; echo"bbbbb";  } 
+                        else{ $color ="red"; echo "cccccccc";} 
+                    }else{
+                        echo "$answer";
+                        echo"dddddddddddd";
+                    }
+                ?>
+                <li class = <?=$color?>>
                     <h3>Quel est le chef-lieu de la Champagne?</h3>
                     
                     <div>
@@ -44,8 +87,12 @@
                 
                 
                 </li>
-                
-                <li>
+
+                <?php 
+                    if ($answer2 == "B") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+                ?>
+                <li class = <?=$color?>>
                 
                     <h3>Le champagne (boisson) est :</h3>
                     
@@ -71,7 +118,11 @@
                 
                 </li>
                 
-                <li>
+                <?php 
+                    if ($answer3 == "C") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+                ?>
+                <li class = <?=$color?>>
                 
                     <h3>La champagne est elle une grande région?</h3>
                     
@@ -92,7 +143,11 @@
                 
                 </li>
                 
-                <li>
+                <?php 
+                    if ($answer4 == "B") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+                ?>
+                <li class = <?=$color?>>
                 
                     <h3>La champagne est situé:</h3>
                     
@@ -118,7 +173,11 @@
                 
                 </li>
                 
-                <li>
+                <?php 
+                    if ($answer5 == "A") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+                ?>
+                <li class = <?=$color?>>
                 
                     <h3>Les couleurs  de la région Champagne-Ardennes sont:</h3>
                     
@@ -144,7 +203,11 @@
                 
                 </li>
             
-                <li>
+                <?php 
+                    if ($answer6 == "A") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+                ?>
+                <li class = <?=$color?>>
                 
                 <h3>La Champagne est reconnu patrimoine mondiale de l’Unesco:</h3>
                 
@@ -160,7 +223,11 @@
             
             </li>
 
-            <li>
+            <?php 
+                    if ($answer7 == "C") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+            ?>
+            <li class = <?=$color?>>
             
                 <h3>Combien de bouteilles de Champagne ont été produites en 2020?</h3>
                 
@@ -181,7 +248,11 @@
             
             </li>
 
-            <li>
+            <?php 
+                    if ($answer8 == "B") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+            ?>
+            <li class = <?=$color?>>
             
                 <h3>La surface de vigne représente approximativement:</h3>
                 
@@ -207,7 +278,11 @@
             
             </li>
 
-            <li>
+            <?php 
+                    if ($answer9 == "A") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+            ?>
+            <li class = <?=$color?>>
             
                 <h3>Le pape Urbain II (qui lança les premières croisades) est née en Champagne:</h3>
                 
@@ -223,8 +298,11 @@
             
             </li>
 
-
-            <li>
+            <?php 
+                    if ($answer10[0] == "A" && $answer10[1] == "C") { $totalCorrect++; $color = "green"; }
+                    else{ $color ="red";} 
+            ?>
+            <li class = <?=$color?>>
                     <h3>Quels événements ont lieu en Champagne:</h3>
                     
                     <div>
@@ -255,7 +333,6 @@
         </div>
 	</div>
     <?php include 'footer.php';?>
-
 </body>
 
 </html>
