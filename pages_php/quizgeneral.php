@@ -32,7 +32,7 @@
                 $answer5 = $_POST['question-5-answers'];
                 $answer6 = $_POST['question-6-answers'];
                 $answer7 = $_POST['question-7-answers'];
-                $answer8 = $_POST['question-8-answers']
+                $answer8 = $_POST['question-8-answers'];
                 $answer9 = $_POST['question-9-answers'];
                 $answer10 = $_POST['question-10-answers'];
                 
@@ -42,7 +42,7 @@
 
 	<div class = "containercorp">
         <div class = "text">
-		<h1>Quiz général sur la région de Champagne</h1>
+		<?= $titre[$langue]?>
 		
 		<form action="quizgeneral.php" method="post" id="quiz">
 		
@@ -55,7 +55,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question1[$langue]?>
-                    <?= $para1[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para1[$langue]; 
+                    }
+                    ?>
                 </li>
                 
 
@@ -67,7 +71,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question2[$langue]?>
-                    <?= $para2[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para2[$langue]; 
+                    }
+                    ?>
                 </li>
                 
 
@@ -79,7 +87,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question3[$langue]?>
-                    <?= $para3[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para3[$langue]; 
+                    }
+                    ?>
                 </li>
                 
                 <?php 
@@ -90,7 +102,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question4[$langue]?>
-                    <?= $para4[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para4[$langue]; 
+                    }
+                    ?>
                 </li>
                
                 
@@ -102,7 +118,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question5[$langue]?>
-                    <?= $para5[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para5[$langue]; 
+                    }
+                    ?>
                 </li>
                 
             
@@ -114,7 +134,11 @@
                 ?>
                 <li class = <?=$color?>>
                     <?=$question6[$langue]?>
-                    <?= $para6[$langue] ?>
+                    <?php
+                    if($color!="grey"){
+                        echo $para6[$langue]; 
+                    }
+                    ?>
                 </li>
             
 
@@ -126,7 +150,11 @@
             ?>
             <li class = <?=$color?>>
                 <?=$question7[$langue]?>
-                <?= $para7[$langue] ?>
+                <?php
+                    if($color!="grey"){
+                        echo $para7[$langue]; 
+                    }
+                    ?>
             </li>
             
 
@@ -138,7 +166,11 @@
             ?>
             <li class = <?=$color?>>
                 <?=$question8[$langue]?>
-                <?= $para8[$langue] ?>
+                <?php
+                    if($color!="grey"){
+                        echo $para8[$langue]; 
+                    }
+                    ?>
             </li>
             
 
@@ -150,7 +182,11 @@
             ?>
             <li class = <?=$color?>>
                 <?=$question9[$langue]?>
-                <?= $para9[$langue] ?>
+                <?php
+                    if($color!="grey"){
+                        echo $para9[$langue]; 
+                    }
+                    ?>
             </li>
             
 
@@ -162,7 +198,11 @@
             ?>
             <li class = <?=$color?>>
                 <?=$question10[$langue]?>
-                <?= $para10[$langue] ?>
+                <?php
+                    if($color!="grey"){
+                        echo $par10[$langue]; 
+                    }
+                    ?>
             </li>
             
             </ol>

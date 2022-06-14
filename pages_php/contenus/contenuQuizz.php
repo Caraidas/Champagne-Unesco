@@ -1,5 +1,10 @@
 <?php
 
+$titre=array(
+    "<h1>Quiz général sur la région de Champagne</h1>",
+    "<h1>General quiz on the Champagne region</h1>"
+);
+
 $question1 = array(
     "
         <h3>Quel est le chef-lieu de la Champagne?</h3>
@@ -425,22 +430,22 @@ $question10=array(
         <h3>Quels événements ont lieu en Champagne:</h3>
         
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A' required/> 
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A'/> 
             <label for='question-10-answers-A'>A) Marché de Noel</label>
         </div>
         
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-B' value='B' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-B' value='B'/>
             <label for='question-10-answers-B'>B) Corrida</label>
         </div>
 
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-C' value='C' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-C' value='C'/>
             <label for='question-10-answers-C'>C) Fêtes Johanniques</label>
         </div>
 
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-D' value='D' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-D' value='D'/>
             <label for='question-10-answers-D'>D) Festival de l'Ivresse</label>
         </div>
     ",
@@ -448,22 +453,22 @@ $question10=array(
         <h3>What events take place in Champagne?</h3>
         
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A' required/> 
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A' /> 
             <label for='question-10-answers-A'>A) Christmas Market</label>
         </div>
         
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-B' value='B' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-B' value='B' />
             <label for='question-10-answers-B'>B) Bullfighting</label>
         </div>
 
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-C' value='C' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-C' value='C' />
             <label for='question-10-answers-C'>C) The Johannine festivities</label>
         </div>
 
         <div>
-            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-D' value='D' required/>
+            <input type='checkbox' name='question-10-answers[]' id='question-10-answers-D' value='D' />
             <label for='question-10-answers-D'>D) Festival of Drunkenness</label>
         </div>
     "
