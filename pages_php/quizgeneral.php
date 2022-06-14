@@ -143,9 +143,9 @@
                         <label for="question-2-answers-D">D) Epernay</label>
                     </div>
                 
-                
+                    <?= $para1[$langue] ?>
                 </li>
-                <?= $para1[$langue] ?>
+                
 
                 <?php 
                     if (isset($answer2)){
@@ -176,9 +176,9 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) Juste un vin qui fait des bulles</label>
                     </div>
-                
+                    <?= $para2[$langue] ?>
                 </li>
-                <?= $para2[$langue] ?>
+                
 
                 <?php 
                     if (isset($answer3)){
@@ -204,9 +204,9 @@
                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
                         <label for="question-3-answers-C">C) Non (+1 million d'habitants)</label>
                     </div>
+                    <?= $para3[$langue] ?>
                 
                 </li>
-                <?= $para3[$langue] ?>
                 
                 <?php 
                     if (isset($answer4)){
@@ -237,9 +237,9 @@
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
                         <label for="question-4-answers-D">D)  <img src="../image/cartequiz4.png"></label>
                     </div>
-                
+                    <?= $para4[$langue] ?>
                 </li>
-                <?= $para4[$langue] ?>
+               
                 
                 <?php 
                     if (isset($answer5)){
@@ -270,9 +270,9 @@
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
                         <label for="question-5-answers-D">D) Rouge Jaune</label>
                     </div>
-                
+                    <?= $para5[$langue] ?>
                 </li>
-                <?= $para5[$langue] ?>
+                
             
                 <?php 
                     if (isset($answer6)){
@@ -293,9 +293,9 @@
                     <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
                     <label for="question-6-answers-B">B) FAUX</label>
                 </div>
-            
+                <?= $para6[$langue] ?>
             </li>
-            <?= $para6[$langue] ?>
+            
 
             <?php 
                 if (isset($answer7)){
@@ -321,9 +321,9 @@
                     <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
                     <label for="question-7-answers-C">C) 231 millions</label>
                 </div>
-            
+                <?= $para7[$langue] ?>
             </li>
-            <?= $para7[$langue] ?>
+            
 
             <?php 
                 if (isset($answer8)){
@@ -354,9 +354,9 @@
                     <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
                     <label for="question-8-answers-D">D) 58 hectares</label>
                 </div>
-            
+                <?= $para8[$langue] ?>
             </li>
-            <?= $para8[$langue] ?>
+            
 
             <?php 
                 if (isset($answer9)){
@@ -377,9 +377,9 @@
                     <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
                     <label for="question-9-answers-B">B) FAUX</label>
                 </div>
-            
+                <?= $para9[$langue] ?>
             </li>
-            <?= $para9[$langue] ?>
+            
 
             <?php 
                 if (isset($answer10)){
@@ -409,8 +409,9 @@
                         <input type="checkbox" name="question-10-answers[]" id="question-10-answers-D" value="D" />
                         <label for="question-10-answers-D">D) Festival de l'Ivresse</label>
                     </div>
+                <?= $para10[$langue] ?>
             </li>
-            <?= $para1[$langue] ?>
+            
             </ol>
             
             <input type="submit" value="Submit" class="submitbtn" />
