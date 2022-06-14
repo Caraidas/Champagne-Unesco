@@ -1,5 +1,5 @@
 <?php include 'fonctionnels/langVerif.php';?>
-<?php include 'contenus/contenuQuiz.php';?>
+<?php include 'contenus/contenuQuizz.php';?>
 
 <!DOCTYPE html>
 <head>
