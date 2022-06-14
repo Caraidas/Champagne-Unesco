@@ -496,49 +496,49 @@ $para3 = array("<p>réponse: Non (+1 million d’habitants)</p>
 <p>And no, Champagne is not a very populated region. Not very surprising when you know how much space the Champagne vineyards take up.</p>
 ");
 
-$para4 = array("<p>réponse: Vrai</p>
+$para6 = array("<p>réponse: Vrai</p>
 <p>Et oui La région est mondialement reconnue, elle fut intégrée en 2015. Pour plus de détail un article patrimoine existe sur notre site-web.</p>
 ",
 "<p>answer: True</p>
 <p>Yes, the region is world-renowned and was included in 2015. For more details a heritage article exists on our website.</p>
 ");
 
-$para5 = array("<p>réponse: Nord-Est</p>
+$para4 = array("<p>réponse: Nord-Est</p>
 <p>Cette belle région se trouve à 120 km de Paris. Elle s’étend de Maux jusqu'à Epernay et empiète sur la Marne, l’Aube  et l’Aisne</p>
 ",
 "<p>answer: North East</p>
 <p>This beautiful region is 120 km from Paris. It stretches from Maux to Epernay and encroaches on the Marne, Aube and Aisne</p>
 ");
 
-$para6 = array("<p>réponses : Marché de Noël / Fêtes Johanniques.</p>
+$para10 = array("<p>réponses : Marché de Noël / Fêtes Johanniques.</p>
 <p>Comme partout, il y a de grands marchés de Noël en Champagne. MAis le plus intéressant sont les fêtes johanniques qui rendent hommage à Jeanne d’Arc et qui fêtent le sacre de Charle VII à Reims, une des plus grandes villes de la Champagne.</p>
 ",
 "<p>answers: Christmas Market / Johannine Festivals.</p>
 <p>Like everywhere, there are great Christmas markets in Champagne. But the most interesting are the Johannine festivals which pay tribute to Joan of Arc and celebrate the coronation of Charles VII in Reims, one of the largest cities in Champagne.</p>
 ");
 
-$para7 = array("<p>réponse: Bleu Or Blanc</p>
+$para5 = array("<p>réponse: Bleu Or Blanc</p>
 <p>Ces couleurs représentent bien la Champagne n’est-ce pas? Les deux bandes dorées qu’on appellent des potences symbolisent toutes les châtellenies qui ont constitué le comté de Champagne.</p>
 ",
 "<p>answer: Blue Gold White</p>
 <p>These colours represent Champagne, don't they? The two golden stripes, which are called “potence”, symbolise all the castellanies that made up the county of Champagne.</p>
 ");
 
-$para8 = array("<p>réponse: 231 millions</p>
+$para7 = array("<p>réponse: 231 millions</p>
 <p>Ce nombre impressionnant montre bien la dévotion des artisans champenois à leur beau métier.</p>
 ",
 "<p>answer: 231 million</p>
 <p>This impressive number shows the devotion of the Champagne craftsmen to their beautiful profession.</p>
 ");
 
-$para9 = array("<p>réponse:34 000 hectares</p>
+$para8 = array("<p>réponse:34 000 hectares</p>
 <p>Soit 84 000 terrains de foot. C’est beaucoup.</p>
 ",
 "<p>answer:34,000 hectares</p>
 <p>That's 84,000 football fields. That's a lot of land.</p>
 ");
 
-$para10 = array("<p>réponse: Vrai</p>
+$para9 = array("<p>réponse: Vrai</p>
 <p>Et oui la pape Urbain II est née en 1042 à Lagery, commune Champenoise.</p>
 ",
 "<p>answer: True</p>

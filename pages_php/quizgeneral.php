@@ -206,7 +206,7 @@
                     ?>
             </li>
             
-            <li>
+            <div class="score">
                 <?php 
                 if(isset($score)){
                     $score = array( "<p>Vous avez un score de" .$totalCorrect."/10 !</p>",  "<p>You have a score of" .$totalCorrect."/10 !</p>");
@@ -216,7 +216,7 @@
                     echo  "<input type='submit' value='Submit' class='submitbtn' />";
                 }
                 ?>
-            </li>
+            </div>
             </ol>
             
            
