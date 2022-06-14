@@ -54,12 +54,9 @@
 		
             <ol>
                 <?php 
-                    if (isset($answer1)){ echo"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-                        if ($answer1 == "A") { $totalCorrect++; $color = "green"; echo"bbbbb";  } 
-                        else{ $color ="red"; echo "cccccccc";} 
-                    }else{
-                        echo "$answer";
-                        echo"dddddddddddd";
+                    if (isset($answer1)){
+                        if ($answer1 == "A") { $totalCorrect++; $color = "green";} 
+                        else{ $color ="red";} 
                     }
                 ?>
                 <li class = <?=$color?>>
@@ -89,8 +86,10 @@
                 </li>
 
                 <?php 
-                    if ($answer2 == "B") { $totalCorrect++; $color = "green"; }
-                    else{ $color ="red";} 
+                    if (isset($answer2)){
+                        if ($answer2 == "B") { $totalCorrect++; $color = "green"; }
+                        else{ $color ="red";} 
+                    }
                 ?>
                 <li class = <?=$color?>>
                 
@@ -119,8 +118,10 @@
                 </li>
                 
                 <?php 
-                    if ($answer3 == "C") { $totalCorrect++; $color = "green"; }
-                    else{ $color ="red";} 
+                    if (isset($answer3)){
+                        if ($answer3 == "C") { $totalCorrect++; $color = "green"; }
+                        else{ $color ="red";} 
+                    }
                 ?>
                 <li class = <?=$color?>>
                 
@@ -144,8 +145,10 @@
                 </li>
                 
                 <?php 
-                    if ($answer4 == "B") { $totalCorrect++; $color = "green"; }
-                    else{ $color ="red";} 
+                    if (isset($answer4)){
+                        if ($answer4 == "B") { $totalCorrect++; $color = "green"; }
+                        else{ $color ="red";} 
+                    }
                 ?>
                 <li class = <?=$color?>>
                 
@@ -174,8 +177,10 @@
                 </li>
                 
                 <?php 
-                    if ($answer5 == "A") { $totalCorrect++; $color = "green"; }
-                    else{ $color ="red";} 
+                    if (isset($answer5)){
+                        if ($answer5 == "A") { $totalCorrect++; $color = "green"; }
+                        else{ $color ="red";} 
+                    }
                 ?>
                 <li class = <?=$color?>>
                 
@@ -204,8 +209,10 @@
                 </li>
             
                 <?php 
-                    if ($answer6 == "A") { $totalCorrect++; $color = "green"; }
-                    else{ $color ="red";} 
+                    if (isset($answer6)){
+                        if ($answer6 == "A") { $totalCorrect++; $color = "green"; }
+                        else{ $color ="red";} 
+                    }
                 ?>
                 <li class = <?=$color?>>
                 
@@ -224,8 +231,10 @@
             </li>
 
             <?php 
+                if (isset($answer7)){
                     if ($answer7 == "C") { $totalCorrect++; $color = "green"; }
                     else{ $color ="red";} 
+                }
             ?>
             <li class = <?=$color?>>
             
@@ -249,8 +258,10 @@
             </li>
 
             <?php 
+                if (isset($answer8)){
                     if ($answer8 == "B") { $totalCorrect++; $color = "green"; }
                     else{ $color ="red";} 
+                }
             ?>
             <li class = <?=$color?>>
             
@@ -279,8 +290,10 @@
             </li>
 
             <?php 
+                if (isset($answer9)){
                     if ($answer9 == "A") { $totalCorrect++; $color = "green"; }
                     else{ $color ="red";} 
+                }
             ?>
             <li class = <?=$color?>>
             
@@ -299,8 +312,10 @@
             </li>
 
             <?php 
+                if (isset($answer10)){
                     if ($answer10[0] == "A" && $answer10[1] == "C") { $totalCorrect++; $color = "green"; }
                     else{ $color ="red";} 
+                }
             ?>
             <li class = <?=$color?>>
                     <h3>Quels événements ont lieu en Champagne:</h3>
