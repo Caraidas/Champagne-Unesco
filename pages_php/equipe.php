@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devic-width, initial-scale=1,0">
     <link rel="stylesheet" href="../css/style-equipe.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/logoOnglet.png">
     
 
 <body>

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
 	
 	<title>Quiz</title>
-	
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/logoOnglet.png">
 	<link rel="stylesheet" type="text/css" href="../css/stylequiz.css" />
 </head>
 
