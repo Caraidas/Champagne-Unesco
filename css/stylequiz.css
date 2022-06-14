@@ -101,8 +101,17 @@ img{
     background-color: #505050;
 }
 
-#quiz ol li div {
+#quiz ol li div{
    padding: 4px 0;
+   font-size: 15px;
+   font-family: Dyno-bold;
+   color:white;
+}
+
+#quiz ol li p{
+   font-size: 15px;
+   font-family: Dyno;
+   color:black;
 }
 
 #quiz h3 {
