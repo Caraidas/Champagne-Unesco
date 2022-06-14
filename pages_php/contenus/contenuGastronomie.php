@@ -1,4 +1,10 @@
 <?php
+$titre = array(
+    "Gastronomie Champenoise",
+    "Champagne Gastronomy"
+);
+
+
 $texte1 = array(
     "<h2>Gastronomie Champenoise</h2>
     <p>
@@ -10,7 +16,7 @@ $texte1 = array(
     </p>
     ",
     "
-    <h2>Gastronomie Champenoise</h2>
+    <h2>Champagne Gastronomy</h2>
     <p>
         &nbsp &nbsp &nbsp You all know Champagne, of course. This sparkling wine comes from the region of the same name. But do you know all the other specialities of this French region? No? <br>
         Well, this article is for you. 

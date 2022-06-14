@@ -69,7 +69,7 @@ $para5 = array(
     These endless galleries intersect, creating a real underground labyrinth. 
     Walking through the darkness of these galleries, we can observe the traces of the tools that cut this chalk with a faint glow of light barely illuminating the bottles so that they keep their authentic taste.    
     </p>
-    <h3>Caves de Champagne Mumm</h3>
+    <h3>Champagne Cellars : Mumm</h3>
     "
 );
 

@@ -102,7 +102,7 @@
                 echo'
                 <h2>Champagne cellars</h2>
                 <p>Discover the history of these cellars dug in the chalk. Whether it is the Mumm cellar or the Veuve Clicquot cellar, each cellar has its secrets.</p>
-                <a href="./Coteaux.php"><button class="btn enSavoirPlus">Read more</button></a>';
+                <a href="./Caves.php"><button class="btn enSavoirPlus">Read more</button></a>';
               }
               ?>
                 
@@ -122,7 +122,7 @@
                 echo'
                 <h2>Champagne Houses</h2>
                 <p>Discover the great Champagne Houses at the origin of the fame and prestige of Champagne wines in the world.</p>
-                <a href="./Coteaux.php"><button class="btn enSavoirPlus">Read more</button></a>';
+                <a href="./Maisons.php"><button class="btn enSavoirPlus">Read more</button></a>';
               }
               ?>
                 
@@ -177,7 +177,7 @@
                 } else {
                   echo '<h2 class="card_title">How to taste a wine?</h2>
                   <p class="card_text">Knowing how to taste your champagne is essential to get the best experience possible.</p>
-                  <a href="./artisanat.php"><button class="btn">Read more</button></a>';
+                  <a href="./Dégustation.php"><button class="btn">Read more</button></a>';
                 }
                 ?>
                 
@@ -196,7 +196,7 @@
                 } else {
                   echo '<h2 class="card_title">History of the creation of the champagne</h2>
                   <p class="card_text">From Dom Pérignon to today, learn all about the history of the making of this exquisite beverage.</p>
-                  <a href="./artisanat.php"><button class="btn">Read more</button></a>';
+                  <a href="./HistoireCreationChampagne.php"><button class="btn">Read more</button></a>';
                 }
                 ?>
                 
@@ -215,7 +215,7 @@
                 } else {
                   echo '<h2 class="card_title">Reims Cathedral</h2>
                   <p class="card_text">Discover the history of one of the historical monuments of the city of Reims!</p>
-                  <a href="./artisanat.php"><button class="btn">Read more</button></a>';
+                  <a href="./CathédraleReims.php"><button class="btn">Read more</button></a>';
                 }
                 ?>
                 
@@ -234,7 +234,7 @@
                 } else {
                   echo '<h2 class="card_title">Gastronomy in Champagne-Ardenne</h2>
                   <p class="card_text">Champagne-Ardennes has a rich and incredible local gastronomy!</p>
-                  <a href="./artisanat.php"><button class="btn">Read more</button></a>';
+                  <a href="./Gastronomie.php"><button class="btn">Read more</button></a>';
                 }
                 ?>
               </div>
@@ -252,7 +252,7 @@
                 } else {
                   echo '<h2 class="card_title">Fort Chabrol</h2>
                   <p class="card_text">Discover this building filled with history and listed as a UNESCO World Heritage Site!</p>
-                  <a href="./artisanat.php"><button class="btn">Read more</button></a>';
+                  <a href="./FortChabrol.php"><button class="btn">Read more</button></a>';
                 }
                 ?>
               </div>
