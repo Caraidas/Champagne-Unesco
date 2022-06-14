@@ -189,7 +189,7 @@ footer .wave#wave1 {
 
     <ul class="social_icon">
         <ul class="social_icon">
-            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com/people/Champ-Unesco/100080044387142/"><ion-icon name="logo-facebook"></ion-icon></a></li>
             <li><a href="https://instagram.com/champunesco?utm_medium=copy_link"><ion-icon name="logo-instagram"></ion-icon></a></li>
         </ul>
     </ul>
