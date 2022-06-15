@@ -6,15 +6,15 @@ $titre = array(
 );
 
 $para1 = array(
-    "<p>Des premières crayères de Reims creusées entre le Xe et le XVIIIe siècle aux Galeries du XXe siècle, les caves de champagne constituent un élément phare du Patrimoine mondial de l’UNESCO. 
-    Le sol calcaire de champagne est idéal d'une part pour la culture de la vigne, mais l’est tout autant pour la conservation du Champagne assurant une température idéale pour la fermentation et la prise de mousse de ce merveilleux breuvage.
+    "<p>Des premières crayères de Reims creusées entre le Xe et le XVIIIe siècle aux Galeries du XXe siècle, les caves de Champagne constituent un élément phare du Patrimoine mondial de l’UNESCO. 
+    Le sol calcaire de Champagne est idéal d'une part pour la culture de la vigne, mais l’est tout autant pour la conservation du champagne assurant une température idéale pour la fermentation et la prise de mousse de ce merveilleux breuvage.
     <br>
     Ici, retrouvez une sélection des plus belles caves de Champagne afin de vous immerger dans la fabrication du vin mousseux.
     </p>
     <h3>Caves Joseph Perrier, Châlons-en-Champagne</h3>",
 
-    "<p>&nbsp &nbsp &nbsp From the first chalk pits in Reims dug between the 10th and 18th centuries to the galleries of the 20th century, the champagne cellars are a key element of UNESCO's World Heritage. 
-    The limestone soil of Champagne is ideal for the cultivation of the vine, but also for the conservation of Champagne, ensuring an ideal temperature for the fermentation and the setting of foam of this marvelous beverage.
+    "<p>&nbsp &nbsp &nbsp From the first chalk pits in Reims dug between the 10th and 18th centuries to the galleries of the 20th century, the Champagne cellars are a key element of UNESCO's World Heritage. 
+    The limestone soil of Champagne is ideal for the cultivation of the vine, but also for the conservation of champagne, ensuring an ideal temperature for the fermentation and the setting of foam of this marvelous beverage.
     <br>
     Here you will find a selection of the most beautiful Champagne cellars to immerse yourself in the making of sparkling wine.
     </p>
