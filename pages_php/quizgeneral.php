@@ -44,7 +44,7 @@
                 $answer7 = $_POST['question-7-answers'];
                 $answer8 = $_POST['question-8-answers'];
                 $answer9 = $_POST['question-9-answers'];
-                $answer10 = $_POST['question-10-answers']
+                $answer10 = $_POST['question-10-answers'];
                 $answer11 = $_POST['question-11-answers'];
                 $answer12 = $_POST['question-12-answers'];
                 $answer13 = $_POST['question-13-answers'];
@@ -382,7 +382,7 @@
            
                 <?php 
                 if(isset($score)){
-                    $score = array( " <div class='score grey'> <p>Vous avez un score de " .$totalCorrect."/20 !</p></div>",   "<div class='score grey'> <p>You have a score of " .$totalCorrect."/10 !</p></div>");
+                    $score = array( " <div class='score grey'> <p>Vous avez un score de " .$totalCorrect."/20 !</p></div>",   "<div class='score grey'> <p>You have a score of " .$totalCorrect."/20 !</p></div>");
                     echo $score[$langue];
                 }
                 else{

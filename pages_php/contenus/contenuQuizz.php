@@ -427,7 +427,7 @@ $question9=array(
 
 $question10=array(
     "
-        <h3>Quels événements ont lieu en Champagne:</h3>
+        <h3>Quels événements ont lieu en Champagne? (Plusieurs réponses possibles):</h3>
         
         <div>
             <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A'/> 
@@ -450,7 +450,7 @@ $question10=array(
         </div>
     ",
     "
-        <h3>What events take place in Champagne?</h3>
+        <h3>What events take place in Champagne? (Several answers possible)</h3>
         
         <div>
             <input type='checkbox' name='question-10-answers[]' id='question-10-answers-A' value='A' /> 
@@ -491,7 +491,7 @@ $question11=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-11-answers' id='question-11-answers-C' value='C'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-C' value='C'/>
             <label for='question-11-answers-C'>C) La Maison Laurent-Perrier</label>
         </div>
 
@@ -543,7 +543,7 @@ $question12=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-12-answers' id='question-12-answers-C' value='C'/>
+            <input type='radio' name='question-12-answers' id='question-12-answers-C' value='C'/>
             <label for='question-12-answers-C'>C) De la cire d’abeille</label>
         </div>
 
@@ -581,7 +581,7 @@ $question12=array(
 
 $question13=array(
     "
-        <h3>Lors de la révolution industrielle les industries qui se sont le plus développés (hors champagne) sont:</h3>
+        <h3>Lors de la révolution industrielle les industries qui se sont le plus développés (hors champagne) sont (Plusieurs réponses possibles):</h3>
         
         <div>
             <input type='checkbox' name='question-13-answers[]' id='question-13-answers-A' value='A'/> 
@@ -604,7 +604,7 @@ $question13=array(
         </div>
     ",
     "
-    <h3>During the industrial revolution the industries that have developed the most (except the champagne industry) are:</h3>
+    <h3>During the industrial revolution the industries that have developed the most (except the champagne industry) are (Several answers possible):</h3>
     
     <div>
         <input type='checkbox' name='question-13-answers[]' id='question-13-answers-A' value='A'/> 
@@ -631,49 +631,49 @@ $question13=array(
 
 $question14=array(
     "
-        <h3>Que signifie le terme \"tranquille\" pour parler de vin?</h3>
+        <h3>Que signifie le terme \"tranquille\" pour parler de vin?(Plusieurs réponses possibles)</h3>
         
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-A' value='A'/> 
-            <label for='question-13-answers-A'>A) Mousseux</label>
+            <label for='question-14-answers-A'>A) Mousseux</label>
         </div>
         
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-B' value='B'/>
-            <label for='question-13-answers-B'>B) Blanc</label>
+            <label for='question-14-answers-B'>B) Blanc</label>
         </div>
 
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-C' value='C'/>
-            <label for='question-13-answers-C'>C) Qui vient de subir la fermentation alcoolique</label>
+            <label for='question-14-answers-C'>C) Qui vient de subir la fermentation alcoolique</label>
         </div>
 
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-D' value='D'/>
-            <label for='question-13-answers-D'>D) Ne forme pas de bulles</label>
+            <label for='question-14-answers-D'>D) Ne forme pas de bulles</label>
         </div>
     ",
     "
-        <h3>What does the term \"quiet\" mean when talking about wine?</h3>
+        <h3>What does the term \"quiet\" mean when talking about wine?(Several answers possible)</h3>
         
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-A' value='A'/> 
-            <label for='question-13-answers-A'>A) Sparkling</label>
+            <label for='question-14-answers-A'>A) Sparkling</label>
         </div>
         
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-B' value='B'/>
-            <label for='question-13-answers-B'>B) White</label>
+            <label for='question-14-answers-B'>B) White</label>
         </div>
 
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-C' value='C'/>
-            <label for='question-13-answers-C'>C) Which has just undergone alcoholic fermentation</label>
+            <label for='question-14-answers-C'>C) Which has just undergone alcoholic fermentation</label>
         </div>
 
         <div>
             <input type='checkbox' name='question-14-answers[]' id='question-14-answers-D' value='D'/>
-            <label for='question-13-answers-D'>D) It does not form bubbles</label>
+            <label for='question-14-answers-D'>D) It does not form bubbles</label>
         </div>
     ",
 );
@@ -694,7 +694,7 @@ $question15=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-15-answers' id='question-15-answers-C' value='C'/>
+            <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C'/>
             <label for='question-15-answers-C'>C) Melchior</label>
         </div>
 
@@ -717,7 +717,7 @@ $question15=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-15-answers' id='question-15-answers-C' value='C'/>
+        <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C'/>
         <label for='question-15-answers-C'>C) Melchior</label>
     </div>
 
@@ -745,7 +745,7 @@ $question16=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-16-answers' id='question-16-answers-C' value='C'/>
+            <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C'/>
             <label for='question-16-answers-C'>C) entre 8° et 10°</label>
         </div>
 
@@ -768,7 +768,7 @@ $question16=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-16-answers' id='question-16-answers-C' value='C'/>
+        <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C'/>
         <label for='question-16-answers-C'>C) between 8° and 10°</label>
     </div>
 
@@ -796,7 +796,7 @@ $question17=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-17-answers' id='question-17-answers-C' value='C'/>
+            <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C'/>
             <label for='question-17-answers-C'>C) Transformer le jus de raisin en vin mousseux</label>
         </div>
 
@@ -819,7 +819,7 @@ $question17=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-17-answers' id='question-17-answers-C' value='C'/>
+        <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C'/>
         <label for='question-17-answers-C'>C) Transforming grape juice into sparkling wine</label>
     </div>
 
@@ -847,7 +847,7 @@ $question18=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-18-answers' id='question-18-answers-C' value='C'/>
+            <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C'/>
             <label for='question-18-answers-C'>C) La température de conservation</label>
         </div>
 
@@ -870,7 +870,7 @@ $question18=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-18-answers' id='question-18-answers-C' value='C'/>
+        <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C'/>
         <label for='question-18-answers-C'>C) The storage temperature</label>
     </div>
 
@@ -897,7 +897,7 @@ $question19=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-19-answers' id='question-19-answers-C' value='C'/>
+            <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C'/>
             <label for='question-19-answers-C'>C) Une sorte de paille permettant de boire un dosage parfait de la première gorgée</label>
         </div>
     ",
@@ -915,7 +915,7 @@ $question19=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-19-answers' id='question-19-answers-C' value='C'/>
+        <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C'/>
         <label for='question-19-answers-C'>C) A kind of straw allowing to drink a perfect dosage from the first sip</label>
     </div>
     "
@@ -938,7 +938,7 @@ $question20=array(
         </div>
 
         <div>
-            <input type='checkbox' name='question-20-answers' id='question-20-answers-C' value='C'/>
+            <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C'/>
             <label for='question-20-answers-C'>C) 500</label>
         </div>
 
@@ -961,7 +961,7 @@ $question20=array(
     </div>
 
     <div>
-        <input type='checkbox' name='question-20-answers' id='question-20-answers-C' value='C'/>
+        <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C'/>
         <label for='question-20-answers-C'>C) 500</label>
     </div>
 
