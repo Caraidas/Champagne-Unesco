@@ -386,7 +386,9 @@
                     echo $score[$langue];
                 }
                 else{
-                    echo  "<input type='submit' value='Submit' class='submitbtn' />";
+                    $submit = array('Envoyer', 'Submit');
+                    $value = $submit[$langue];
+                    echo  "<input type='submit' value='$value' class='submitbtn' />";
                 }
                 ?>
             
