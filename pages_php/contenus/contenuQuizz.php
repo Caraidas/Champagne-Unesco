@@ -481,22 +481,22 @@ $question11=array(
         <h3>Quelle est la plus ancienne maison de Champagne?</h3>
         
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-A' value='A'/> 
+            <input type='radio' name='question-11-answers' id='question-11-answers-A' value='A' required/> 
             <label for='question-11-answers-A'>A) La Maison Pommery</label>
         </div>
         
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-B' value='B'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-B' value='B' required/>
             <label for='question-11-answers-B'>B) La Maison Moët et Chandon</label>
         </div>
 
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-C' value='C'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-C' value='C' required/>
             <label for='question-11-answers-C'>C) La Maison Laurent-Perrier</label>
         </div>
 
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-D' value='D'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-D' value='D' required/>
             <label for='question-11-answers-D'>D) La Maison Ruinart</label>
         </div>
     ",
@@ -504,22 +504,22 @@ $question11=array(
         <h3>What is the oldest Champagne house?</h3>
         
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-A' value='A'/> 
+            <input type='radio' name='question-11-answers' id='question-11-answers-A' value='A' required/> 
             <label for='question-11-answers-A'>A) Pommery's House</label>
         </div>
         
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-B' value='B'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-B' value='B' required/>
             <label for='question-11-answers-B'>B) Moët & Chandon' House</label>
         </div>
 
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-C' value='C'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-C' value='C' required/>
             <label for='question-11-answers-C'>C) Laurent-Perrier's House</label>
         </div>
 
         <div>
-            <input type='radio' name='question-11-answers' id='question-11-answers-D' value='D'/>
+            <input type='radio' name='question-11-answers' id='question-11-answers-D' value='D' required/>
             <label for='question-11-answers-D'>D) Ruinart's House</label>
         </div>
 
@@ -533,22 +533,22 @@ $question12=array(
         <h3>Pour un procédé plus propre et esthétique, Dom Pérignon à eu l’idée de boucher des bouteilles de vin avec:</h3>
         
         <div>
-            <input type='radio' name='question-12-answers' id='question-12-answers-A' value='A'/> 
+            <input type='radio' name='question-12-answers' id='question-12-answers-A' value='A' required/> 
             <label for='question-12-answers-A'>A) Un bouchon en liège</label>
         </div>
         
         <div>
-            <input type='radio' name='question-12-answers' id='question-12-answers-B' value='B'/>
+            <input type='radio' name='question-12-answers' id='question-12-answers-B' value='B' required/>
             <label for='question-12-answers-B'>B) Des chevilles de bois garnies d'étoupe imbibée d'huile</label>
         </div>
 
         <div>
-            <input type='radio' name='question-12-answers' id='question-12-answers-C' value='C'/>
+            <input type='radio' name='question-12-answers' id='question-12-answers-C' value='C' required/>
             <label for='question-12-answers-C'>C) De la cire d’abeille</label>
         </div>
 
         <div>
-            <input type='radio' name='question-12-answers' id='question-12-answers-D' value='D'/>
+            <input type='radio' name='question-12-answers' id='question-12-answers-D' value='D' required/>
             <label for='question-12-answers-D'>D) Un tissu rigide</label>
         </div>
     ",
@@ -556,22 +556,22 @@ $question12=array(
     <h3>For a cleaner and more aesthetic process, Dom Pérignon had the idea of corking wine bottles with:</h3>
         
     <div>
-        <input type='radio' name='question-12-answers' id='question-12-answers-A' value='A'/> 
+        <input type='radio' name='question-12-answers' id='question-12-answers-A' value='A' required/> 
         <label for='question-12-answers-A'>A) A cork</label>
     </div>
     
     <div>
-        <input type='radio' name='question-12-answers' id='question-12-answers-B' value='B'/>
+        <input type='radio' name='question-12-answers' id='question-12-answers-B' value='B' required/>
         <label for='question-12-answers-B'>B) Wooden pegs filled with oil-soaked oakum</label>
     </div>
 
     <div>
-        <input type='radio' name='question-12-answers' id='question-12-answers-C' value='C'/>
+        <input type='radio' name='question-12-answers' id='question-12-answers-C' value='C' required/>
         <label for='question-12-answers-C'>C) Beeswax</label>
     </div>
 
     <div>
-        <input type='radio' name='question-12-answers' id='question-12-answers-D' value='D'/>
+        <input type='radio' name='question-12-answers' id='question-12-answers-D' value='D' required/>
         <label for='question-12-answers-D'>D) A rigid fabric</label>
     </div>
     "
@@ -684,22 +684,22 @@ $question15=array(
         <h3>Le plus grand type de bouteille est le:</h3>
         
         <div>
-            <input type='radio' name='question-15-answers' id='question-15-answers-A' value='A'/> 
+            <input type='radio' name='question-15-answers' id='question-15-answers-A' value='A' required/> 
             <label for='question-15-answers-A'>A) Magnum</label>
         </div>
         
         <div>
-            <input type='radio' name='question-15-answers' id='question-15-answers-B' value='B'/>
+            <input type='radio' name='question-15-answers' id='question-15-answers-B' value='B' required/>
             <label for='question-15-answers-B'>B) Chopine</label>
         </div>
 
         <div>
-            <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C'/>
+            <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C' required/>
             <label for='question-15-answers-C'>C) Melchior</label>
         </div>
 
         <div>
-            <input type='radio' name='question-15-answers' id='question-15-answers-D' value='D'/>
+            <input type='radio' name='question-15-answers' id='question-15-answers-D' value='D' required/>
             <label for='question-15-answers-D'>D) Nabuchodonosor</label>
         </div>
     ",
@@ -707,22 +707,22 @@ $question15=array(
     <h3>The largest type of bottle is the:</h3>
     
     <div>
-        <input type='radio' name='question-15-answers' id='question-15-answers-A' value='A'/> 
+        <input type='radio' name='question-15-answers' id='question-15-answers-A' value='A' required/> 
         <label for='question-15-answers-A'>A) Magnum</label>
     </div>
     
     <div>
-        <input type='radio' name='question-15-answers' id='question-15-answers-B' value='B'/>
+        <input type='radio' name='question-15-answers' id='question-15-answers-B' value='B' required/>
         <label for='question-15-answers-B'>B) Chopine</label>
     </div>
 
     <div>
-        <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C'/>
+        <input type='radio' name='question-15-answers' id='question-15-answers-C' value='C' required/>
         <label for='question-15-answers-C'>C) Melchior</label>
     </div>
 
     <div>
-        <input type='radio' name='question-15-answers' id='question-15-answers-D' value='D'/>
+        <input type='radio' name='question-15-answers' id='question-15-answers-D' value='D' required/>
         <label for='question-15-answers-D'>D) Nabuchodonosor</label>
     </div>
     "
@@ -735,22 +735,22 @@ $question16=array(
         <h3>Quelle est la température idéale pour servir un champagne ordinaire?</h3>
         
         <div>
-            <input type='radio' name='question-16-answers' id='question-16-answers-A' value='A'/> 
+            <input type='radio' name='question-16-answers' id='question-16-answers-A' value='A' required/> 
             <label for='question-16-answers-A'>A) entre -4° et -2°</label>
         </div>
         
         <div>
-            <input type='radio' name='question-16-answers' id='question-16-answers-B' value='B'/>
+            <input type='radio' name='question-16-answers' id='question-16-answers-B' value='B' required/>
             <label for='question-16-answers-B'>B) juste à 0°</label>
         </div>
 
         <div>
-            <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C'/>
+            <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C' required/>
             <label for='question-16-answers-C'>C) entre 8° et 10°</label>
         </div>
 
         <div>
-            <input type='radio' name='question-16-answers' id='question-16-answers-D' value='D'/>
+            <input type='radio' name='question-16-answers' id='question-16-answers-D' value='D' required/>
             <label for='question-16-answers-D'>D) entre 10° et 15°</label>
         </div>
     ",
@@ -758,22 +758,22 @@ $question16=array(
     <h3>What is the ideal temperature to serve a regular champagne?</h3>
     
     <div>
-        <input type='radio' name='question-16-answers' id='question-16-answers-A' value='A'/> 
+        <input type='radio' name='question-16-answers' id='question-16-answers-A' value='A' required/> 
         <label for='question-16-answers-A'>A) between -4° and -2°</label>
     </div>
     
     <div>
-        <input type='radio' name='question-16-answers' id='question-16-answers-B' value='B'/>
+        <input type='radio' name='question-16-answers' id='question-16-answers-B' value='B' required/>
         <label for='question-16-answers-B'>B) at 0°</label>
     </div>
 
     <div>
-        <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C'/>
+        <input type='radio' name='question-16-answers' id='question-16-answers-C' value='C' required/>
         <label for='question-16-answers-C'>C) between 8° and 10°</label>
     </div>
 
     <div>
-        <input type='radio' name='question-16-answers' id='question-16-answers-D' value='D'/>
+        <input type='radio' name='question-16-answers' id='question-16-answers-D' value='D' required/>
         <label for='question-16-answers-D'>D) between 10° and 15°</label>
     </div>
     "
@@ -786,22 +786,22 @@ $question17=array(
         <h3>Quel est le rôle de la fermentation alcoolique?</h3>
         
         <div>
-            <input type='radio' name='question-17-answers' id='question-17-answers-A' value='A'/> 
+            <input type='radio' name='question-17-answers' id='question-17-answers-A' value='A' required/> 
             <label for='question-17-answers-A'>A) Transformer le vin tranquille en vin mousseux</label>
         </div>
         
         <div>
-            <input type='radio' name='question-17-answers' id='question-17-answers-B' value='B'/>
+            <input type='radio' name='question-17-answers' id='question-17-answers-B' value='B' required/>
             <label for='question-17-answers-B'>B) Transformer le jus de raisin en vin tranquille</label>
         </div>
 
         <div>
-            <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C'/>
+            <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C' required/>
             <label for='question-17-answers-C'>C) Transformer le jus de raisin en vin mousseux</label>
         </div>
 
         <div>
-            <input type='radio' name='question-17-answers' id='question-17-answers-D' value='D'/>
+            <input type='radio' name='question-17-answers' id='question-17-answers-D' value='D' required/>
             <label for='question-17-answers-D'>D) Transformer le vin mousseux en vin tranquille</label>
         </div>
     ",
@@ -809,22 +809,22 @@ $question17=array(
     <h3>What is the role of alcoholic fermentation?</h3>
     
     <div>
-        <input type='radio' name='question-17-answers' id='question-17-answers-A' value='A'/> 
+        <input type='radio' name='question-17-answers' id='question-17-answers-A' value='A' required/> 
         <label for='question-17-answers-A'>A) Transforming still wine into sparkling wine</label>
     </div>
     
     <div>
-        <input type='radio' name='question-17-answers' id='question-17-answers-B' value='B'/>
+        <input type='radio' name='question-17-answers' id='question-17-answers-B' value='B' required/>
         <label for='question-17-answers-B'>B) Transforming grape juice into still wine</label>
     </div>
 
     <div>
-        <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C'/>
+        <input type='radio' name='question-17-answers' id='question-17-answers-C' value='C' required/>
         <label for='question-17-answers-C'>C) Transforming grape juice into sparkling wine</label>
     </div>
 
     <div>
-        <input type='radio' name='question-17-answers' id='question-17-answers-D' value='D'/>
+        <input type='radio' name='question-17-answers' id='question-17-answers-D' value='D' required/>
         <label for='question-17-answers-D'>D) Transforming sparkling wine into still wine</label>
     </div>
     "
@@ -837,22 +837,22 @@ $question18=array(
         <h3>Qu'est ce qui différencie un vin \"brut\" d'un vin \"sec\"?</h3>
         
         <div>
-            <input type='radio' name='question-18-answers' id='question-18-answers-A' value='A'/> 
+            <input type='radio' name='question-18-answers' id='question-18-answers-A' value='A' required/> 
             <label for='question-18-answers-A'>A) Le grammage de sucre</label>
         </div>
         
         <div>
-            <input type='radio' name='question-18-answers' id='question-18-answers-B' value='B'/>
+            <input type='radio' name='question-18-answers' id='question-18-answers-B' value='B' required/>
             <label for='question-18-answers-B'>B) La durée de fermentation</label>
         </div>
 
         <div>
-            <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C'/>
+            <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C' required/>
             <label for='question-18-answers-C'>C) La température de conservation</label>
         </div>
 
         <div>
-            <input type='radio' name='question-18-answers' id='question-18-answers-D' value='D'/>
+            <input type='radio' name='question-18-answers' id='question-18-answers-D' value='D' required/>
             <label for='question-18-answers-D'>D) Le cépage utilisé</label>
         </div>
     ",
@@ -860,22 +860,22 @@ $question18=array(
     <h3>What differentiates a \"raw\" wine from a \"dry\" wine?</h3>
     
     <div>
-        <input type='radio' name='question-18-answers' id='question-18-answers-A' value='A'/> 
+        <input type='radio' name='question-18-answers' id='question-18-answers-A' value='A' required/> 
         <label for='question-18-answers-A'>A) The sugar grammage</label>
     </div>
     
     <div>
-        <input type='radio' name='question-18-answers' id='question-18-answers-B' value='B'/>
+        <input type='radio' name='question-18-answers' id='question-18-answers-B' value='B' required/>
         <label for='question-18-answers-B'>B) The duration of fermentation</label>
     </div>
 
     <div>
-        <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C'/>
+        <input type='radio' name='question-18-answers' id='question-18-answers-C' value='C' required/>
         <label for='question-18-answers-C'>C) The storage temperature</label>
     </div>
 
     <div>
-        <input type='radio' name='question-18-answers' id='question-18-answers-D' value='D'/>
+        <input type='radio' name='question-18-answers' id='question-18-answers-D' value='D' required/>
         <label for='question-18-answers-D'>D) The variety of grape used</label>
     </div>
     "
@@ -887,17 +887,17 @@ $question19=array(
         <h3>Qu'est ce qu'un tastevin (ou tâte-vin):</h3>
         
         <div>
-            <input type='radio' name='question-19-answers' id='question-19-answers-A' value='A'/> 
+            <input type='radio' name='question-19-answers' id='question-19-answers-A' value='A' required/> 
             <label for='question-19-answers-A'>A) Une tasse en argent permettant de déguster le vin</label>
         </div>
         
         <div>
-            <input type='radio' name='question-19-answers' id='question-19-answers-B' value='B'/>
+            <input type='radio' name='question-19-answers' id='question-19-answers-B' value='B' required/>
             <label for='question-19-answers-B'>B) Une pince permettant de saisir une bouteille de champagne</label>
         </div>
 
         <div>
-            <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C'/>
+            <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C' required/>
             <label for='question-19-answers-C'>C) Une sorte de paille permettant de boire un dosage parfait de la première gorgée</label>
         </div>
     ",
@@ -905,17 +905,17 @@ $question19=array(
     <h3>What is a tastevin (or wine-taster):</h3>
     
     <div>
-        <input type='radio' name='question-19-answers' id='question-19-answers-A' value='A'/> 
+        <input type='radio' name='question-19-answers' id='question-19-answers-A' value='A' required/> 
         <label for='question-19-answers-A'>A) A silver cup for wine tasting</label>
     </div>
     
     <div>
-        <input type='radio' name='question-19-answers' id='question-19-answers-B' value='B'/>
+        <input type='radio' name='question-19-answers' id='question-19-answers-B' value='B' required/>
         <label for='question-19-answers-B'>B) A clamp allowing to take a bottle of champagne</label>
     </div>
 
     <div>
-        <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C'/>
+        <input type='radio' name='question-19-answers' id='question-19-answers-C' value='C' required/>
         <label for='question-19-answers-C'>C) A kind of straw allowing to drink a perfect dosage from the first sip</label>
     </div>
     "
@@ -928,22 +928,22 @@ $question20=array(
         <h3>Clovis fut baptisé à Reims aux alentour de:</h3>
         
         <div>
-            <input type='radio' name='question-20-answers' id='question-20-answers-A' value='A'/> 
+            <input type='radio' name='question-20-answers' id='question-20-answers-A' value='A' required/> 
             <label for='question-20-answers-A'>A) 700</label>
         </div>
         
         <div>
-            <input type='radio' name='question-20-answers' id='question-20-answers-B' value='B'/>
+            <input type='radio' name='question-20-answers' id='question-20-answers-B' value='B' required/>
             <label for='question-20-answers-B'>B) 55</label>
         </div>
 
         <div>
-            <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C'/>
+            <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C' required/>
             <label for='question-20-answers-C'>C) 500</label>
         </div>
 
         <div>
-            <input type='radio' name='question-20-answers' id='question-20-answers-D' value='D'/>
+            <input type='radio' name='question-20-answers' id='question-20-answers-D' value='D' required/>
             <label for='question-20-answers-D'>D) 855</label>
         </div>
     ",
@@ -951,22 +951,22 @@ $question20=array(
     <h3>Clovis was baptized in Reims around:</h3>
     
     <div>
-        <input type='radio' name='question-20-answers' id='question-20-answers-A' value='A'/> 
+        <input type='radio' name='question-20-answers' id='question-20-answers-A' value='A' required/> 
         <label for='question-20-answers-A'>A) 700</label>
     </div>
     
     <div>
-        <input type='radio' name='question-20-answers' id='question-20-answers-B' value='B'/>
+        <input type='radio' name='question-20-answers' id='question-20-answers-B' value='B' required/>
         <label for='question-20-answers-B'>B) 55</label>
     </div>
 
     <div>
-        <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C'/>
+        <input type='radio' name='question-20-answers' id='question-20-answers-C' value='C' required/>
         <label for='question-20-answers-C'>C) 500</label>
     </div>
 
     <div>
-        <input type='radio' name='question-20-answers' id='question-20-answers-D' value='D'/>
+        <input type='radio' name='question-20-answers' id='question-20-answers-D' value='D' required/>
         <label for='question-20-answers-D'>D) 855</label>
     </div>
     "
